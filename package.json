@@ -7,7 +7,7 @@
   "sideEffects": false,
   "typings": "dist/index.d.ts",
   "scripts": {
-    "all": "npm run compile && npm run build && git add --all && git commit -m 'compil: building icons' && npm version patch && git push",
+    "all": "npm run compile && npm run build && git add --all && git commit -m 'compil: building icons'; npm version patch && git push",
     "compile": "rimraf src && node bin/build-icons-json.js && node bin/build.js",
     "build": "rimraf dist && babel src --out-dir dist --copy-files"
   },
