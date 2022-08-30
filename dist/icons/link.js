@@ -21,7 +21,7 @@ var Link = forwardRef(function (_ref, ref) {
     viewBox: "0 0 24 24",
     fill: "none",
     stroke: color,
-    strokeWidth: "2",
+    strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
