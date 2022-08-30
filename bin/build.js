@@ -31,9 +31,9 @@ export interface IconProps extends SVGAttributes<SVGElement> {
 export type Icon = FC<IconProps>;
 `;
 
-fs.writeFileSync(path.join(rootDir, 'src', 'index.js'), '', 'utf-8');
+fs.writeFileSync(path.join(rootDir, 'index.js'), '', 'utf-8');
 fs.writeFileSync(
-  path.join(rootDir, 'src', 'index.d.ts'),
+  path.join(rootDir, 'index.d.ts'),
   initialTypeDefinitions,
   'utf-8',
 );
@@ -108,16 +108,16 @@ icons.forEach((i) => {
   // eslint-disable-next-line no-console
   console.log('Successfully built', ComponentName);
 
-  const exportString = `export { default as ${ComponentName} } from './icons/${i}';\n`;
+  const exportString = `export { default as ${ComponentName} } from './dist/icons/${i}';\n`;
   fs.appendFileSync(
-    path.join(rootDir, 'src', 'index.js'),
+    path.join(rootDir, 'index.js'),
     exportString,
     'utf-8',
   );
 
   const exportTypeString = `export const ${ComponentName}: Icon;\n`;
   fs.appendFileSync(
-    path.join(rootDir, 'src', 'index.d.ts'),
+    path.join(rootDir, 'index.d.ts'),
     exportTypeString,
     'utf-8',
   );
