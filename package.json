@@ -9,7 +9,7 @@
   "scripts": {
     "all": "npm run compile && npm run build && git add --all && git commit -m 'compil: building icons'; npm version patch && git push",
     "compile": "rimraf src && node bin/build-icons-json.js && node bin/build.js",
-    "build": "rimraf dist && babel src --out-dir dist --copy-files"
+    "build": "rimraf dist && babel src --out-dir dist --copy-files && move-file dist/index.js ./index.js && move-file dist/index.d.ts ./index.d.ts"
   },
   "files": [
     "dist",
@@ -37,6 +37,7 @@
     "eslint-plugin-react": "^7.14.2",
     "feather-icons": "^4.29.0",
     "html-minifier": "^4.0.0",
+    "move-file-cli": "^3.0.0",
     "prettier-eslint": "^9.0.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.3.3",
