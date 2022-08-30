@@ -10,7 +10,9 @@
     "compile": "rimraf build && node bin/build-icons-json.js && node bin/build.js"
   },
   "files": [
-    "build"
+    "build",
+    "index.js",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
