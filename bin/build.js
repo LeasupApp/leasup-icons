@@ -8,13 +8,13 @@ const upperCamelCase = require('uppercamelcase');
 // The jsonIcons is created by the other script.
 // That's why we disabled the invalid import error from eslint.
 // eslint-disable-next-line import/no-unresolved
-const jsonIcons = require('../build/icons.json');
+const jsonIcons = require('../src/icons.json');
 
 const rootDir = path.join(__dirname, '..');
 
 const icons = Object.keys(jsonIcons);
 
-const dir = path.join(rootDir, 'build/icons');
+const dir = path.join(rootDir, 'src/icons');
 
 if (!fs.existsSync(dir)) {
   fs.mkdirSync(dir);
@@ -31,9 +31,9 @@ export interface IconProps extends SVGAttributes<SVGElement> {
 export type Icon = FC<IconProps>;
 `;
 
-fs.writeFileSync(path.join(rootDir, 'index.js'), '', 'utf-8');
+fs.writeFileSync(path.join(rootDir, 'src', 'index.js'), '', 'utf-8');
 fs.writeFileSync(
-  path.join(rootDir, 'index.d.ts'),
+  path.join(rootDir, 'src', 'index.d.ts'),
   initialTypeDefinitions,
   'utf-8',
 );
@@ -51,7 +51,7 @@ const attrsToString = (attrs) => {
 };
 
 icons.forEach((i) => {
-  const location = path.join(rootDir, 'build/icons', `${i}.js`);
+  const location = path.join(rootDir, 'src/icons', `${i}.js`);
   const ComponentName = (i === 'github') ? 'GitHub' : upperCamelCase(i);
   const defaultAttrs = {
     xmlns: 'http://www.w3.org/2000/svg',
@@ -108,16 +108,16 @@ icons.forEach((i) => {
   // eslint-disable-next-line no-console
   console.log('Successfully built', ComponentName);
 
-  const exportString = `export { default as ${ComponentName} } from './build/icons/${i}';\n`;
+  const exportString = `export { default as ${ComponentName} } from './icons/${i}';\n`;
   fs.appendFileSync(
-    path.join(rootDir, 'index.js'),
+    path.join(rootDir, 'src', 'index.js'),
     exportString,
     'utf-8',
   );
 
   const exportTypeString = `export const ${ComponentName}: Icon;\n`;
   fs.appendFileSync(
-    path.join(rootDir, 'index.d.ts'),
+    path.join(rootDir, 'src', 'index.d.ts'),
     exportTypeString,
     'utf-8',
   );

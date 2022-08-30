@@ -3,16 +3,18 @@
   "version": "1.2.0",
   "description": "React component for Leasup Icons",
   "main": "build/index.js",
-  "module": "build/index.js",
+  "module": "dist/index.js",
   "sideEffects": false,
-  "typings": "build/index.d.ts",
+  "typings": "dist/index.d.ts",
   "scripts": {
-    "compile": "rimraf build && node bin/build-icons-json.js && node bin/build.js"
+    "all": "npm run compile && npm run build && npm version patch",
+    "compile": "rimraf src && node bin/build-icons-json.js && node bin/build.js",
+    "build": "rimraf dist && babel src --out-dir dist --copy-files"
   },
   "files": [
-    "build",
-    "index.js",
-    "index.d.ts"
+    "dist",
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
   "repository": {
     "type": "git",

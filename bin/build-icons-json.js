@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 const { minify } = require('html-minifier');
 
 const IN_DIR = path.resolve(__dirname, '../icons');
-const OUT_FILE = path.resolve(__dirname, '../build/icons.json');
+const OUT_FILE = path.resolve(__dirname, '../src/icons.json');
 
 /**
  * Get contents between opening and closing `<svg>` tags.

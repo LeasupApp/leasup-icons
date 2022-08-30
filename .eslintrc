@@ -3,5 +3,6 @@
   "rules": {
     "arrow-body-style": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
-  }
+  },
+  "ignorePatterns": ["node_modules/", "build/", "dist/"]
 }
