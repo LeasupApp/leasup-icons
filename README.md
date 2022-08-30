@@ -41,7 +41,7 @@ To do so, you just need to add your icons as an SVG format looking like so:
 
 To be consistent with the rest of the library, it is better if we have square icons of 24x24 pixels.
 
-Once you have added all your icons in the `./icons` folder at the root of this repository, you can simply execute the command `npm run all`.
+Once you have added all your icons in the `./icons` folder at the root of this repository, you can simply execute the command `npm install && npm run all`.
 
 :warning: The command above will compile, build, commit, increment the version and push to the repository automatically !
 
