@@ -9,6 +9,7 @@ const propsToReplace = [
   ['stroke-width', 'strokeWidth'],
   ['fill-opacity', 'fillOpacity'],
   ['clip-path', 'clipPath'],
+  ['clip-rule', 'clipRule'],
   ['stroke-linejoin', 'strokeLinejoin'],
   ['stroke-linecap', 'strokeLinecap'],
   ['stop-color', 'stopColor'],
