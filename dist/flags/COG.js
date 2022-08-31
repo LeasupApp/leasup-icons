@@ -22,12 +22,12 @@ var COG = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M-79.5 32h640v480h-640z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "1pt",
-    "clip-path": "url(#a)",
+    fillRule: "evenodd",
+    strokeWidth: "1pt",
+    clipPath: "url(#a)",
     transform: "translate(79.5 -32)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#ff0",

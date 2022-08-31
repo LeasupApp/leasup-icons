@@ -22,12 +22,12 @@ var ISL = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M0 0h640v480H0z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "0",
-    "clip-path": "url(#a)"
+    fillRule: "evenodd",
+    strokeWidth: "0",
+    clipPath: "url(#a)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#003897",
     d: "M0 0h666.7v480H0z"

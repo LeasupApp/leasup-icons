@@ -22,12 +22,12 @@ var SVN = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M-15 0h682.6v512H-15.1z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "1pt",
-    "clip-path": "url(#a)",
+    fillRule: "evenodd",
+    strokeWidth: "1pt",
+    clipPath: "url(#a)",
     transform: "translate(14.1) scale(.9375)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fff",

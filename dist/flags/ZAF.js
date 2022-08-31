@@ -22,14 +22,14 @@ var ZAF = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M-71.9 0h682.7v512H-71.9z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)",
+    clipPath: "url(#a)",
     transform: "translate(67.4) scale(.93748)"
   }, /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "1pt"
+    fillRule: "evenodd",
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M-71.9 407.8V104.4L154 256.1-72 407.8z"
   }), /*#__PURE__*/React.createElement("path", {

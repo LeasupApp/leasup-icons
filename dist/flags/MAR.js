@@ -25,7 +25,7 @@ var MAR = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#006233",
-    "stroke-width": "11.7",
+    strokeWidth: "11.7",
     d: "M320 179.4 284.4 289l93.2-67.6H262.4l93.2 67.6z"
   }));
 });

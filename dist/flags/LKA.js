@@ -35,7 +35,7 @@ var LKA = forwardRef(function (_ref, ref) {
     id: "a",
     fill: "#ffb700",
     stroke: "#000",
-    "stroke-width": "1.1",
+    strokeWidth: "1.1",
     d: "M579.3 408.6s3.6 7.3 7.6 10.4c6 4.4 18 4 23.3 9.3 6.1 6.1-.5 14.2-.5 15l.4 4.2s-4.2 0-6 .3c-2.6.4-3.6 2.6-8.6 2.3-12.3-.8-11.8-12-12.5-21.5-.6-3.6-2-8.4-2.9-12-.7-3-.8-8-.8-8z"
   }), /*#__PURE__*/React.createElement("use", {
     href: "#a",
@@ -59,7 +59,7 @@ var LKA = forwardRef(function (_ref, ref) {
     width: "100%",
     height: "100%",
     stroke: "#000",
-    "stroke-width": "5.6"
+    strokeWidth: "5.6"
   }), /*#__PURE__*/React.createElement("g", {
     id: "b",
     fill: "#ffb700"

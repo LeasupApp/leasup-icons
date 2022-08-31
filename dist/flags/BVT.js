@@ -22,12 +22,12 @@ var BVT = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M0 0h640v480H0z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "1pt",
-    "clip-path": "url(#a)"
+    fillRule: "evenodd",
+    strokeWidth: "1pt",
+    clipPath: "url(#a)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
     d: "M-28 0h699.7v512H-28z"

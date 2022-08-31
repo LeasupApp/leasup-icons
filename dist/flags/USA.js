@@ -20,9 +20,9 @@ var USA = forwardRef(function (_ref, ref) {
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
   }, rest), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd"
+    fillRule: "evenodd"
   }, /*#__PURE__*/React.createElement("g", {
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#bd3d44",
     d: "M0 0h912v37H0zm0 73.9h912v37H0zm0 73.8h912v37H0zm0 73.8h912v37H0zm0 74h912v36.8H0zm0 73.7h912v37H0zM0 443h912V480H0z"

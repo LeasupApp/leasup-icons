@@ -22,11 +22,11 @@ var BDI = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M-90.5 0H592v512H-90.5z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "clip-path": "url(#a)",
+    fillRule: "evenodd",
+    clipPath: "url(#a)",
     transform: "translate(84.9) scale(.9375)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#18b637",
@@ -46,7 +46,7 @@ var BDI = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#cf0921",
     stroke: "#18b637",
-    "stroke-width": "3.9",
+    strokeWidth: "3.9",
     d: "m280 200.2-19.3.3-10 16.4-9.9-16.4-19.2-.4 9.3-16.9-9.2-16.8 19.2-.4 10-16.4 9.9 16.5 19.2.4-9.3 16.8zm-64.6 111.6-19.2.3-10 16.4-9.9-16.4-19.2-.4 9.3-16.9-9.2-16.8 19.2-.4 10-16.4 9.9 16.5 19.2.4-9.3 16.8zm130.6 0-19.2.3-10 16.4-10-16.4-19.1-.4 9.3-16.9-9.3-16.8 19.2-.4 10-16.4 10 16.5 19.2.4-9.4 16.8z"
   })));
 });

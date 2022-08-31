@@ -20,8 +20,8 @@ var SEN = forwardRef(function (_ref, ref) {
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
   }, rest), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "1pt"
+    fillRule: "evenodd",
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#0b7226",
     d: "M0 0h213.3v480H0z"

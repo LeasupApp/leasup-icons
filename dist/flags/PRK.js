@@ -22,11 +22,11 @@ var PRK = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M5 .1h682.6V512H5.1z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "clip-path": "url(#a)",
+    fillRule: "evenodd",
+    clipPath: "url(#a)",
     transform: "translate(-4.8 -.1) scale(.93768)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fff",

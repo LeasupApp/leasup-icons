@@ -22,10 +22,10 @@ var SRB = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M60 0h1200v900H60z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)",
+    clipPath: "url(#a)",
     transform: "translate(-32) scale(.53333)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fff",

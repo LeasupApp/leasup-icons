@@ -4,6 +4,13 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const { minify } = require('html-minifier');
 
+const propsToReplace = [
+  ['fill-rule', 'fillRule'],
+  ['stroke-width', 'strokeWidth'],
+  ['fill-opacity', 'fillOpacity'],
+  ['clip-path', 'clipPath'],
+];
+
 /**
  * Get contents between opening and closing `<svg>` tags.
  * @param {string} svg
@@ -46,9 +53,10 @@ function createJsonFile(inDir, outFile) {
 
   fs.mkdirSync(path.dirname(outFile), { recursive: true });
   const json = JSON.stringify(icons);
-  const editedJson = json.replace('fill-rule=', 'fillRule=').replace('stroke-width=', 'strokeWidth=');
+  let result = json;
+  propsToReplace.forEach((prop) => { result = result.replaceAll(prop[0], prop[1]); });
 
-  fs.writeFileSync(outFile, editedJson);
+  fs.writeFileSync(outFile, result);
 
   // eslint-disable-next-line no-console
   console.log(`Building ${outFile}...`);

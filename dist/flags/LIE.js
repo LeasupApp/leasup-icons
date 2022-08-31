@@ -30,7 +30,7 @@ var LIE = forwardRef(function (_ref, ref) {
     stroke: "#000",
     "stroke-linecap": "round",
     "stroke-linejoin": "round",
-    "stroke-width": "2",
+    strokeWidth: "2",
     transform: "scale(.8)"
   }, /*#__PURE__*/React.createElement("g", {
     id: "a"
@@ -38,7 +38,7 @@ var LIE = forwardRef(function (_ref, ref) {
     stroke: "none",
     d: "m216.4 122.3-1.9 62.5h-63.4c-7.8-15.2-14.2-28-14.2-45.5 0-14.6 11.5-26.2 28-26.2 17.5 0 36.8 5.9 51.5 9.2z"
   }), /*#__PURE__*/React.createElement("g", {
-    "stroke-width": "1.5"
+    strokeWidth: "1.5"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M144.5 125.2v36m5-39.7v48m5.2-50.5v57.2m5-58.4v44.9m5.1-45.1v45.3m5.1-47v47m5.1-47v47m5.1-46.5v47m5.1-46.5v46.9m5.1-44v47m5-46.5v52.9m5.2-52.9v47m5-47v47"
   }), /*#__PURE__*/React.createElement("path", {
@@ -111,14 +111,14 @@ var LIE = forwardRef(function (_ref, ref) {
     r: "10.5"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
-    "stroke-width": "1.5",
+    strokeWidth: "1.5",
     d: "M219.3 89.9v6.6a62.5 62.5 0 0 0-7.4.8m20.2 0a62.1 62.1 0 0 0-7.5-.8v-6.6m-12.8 12.7a61.4 61.4 0 0 1 10.2-.9c3.4 0 6.8.3 10 .9"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M211.8 117.7c-1 17-3 34.5-9.7 47.1l10.8-4.4c3.8-14.3 4.6-32.8 5.7-41.6l-6.8-1.1zm20.4 0-6.9 1.1c1.2 8.8 2 27.3 5.7 41.6l10.8 4.4c-6.6-12.6-8.6-30-9.6-47.1z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M222 154.7c-13 0-22.5 6-23 21.6-3.2-5.6-16.5-23-29-20.7-7.4 1.4-14 11.7-12.8 23.4-6.2-17.6-24.1-20.5-37.3-10 11.7 9.5 16.9 37.8 26.7 50h150.7c9.8-12.2 15-40.5 26.7-50-13.1-10.5-31.1-7.6-37.2 10 1-11.7-5.5-22-13-23.4-12.4-2.3-25.7 15.1-28.9 20.7-.5-15.5-10-21.6-23-21.6z"
   }), /*#__PURE__*/React.createElement("g", {
-    "stroke-width": "1.5"
+    strokeWidth: "1.5"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#000",
     d: "M297.1 219c0 5.6-33.6 11.7-75.1 11.7s-75.2-6-75.2-11.7c0-5.5 33.7-8.5 75.2-8.5 41.4 0 75.1 3 75.1 8.5z"

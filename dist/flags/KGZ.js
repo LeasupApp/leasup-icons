@@ -22,11 +22,11 @@ var KGZ = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M-85 0h682.7v512H-85z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "clip-path": "url(#a)",
+    fillRule: "evenodd",
+    clipPath: "url(#a)",
     transform: "translate(79.6) scale(.9375)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "red",

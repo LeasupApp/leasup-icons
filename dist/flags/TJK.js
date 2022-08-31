@@ -63,7 +63,7 @@ var TJK = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#f8c300",
-    "stroke-width": "11",
+    strokeWidth: "11",
     d: "M253.5 327.8a233.1 233.1 0 0 1 133 0"
   }), /*#__PURE__*/React.createElement("g", {
     fill: "#f8c300",

@@ -32,7 +32,7 @@ var ARG = forwardRef(function (_ref, ref) {
     id: "a",
     fill: "#f6b40e",
     stroke: "#85340a",
-    "stroke-width": "1.1",
+    strokeWidth: "1.1",
     d: "m396.8 251.3 28.5 62s.5 1.2 1.3.9c.8-.4.3-1.6.3-1.6l-23.7-64m-.7 24.2c-.4 9.4 5.4 14.6 4.7 23-.8 8.5 3.8 13.2 5 16.5 1 3.3-1.2 5.2-.3 5.7 1 .5 3-2.1 2.4-6.8-.7-4.6-4.2-6-3.4-16.3.8-10.3-4.2-12.7-3-22"
   }), /*#__PURE__*/React.createElement("use", {
     href: "#a",
@@ -89,11 +89,11 @@ var ARG = forwardRef(function (_ref, ref) {
     r: "26.7",
     fill: "#f6b40e",
     stroke: "#85340a",
-    "stroke-width": "1.4"
+    strokeWidth: "1.4"
   }), /*#__PURE__*/React.createElement("path", {
     id: "h",
     fill: "#843511",
-    "stroke-width": "1",
+    strokeWidth: "1",
     d: "M329 234.3c-1.7 0-3.5.8-4.5 2.4 2 1.9 6.6 2 9.7-.2a7 7 0 0 0-5.1-2.2zm0 .4c1.8 0 3.5.8 3.7 1.6-2 2.3-5.3 2-7.4.4 1-1.4 2.4-2 3.8-2z"
   }), /*#__PURE__*/React.createElement("use", {
     href: "#d",
@@ -130,12 +130,12 @@ var ARG = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     id: "e",
     fill: "#85340a",
-    "stroke-width": "1",
+    strokeWidth: "1",
     d: "M303.4 234.3c4.7-4.1 10.7-4.8 14-1.7a8 8 0 0 1 1.5 3.4c.4 2.4-.3 4.9-2.1 7.5l.8.4c1.6-3.1 2.2-6.3 1.6-9.4l-.6-2.3c-4.5-3.7-10.7-4-15.2 2z"
   }), /*#__PURE__*/React.createElement("path", {
     id: "d",
     fill: "#85340a",
-    "stroke-width": "1",
+    strokeWidth: "1",
     d: "M310.8 233c2.7 0 3.3.6 4.5 1.7 1.2 1 1.9.8 2 1 .3.2 0 .8-.3.6-.5-.2-1.3-.6-2.5-1.6s-2.5-1-3.7-1c-3.7 0-5.7 3-6.1 2.8-.5-.2 2-3.5 6.1-3.5z"
   }), /*#__PURE__*/React.createElement("use", {
     href: "#h",
@@ -148,11 +148,11 @@ var ARG = forwardRef(function (_ref, ref) {
     cy: "236.3",
     r: "1.8",
     fill: "#85340a",
-    "stroke-width": "1"
+    strokeWidth: "1"
   }), /*#__PURE__*/React.createElement("path", {
     id: "g",
     fill: "#85340a",
-    "stroke-width": "1",
+    strokeWidth: "1",
     d: "M305.9 237.5c3.5 2.7 7 2.5 9 1.3 2-1.3 2-1.7 1.6-1.7-.4 0-.8.4-2.4 1.3-1.7.8-4.1.8-8.2-.9z"
   }));
 });

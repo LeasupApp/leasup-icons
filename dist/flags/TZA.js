@@ -22,12 +22,12 @@ var TZA = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M10 0h160v120H10z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "1pt",
-    "clip-path": "url(#a)",
+    fillRule: "evenodd",
+    strokeWidth: "1pt",
+    clipPath: "url(#a)",
     transform: "matrix(4 0 0 4 -40 0)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#09f",

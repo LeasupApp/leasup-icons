@@ -27,11 +27,11 @@ var PRT = forwardRef(function (_ref, ref) {
     d: "M0 0h256v480H0z"
   }), /*#__PURE__*/React.createElement("g", {
     fill: "#ff0",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     stroke: "#000",
     "stroke-linecap": "round",
     "stroke-linejoin": "round",
-    "stroke-width": ".6"
+    strokeWidth: ".6"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M339.5 306.2c-32.3-1-180-93.2-181-108l8.1-13.5c14.7 21.3 165.7 111 180.6 107.8l-7.7 13.7"
   }), /*#__PURE__*/React.createElement("path", {
@@ -71,12 +71,12 @@ var PRT = forwardRef(function (_ref, ref) {
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
     stroke: "#000",
-    "stroke-width": ".7",
+    strokeWidth: ".7",
     d: "M180.6 211a58.7 58.7 0 0 0 17.5 41.7 59 59 0 0 0 41.8 17.6 59.4 59.4 0 0 0 42-17.4 59 59 0 0 0 17.4-41.8v-79.2l-118.7-.2V211z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "red",
     stroke: "#000",
-    "stroke-width": ".5",
+    strokeWidth: ".5",
     d: "M182.8 211.1a56.4 56.4 0 0 0 16.8 40 57 57 0 0 0 40.2 16.8 56.9 56.9 0 0 0 40.2-16.6 56.4 56.4 0 0 0 16.7-40v-77H183v76.8m91-53.7v48.9l-.1 5.1a33.2 33.2 0 0 1-10 24 34 34 0 0 1-24 10c-9.4 0-17.7-4-23.9-10.2a34 34 0 0 1-10-24v-54l68 .2z"
   }), /*#__PURE__*/React.createElement("g", {
     id: "e"
@@ -84,7 +84,7 @@ var PRT = forwardRef(function (_ref, ref) {
     id: "d",
     fill: "#ff0",
     stroke: "#000",
-    "stroke-width": ".5"
+    strokeWidth: ".5"
   }, /*#__PURE__*/React.createElement("path", {
     stroke: "none",
     d: "M190.2 154.4c.1-5.5 4-6.8 4-6.8.1 0 4.3 1.4 4.3 6.9h-8.3"

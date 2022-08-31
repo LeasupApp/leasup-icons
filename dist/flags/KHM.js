@@ -36,7 +36,7 @@ var KHM = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     d: "M247 647.6h3.5v16.5H247zm-108-8.1h113.8v5H139zm0-7h113.8v4.6H139z"
   }), /*#__PURE__*/React.createElement("path", {
-    "stroke-width": ".9",
+    strokeWidth: ".9",
     d: "M139 625.7h113.8v4.3H139z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M169 647.6h3.6v16.5H169zm49 0h3.6v16.5H218zm-78 0h3.5v16.5H140zm7 0h3.5v16.5H147zm7.5 0h3.5v16.5h-3.5zm7.5 0h3.5v16.5H162zm62.8 0h3.6v16.5h-3.6zm7.5 0h3.6v16.5h-3.6zm7.5 0h3.6v16.5h-3.6z"
@@ -65,11 +65,11 @@ var KHM = forwardRef(function (_ref, ref) {
     d: "M177.3 609.3c0-5.6-4.9-6.2-4.9-6.2v5c1.9-.1 2.8 1.6 2.8 4 0 2.5-1.5 2.5-1.5 2.5v14.2h3.6z"
   }), /*#__PURE__*/React.createElement("g", {
     fill: "none",
-    "stroke-width": ".8"
+    strokeWidth: ".8"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M186.8 570.6H204m-19.2 5.4h21m-23 6.5h24.9m-27 7.9h29.5m-30.2 9h30.4"
   }), /*#__PURE__*/React.createElement("path", {
-    "stroke-width": "1",
+    strokeWidth: "1",
     d: "M170.8 629h48.6m-33.2 0h18v6.6h-18z"
   })), /*#__PURE__*/React.createElement("path", {
     d: "M184 614.2c3 3.6 2.6 9.7 2.6 13.3H204c0-3.6-.4-9.7 2.6-13.3zm9.7-41-2.4-1.3v-3.5c1 .3 2 .4 2.2 2 .3-2.3 1-2.1 1.9-3 1 .9 1.5.7 1.9 3 0-1.6 1.2-1.7 2.1-2v3.5l-2.3 1.2z"

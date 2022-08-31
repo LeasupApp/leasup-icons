@@ -24,7 +24,7 @@ var TWN = forwardRef(function (_ref, ref) {
   }, /*#__PURE__*/React.createElement("path", {
     d: "M0 0h640v480H0z"
   })), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)"
+    clipPath: "url(#a)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "red",
     d: "M0 0h720v480H0z"

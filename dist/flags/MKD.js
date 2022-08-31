@@ -31,7 +31,7 @@ var MKD = forwardRef(function (_ref, ref) {
     r: "77.1",
     fill: "#ffe600",
     stroke: "#d20000",
-    "stroke-width": "17.1"
+    strokeWidth: "17.1"
   }));
 });
 MKD.propTypes = {

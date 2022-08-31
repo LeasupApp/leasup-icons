@@ -20,8 +20,8 @@ var MYT = forwardRef(function (_ref, ref) {
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
   }, rest), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "1pt"
+    fillRule: "evenodd",
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
     d: "M0 0h640v480H0z"

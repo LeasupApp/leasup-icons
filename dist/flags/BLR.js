@@ -22,11 +22,11 @@ var BLR = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M0 0h682.6v512H0z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "clip-path": "url(#a)",
+    fillRule: "evenodd",
+    clipPath: "url(#a)",
     transform: "scale(.9376 .9375)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#b20000",
@@ -39,7 +39,7 @@ var BLR = forwardRef(function (_ref, ref) {
     d: "M0 0h113.4v512H0z"
   }), /*#__PURE__*/React.createElement("g", {
     fill: "#b20000",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M5.4 8.7h5.4v8.7H5.4zm16.2 0h16.2v8.7H21.6zM27 0h5.4v8.7H27zm27 0h5.4v8.7H54zm21.6 8.7h16.2v8.7H75.6zM81 0h5.4v8.7H81zM16.2 17.4H27V26H16.2zm16.2 0h10.8V26H32.4zm37.8 0H81V26H70.2zm16.2 0h10.8V26H86.4zM10.8 26h10.8v8.7H10.8zm27 0h10.8v8.7H37.8zm27 0h10.8v8.7H64.8zm27 0h10.8v8.7H91.8zm10.8-17.3h5.4v8.7h-5.4zm-97.2 26h10.8v8.7H5.4zm37.8 0H54v8.7H43.2zm54 0H108v8.7H97.2zm-86.4 26h10.8v8.7H10.8zm5.4 8.7H27v8.7H16.2zm21.6-8.6h10.8v8.6H37.8zm-5.4 8.6h10.8v8.7H32.4zm-10.8 8.7h16.2v8.7H21.6z"
   }), /*#__PURE__*/React.createElement("path", {

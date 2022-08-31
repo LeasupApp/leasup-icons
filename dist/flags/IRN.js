@@ -22,11 +22,11 @@ var IRN = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M-85.3 0h682.7v512H-85.3z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "clip-path": "url(#a)",
+    fillRule: "evenodd",
+    clipPath: "url(#a)",
     transform: "translate(80) scale(.9375)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
@@ -36,7 +36,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M-192 343.8h896V512h-896z"
   }), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M-21.6 351h49v3.3h-49zm7.3 16.8h3.4v3.3h-3.4zm41.9 0v3.3h-9.8v-3.4zm5.2-16.8h3.4v20h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -53,7 +53,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M9.6 367.7v3.4H-5.5v-3.4zm1-8.7v3.4H1V359z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M-102.2 351h49v3.3h-49zm7.3 16.8h3.4v3.3H-95zm41.9 0v3.3h-9.8v-3.4zm5.2-16.8h3.4v20h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -70,7 +70,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M-71 367.7v3.4h-15v-3.4zm1-8.7v3.4h-9.6V359z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M58.3 351h49v3.3h-49zm7.3 16.8H69v3.3h-3.4zm41.9 0v3.3h-9.8v-3.4zm5.3-16.8h3.4v20h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -87,7 +87,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M89.6 367.7v3.4H74.4v-3.4zm1-8.7v3.4H81V359z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M622.7 351h49v3.3h-49zm7.3 16.8h3.4v3.3H630zm41.9 0v3.3H662v-3.4zm5.3-16.8h3.3v20h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -104,7 +104,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M654 367.7v3.4h-15.2v-3.4zm1-8.7v3.4h-9.6V359z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M138.7 351h49.1v3.3h-49zm7.4 16.8h3.3v3.3h-3.3zm41.8 0v3.3h-9.8v-3.4zm5.3-16.8h3.4v20h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -121,7 +121,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M170 367.7v3.4h-15.1v-3.4zm1-8.7v3.4h-9.6V359z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M219.5 351h49v3.3h-49zm7.3 16.8h3.4v3.3h-3.4zm41.9 0v3.3h-9.8v-3.4zM274 351h3.3v20H274z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -141,7 +141,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M-192 0h896v168.2h-896z"
   }), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M300.7 351h49v3.3h-49zm7.3 16.8h3.4v3.3H308zm41.9 0v3.3H340v-3.4zm5.3-16.8h3.3v20h-3.3z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -158,7 +158,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M332 367.7v3.4h-15.2v-3.4zm1-8.7v3.4h-9.6V359z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M381.4 351h49v3.3h-49zm7.3 16.8h3.4v3.3h-3.4zm42 0v3.3h-9.9v-3.4zm5.2-16.8h3.4v20h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -175,7 +175,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M412.7 367.7v3.4h-15.1v-3.4zm1-8.7v3.4H404V359z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M462.2 351h49v3.3h-49zm7.3 16.8h3.4v3.3h-3.4zm41.9 0v3.3h-9.8v-3.4zm5.2-16.8h3.4v20h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -192,7 +192,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M493.4 367.7v3.4h-15.1v-3.4zm1-8.7v3.4h-9.6V359z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M543.4 351h49v3.3h-49zm7.3 16.8h3.4v3.3h-3.4zm41.9 0v3.3h-9.8v-3.4zm5.2-16.8h3.4v20h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -209,7 +209,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M574.6 367.7v3.4h-15.1v-3.4zm1-8.7v3.4H566V359z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M-183.8 351h49v3.3h-49zm7.3 16.8h3.4v3.3h-3.4zm42 0v3.3h-9.9v-3.4zm5.2-16.8h3.4v20h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -226,7 +226,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M-152.5 367.7v3.4h-15.2v-3.4zm1-8.7v3.4h-9.6V359z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M-21.6 143.4h49v3.4h-49zm7.3 17h3.4v3.2h-3.4zm41.9-.2v3.4h-9.8v-3.4zm5.2-16.8h3.4v20.2h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -243,7 +243,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M9.6 160.2v3.4H-5.5v-3.4zm1-8.7v3.3H1v-3.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M-102.2 143.4h49v3.4h-49zm7.3 17h3.4v3.2H-95zm41.9-.2v3.4h-9.8v-3.4zm5.2-16.8h3.4v20.2h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -260,7 +260,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M-71 160.2v3.4h-15v-3.4zm1-8.7v3.3h-9.6v-3.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M58.3 143.4h49v3.4h-49zm7.3 17H69v3.2h-3.4zm41.9-.2v3.4h-9.8v-3.4zm5.3-16.8h3.4v20.2h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -277,7 +277,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M89.6 160.2v3.4H74.4v-3.4zm1-8.7v3.3H81v-3.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M622.7 143.4h49v3.4h-49zm7.3 17h3.4v3.2H630zm41.9-.2v3.4H662v-3.4zm5.3-16.8h3.3v20.2h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -294,7 +294,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M654 160.2v3.4h-15.2v-3.4zm1-8.7v3.3h-9.6v-3.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M138.7 143.4h49.1v3.4h-49zm7.4 17h3.3v3.2h-3.3zm41.8-.2v3.4h-9.8v-3.4zm5.3-16.8h3.4v20.2h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -311,7 +311,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M170 160.2v3.4h-15.1v-3.4zm1-8.7v3.3h-9.6v-3.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M219.5 143.4h49v3.4h-49zm7.3 17h3.4v3.2h-3.4zm41.9-.2v3.4h-9.8v-3.4zm5.3-16.8h3.3v20.2H274z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -328,7 +328,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M250.8 160.2v3.4h-15.2v-3.4zm1-8.7v3.3H242v-3.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M300.7 143.4h49v3.4h-49zm7.3 17h3.4v3.2H308zm41.9-.2v3.4H340v-3.4zm5.3-16.8h3.3v20.2h-3.3z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -345,7 +345,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M332 160.2v3.4h-15.2v-3.4zm1-8.7v3.3h-9.6v-3.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M381.4 143.4h49v3.4h-49zm7.3 17h3.4v3.2h-3.4zm42-.2v3.4h-9.9v-3.4zm5.2-16.8h3.4v20.2h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -362,7 +362,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M412.7 160.2v3.4h-15.1v-3.4zm1-8.7v3.3H404v-3.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M462.2 143.4h49v3.4h-49zm7.3 17h3.4v3.2h-3.4zm41.9-.2v3.4h-9.8v-3.4zm5.2-16.8h3.4v20.2h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -379,7 +379,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M493.4 160.2v3.4h-15.1v-3.4zm1-8.7v3.3h-9.6v-3.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M543.4 143.4h49v3.4h-49zm7.3 17h3.4v3.2h-3.4zm41.9-.2v3.4h-9.8v-3.4zm5.2-16.8h3.4v20.2h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -396,7 +396,7 @@ var IRN = forwardRef(function (_ref, ref) {
     d: "M574.6 160.2v3.4h-15.1v-3.4zm1-8.7v3.3H566v-3.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M-183.8 143.4h49v3.4h-49zm7.3 17h3.4v3.2h-3.4zm42-.2v3.4h-9.9v-3.4zm5.2-16.8h3.4v20.2h-3.4z"
   }), /*#__PURE__*/React.createElement("path", {

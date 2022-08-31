@@ -34,10 +34,10 @@ var NCL = forwardRef(function (_ref, ref) {
     r: "157.3",
     fill: "#fae600",
     stroke: "#000",
-    "stroke-width": "5.3"
+    strokeWidth: "5.3"
   }), /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
-    "stroke-width": "6.4",
+    strokeWidth: "6.4",
     d: "M213.3 263.5h53.3M213.3 224h53.3M240 83.2V352"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M176.6 384.4c64.2 26.3 124.4 1.7 124.4 1.7s-22.7-24.6-34.3-34.2c-11.4-9.4-44.8-9-56.2 0a488.7 488.7 0 0 0-33.9 32.5z"

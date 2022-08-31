@@ -22,34 +22,34 @@ var DOM = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M-222.6-115.2h958v718.4h-958z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)",
+    clipPath: "url(#a)",
     transform: "matrix(.67 0 0 .67 148.7 77)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#00319c",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M322 329h446.5v273.9H322z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#d62918",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M-256.7 329.8h445.2v273h-445.2z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#00319c",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M-255.8-115.2h445.2v305.4h-445.2z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#d62918",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M324.6-112.7h443V193h-443z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M-256.4 190.1H769.5v141.7h-1026z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M187.4-113.7h138.3v717H187.4z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#cecece",
@@ -5346,7 +5346,7 @@ var DOM = forwardRef(function (_ref, ref) {
     d: "m216.4 244.3.3.4-.3-.4m1.2-.5v4.7h.7l-.7-4.7z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#8c8c8c",
-    "fill-opacity": ".5",
+    fillOpacity: ".5",
     d: "M236.6 243.8v18h.7l-.7-18z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#cecece",
@@ -6262,7 +6262,7 @@ var DOM = forwardRef(function (_ref, ref) {
     d: "m217.6 248.5.7.7-.7-.7z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#734a42",
-    "fill-opacity": ".6",
+    fillOpacity: ".6",
     d: "M242.2 248.5v14.7h.7l-.7-14.7z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#ce2110",
@@ -7618,7 +7618,7 @@ var DOM = forwardRef(function (_ref, ref) {
     d: "m220.4 255.9.7.6-.7-.6z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#bdbdbd",
-    "fill-opacity": ".3",
+    fillOpacity: ".3",
     d: "M221.1 255.9v.6h6.4v10c3.8-6 .2-10.6-6.4-10.6z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#8c8c8c",
@@ -10006,7 +10006,7 @@ var DOM = forwardRef(function (_ref, ref) {
     d: "m218.3 268 .7.6-.7-.7z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#8c7373",
-    "fill-opacity": ".5",
+    fillOpacity: ".5",
     d: "M236.6 268v6h.7l-.7-6z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#efefef",
@@ -20191,27 +20191,27 @@ var DOM = forwardRef(function (_ref, ref) {
     d: "m230.9 207.5 1.1-.3a.8.8 0 0 0 .4.5h.6c.3 0 .6 0 .7-.2a.3.3 0 0 0 .1-.3.3.3 0 0 0-.1-.2 1 1 0 0 0-.4 0 6.5 6.5 0 0 1-1.8-.4 1 1 0 0 1-.7-.9c0-.4 0-.7.3-1 .3-.2.8-.4 1.4-.5.6 0 1 0 1.4.2.3.1.5.3.7.7l-1.1.3a.6.6 0 0 0-.3-.3 1 1 0 0 0-.6 0l-.6.1-.1.2.1.2c.1.1.5.2 1.1.2.7 0 1.1.2 1.4.4a1 1 0 0 1 .4.7c0 .4 0 .7-.3 1-.3.4-.8.6-1.5.6-.6.1-1 0-1.4-.1a1.6 1.6 0 0 1-.8-.9zm-5.1-.4a2.1 2.1 0 0 1 .1-1l.7-1c.4-.1.7-.3 1.2-.3a2 2 0 0 1 1.7.4c.4.4.7.8.8 1.5a2 2 0 0 1-.5 1.6c-.3.5-.8.7-1.5.8l-1.2-.1a1.9 1.9 0 0 1-.9-.7l-.4-1.2zm1.2 0c0 .4.2.7.4.9.2.2.5.2.8.2a1 1 0 0 0 .7-.4c.2-.3.2-.6.2-1s-.2-.7-.4-.9a1 1 0 0 0-.8-.2 1 1 0 0 0-.7.4c-.2.2-.3.5-.2 1zm-3.6-2.3-.1-1 1.1-.1.1 1-1.1.1zm.6 4.7-.5-4.1 1.1-.2.5 4.2-1.1.1zm-6.8-5 2.2-.3h1.2c.3 0 .7.2 1 .4l.7.9c.1.3.3.8.3 1.3v1.3a2.5 2.5 0 0 1-.5 1 2 2 0 0 1-.8.6l-1 .3-2.4.2-.7-5.7zm1.3.8.5 3.8h1l.7-.2.4-.3.3-.6v-1a3.3 3.3 0 0 0-.3-1 1.3 1.3 0 0 0-.4-.6 1.2 1.2 0 0 0-.6-.2h-1l-.5.1z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#ecca5e",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "m233.4 223.4 17 21.4-.7 1-17.1-21.4zm44-1.6L258.3 247l-1.5-.5 19.1-25.2zm-48.4 5.8 20.2 18.8-.7 1-20.2-18.7zm-4.7 4.4 22.2 16.6-.5 1-22.3-16.5zm56-3.3-20 19-1.2-.7 20-19zm4.4 3.5-22.4 16.4-1-.8 22.4-16.4z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#7b5a00",
-    "fill-opacity": ".6",
+    fillOpacity: ".6",
     d: "m271.3 229.6 4.6-5.9-.6-.4-4 6.3z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#7b5a00",
-    "fill-opacity": ".5",
+    fillOpacity: ".5",
     d: "m260.8 243.5 4.6-5.9-.6-.4-4 6.3z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#7b5a00",
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "m266 236.8 4.6-5.9-.5-.4-4.1 6.3z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#7b5a00",
-    "fill-opacity": ".5",
+    fillOpacity: ".5",
     d: "m276.8 237.6 6.5-4-.4-.6-6 4.6z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#7b5a00",
-    "fill-opacity": ".4",
+    fillOpacity: ".4",
     d: "m268.3 240 5.8-5-.5-.5-5.3 5.4z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#428c00",
@@ -20224,7 +20224,7 @@ var DOM = forwardRef(function (_ref, ref) {
     d: "M201 254h-.6c-.1-3.8-1.6-6.2-5.6-7.3 0 2 1.5 10 4.9 7.4h.7l-1.4 6c2-2.2 10.7-10 7-13.5-3.2-3-4.9 6-5 7.5z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fac349",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M226 232.8c0 .5-.6 1-1.4 1s-1.3-.5-1.3-1 .6-1 1.3-1 1.3.5 1.3 1zm4.3-4.7c0 .6-.5 1-1.3 1s-1.3-.4-1.3-1c0-.5.6-.9 1.3-.9s1.3.4 1.3 1zm4.1-4.3c0 .5-.6 1-1.3 1s-1.3-.5-1.3-1 .6-1 1.3-1 1.3.5 1.3 1zm43.3-1.7c0 .5-.5 1-1.2 1s-1.4-.5-1.4-1 .6-1 1.3-1 1.4.5 1.4 1zm3.1 6c0 .6-.5 1-1.3 1s-1.3-.4-1.3-1c0-.5.6-.9 1.3-.9s1.3.4 1.3 1zm4.6 4c0 .4-.6.8-1.3.8s-1.3-.4-1.3-.9.6-1 1.3-1 1.3.5 1.3 1z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#ecca5e",

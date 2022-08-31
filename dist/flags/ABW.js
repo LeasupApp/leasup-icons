@@ -22,10 +22,10 @@ var ABW = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M0 0h288v216H0z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)",
+    clipPath: "url(#a)",
     transform: "scale(2.2222)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#39c",

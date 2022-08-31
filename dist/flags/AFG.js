@@ -21,7 +21,7 @@ var AFG = forwardRef(function (_ref, ref) {
     viewBox: "0 0 32 24"
   }, rest), /*#__PURE__*/React.createElement("g", {
     fillRule: "evenodd",
-    "stroke-width": "1pt"
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M0 0h640v480H0z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -32,9 +32,9 @@ var AFG = forwardRef(function (_ref, ref) {
     d: "M213.3 0h213.4v480H213.3z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     stroke: "#bd6b00",
-    "stroke-width": ".5",
+    strokeWidth: ".5",
     transform: "translate(1 27.3) scale(1.06346)"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M319.5 225.8h8.3c0 3.2 2 6.6 4.5 8.5h-16c2.5-2.2 3.2-5 3.2-8.5z"

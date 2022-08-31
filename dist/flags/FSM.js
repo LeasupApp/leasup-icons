@@ -22,12 +22,12 @@ var FSM = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M-81.3 0h682.6v512H-81.3z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "1pt",
-    "clip-path": "url(#a)",
+    fillRule: "evenodd",
+    strokeWidth: "1pt",
+    clipPath: "url(#a)",
     transform: "translate(76.3) scale(.94)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#6797d6",

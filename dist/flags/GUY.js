@@ -20,7 +20,7 @@ var GUY = forwardRef(function (_ref, ref) {
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
   }, rest), /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd"
+    fillRule: "evenodd"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#399408",
     d: "M2.4 0H640v480H2.4z"

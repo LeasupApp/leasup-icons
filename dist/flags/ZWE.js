@@ -27,10 +27,10 @@ var ZWE = forwardRef(function (_ref, ref) {
     x: "1.9",
     y: ".1",
     fill: "#00f",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     ry: "0"
   }))), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)",
+    clipPath: "url(#a)",
     transform: "matrix(1.1722 0 0 1.1426 -2.3 -.1)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#006400",
@@ -45,7 +45,7 @@ var ZWE = forwardRef(function (_ref, ref) {
     d: "M0 180h840v60H0z"
   }), /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
-    "stroke-width": "20",
+    strokeWidth: "20",
     d: "M0 0v420l280-210z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",

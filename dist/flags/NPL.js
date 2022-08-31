@@ -22,20 +22,20 @@ var NPL = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M0-16h512v512H0z"
   }))), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
     d: "M0 0h640v480H0z"
   }), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)",
+    clipPath: "url(#a)",
     transform: "translate(0 15) scale(.9375)"
   }, /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd"
+    fillRule: "evenodd"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#ce0000",
     stroke: "#000063",
-    "stroke-width": "13.8",
+    strokeWidth: "13.8",
     d: "M6.5 489.5h378.8L137.4 238.1l257.3.3L6.6-9.5v499z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",

@@ -29,7 +29,7 @@ var URY = forwardRef(function (_ref, ref) {
     fill: "#fcd116",
     stroke: "#000",
     "stroke-miterlimit": "20",
-    "stroke-width": ".6",
+    strokeWidth: ".6",
     transform: "translate(133.3 133.3) scale(2.93333)"
   }, /*#__PURE__*/React.createElement("g", {
     id: "c"

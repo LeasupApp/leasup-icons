@@ -24,7 +24,7 @@ var LBY = forwardRef(function (_ref, ref) {
   }, /*#__PURE__*/React.createElement("path", {
     d: "M166.7-20h666.6v500H166.7z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)",
+    clipPath: "url(#a)",
     transform: "matrix(.96 0 0 .96 -160 19.2)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#239e46",

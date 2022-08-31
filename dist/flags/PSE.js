@@ -22,14 +22,14 @@ var PSE = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M-118 0h682.7v512H-118z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)",
+    clipPath: "url(#a)",
     transform: "translate(110.6) scale(.9375)"
   }, /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "1pt"
+    fillRule: "evenodd",
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M-246 0H778v170.7H-246z"
   }), /*#__PURE__*/React.createElement("path", {

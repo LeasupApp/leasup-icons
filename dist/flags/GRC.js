@@ -21,43 +21,43 @@ var GRC = forwardRef(function (_ref, ref) {
     viewBox: "0 0 32 24"
   }, rest), /*#__PURE__*/React.createElement("path", {
     fill: "#0d5eaf",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M0 0h640v53.3H0z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M0 53.3h640v53.4H0z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#0d5eaf",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M0 106.7h640V160H0z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M0 160h640v53.3H0z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#0d5eaf",
     d: "M0 0h266.7v266.7H0z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#0d5eaf",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M0 213.3h640v53.4H0z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M0 266.7h640V320H0z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#0d5eaf",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M0 320h640v53.3H0z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M0 373.3h640v53.4H0z"
   }), /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
-    "fill-rule": "evenodd",
-    "stroke-width": "1.3"
+    fillRule: "evenodd",
+    strokeWidth: "1.3"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M106.7 0H160v266.7h-53.3z"
   }), /*#__PURE__*/React.createElement("path", {

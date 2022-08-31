@@ -25,11 +25,11 @@ var BEN = forwardRef(function (_ref, ref) {
     fill: "gray",
     d: "M67.6-154h666v666h-666z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)",
+    clipPath: "url(#a)",
     transform: "matrix(.961 0 0 .7207 -65 111)"
   }, /*#__PURE__*/React.createElement("g", {
-    "fill-rule": "evenodd",
-    "stroke-width": "1pt"
+    fillRule: "evenodd",
+    strokeWidth: "1pt"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#319400",
     d: "M0-154h333v666H0z"

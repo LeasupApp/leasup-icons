@@ -30,12 +30,12 @@ var LSO = forwardRef(function (_ref, ref) {
     d: "M0 0h640v144H0z"
   }), /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
-    "stroke-width": "1.6",
+    strokeWidth: "1.6",
     d: "M319.6 153c-2.7 0-5.4 3-5.4 3l.3 32.4-10.3 10.7h8.3v18.5l-49 66-7.2-2.6-12.7 27s31.3 19.6 76.7 19c49.8-.5 76.9-19.9 76.9-19.9l-13-26.6-6.5 2.8-49.6-65.6v-19.1h8.2L325.1 188v-32.2s-2.7-3-5.5-2.9z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-width": "8",
+    strokeWidth: "8",
     d: "M336.7 230.4h-33.9s-12.2-25.9-10.3-44c2-18.4 12.6-27.1 26.6-27.3 16.6-.1 25.2 8.1 27.8 26.6 2.6 18.3-10.2 44.7-10.2 44.7z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",

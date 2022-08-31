@@ -43,7 +43,7 @@ var NZL = forwardRef(function (_ref, ref) {
     transform: "scale(-1 1) rotate(72)"
   }))), /*#__PURE__*/React.createElement("path", {
     fill: "#00247d",
-    "fill-rule": "evenodd",
+    fillRule: "evenodd",
     d: "M0 0h640v480H0z"
   }), /*#__PURE__*/React.createElement("g", {
     transform: "translate(-111 36.1) scale(.66825)"

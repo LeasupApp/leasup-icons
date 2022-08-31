@@ -50,7 +50,7 @@ var RWA = forwardRef(function (_ref, ref) {
     r: "34.3",
     fill: "#e5be01",
     stroke: "#00a1de",
-    "stroke-width": "3.4"
+    strokeWidth: "3.4"
   })));
 });
 RWA.propTypes = {

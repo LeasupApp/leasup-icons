@@ -22,10 +22,10 @@ var ALA = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "fill-opacity": ".7",
+    fillOpacity: ".7",
     d: "M106.3 0h1133.3v850H106.3z"
   }))), /*#__PURE__*/React.createElement("g", {
-    "clip-path": "url(#a)",
+    clipPath: "url(#a)",
     transform: "matrix(.56472 0 0 .56482 -60 -.1)"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#0053a5",
