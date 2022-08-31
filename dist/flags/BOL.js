@@ -1266,14 +1266,18 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M295.6 180.3a.5.4 83.5 1 1 .1 1 .5.4 83.5 1 1-.1-1z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     stroke: "#000",
     strokeWidth: ".1",
     d: "M296.8 180.3a.4.5 19.3 1 1-.3 1 .4.5 19.3 1 1 .3-1z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     fillRule: "evenodd",
@@ -1286,14 +1290,18 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M299.4 181.6a.4.5 45.6 1 0-.8.8.4.5 45.6 1 0 .8-.8z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     stroke: "#000",
     strokeWidth: ".1",
     d: "M298.4 180.8a.4.5 19.8 1 0-.3 1 .4.5 19.8 1 0 .3-1z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     fillRule: "evenodd",
@@ -1372,14 +1380,18 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M293 189a.6.4 69.4 1 1 .4 1.2.6.4 69.4 1 1-.4-1.1z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     stroke: "#000",
     strokeWidth: ".1",
     d: "M294.3 188.7a.4.6 5.2 1 1 0 1.2.4.6 5.2 1 1 0-1.2z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     fillRule: "evenodd",
@@ -1392,14 +1404,18 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M297.5 189.4a.4.6 31.5 1 0-.6 1 .4.6 31.5 1 0 .6-1z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     stroke: "#000",
     strokeWidth: ".1",
     d: "M296.3 188.9a.4.6 5.7 1 0-.1 1.1.4.6 5.7 1 0 0-1.1z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     fillRule: "evenodd",
@@ -1500,14 +1516,18 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M294.2 199.8a.7.5 45.9 1 1 1 1 .7.5 45.9 1 1-1-1z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     stroke: "#000",
     strokeWidth: ".1",
     d: "M295.4 198.8a.7.5 71.6 1 1 .4 1.3.7.5 71.6 1 1-.4-1.3z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     fillRule: "evenodd",
@@ -1520,14 +1540,18 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M299.1 198.2a.5.7 8 1 0-.2 1.3.5.7 8 1 0 .2-1.3z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     stroke: "#000",
     strokeWidth: ".1",
     d: "M297.6 198.1a.7.5 72.2 1 0 .4 1.3.7.5 72.2 1 0-.4-1.3z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     fillRule: "evenodd",
@@ -1584,14 +1608,18 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M299.5 208.7a.8.5 24.1 1 1 1.4.7.8.5 24.1 1 1-1.4-.7z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     stroke: "#000",
     strokeWidth: ".1",
     d: "M300.3 207.2a.8.5 49.9 1 1 1 1.2.8.5 49.9 1 1-1-1.2z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     fillRule: "evenodd",
@@ -1604,7 +1632,9 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M303.7 205.1a.8.5 69.5 1 0 .6 1.5.8.5 69.5 1 0-.6-1.5zm-1.5.8a.8.5 43.7 1 0 1 1 .8.5 43.7 1 0-1-1z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     fillRule: "evenodd",
@@ -1628,7 +1658,9 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M306.6 214a.9.6 5.4 1 1 1.7.2.9.6 5.4 1 1-1.7-.1zm.4-2a.9.6 31.2 1 1 1.5 1 .9.6 31.2 1 1-1.5-1z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     fillRule: "evenodd",
@@ -1652,7 +1684,9 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M309.7 209a.9.6 42.7 1 0 1.3 1.1.9.6 42.7 1 0-1.3-1.2zm-1.2 1.5a.9.6 17 1 0 1.7.6.9.6 17 1 0-1.7-.6z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#452c25",
     d: "M319.1 209s-2.3 5.4-1.5 6c0 0 2.4-4.3 4.4-5.8 1.1-1 1.8 0 2-1 0-.8-3-2.1-3-2.1l-1.8 2.7"
@@ -1798,7 +1832,14 @@ var BOL = forwardRef(function (_ref, ref) {
     fontFamily: "Sans",
     fontWeight: "400",
     overflow: "visible",
-    style: "line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none"
+    style: {
+      lineHeight: 'normal',
+      textIndent: '0',
+      textAlign: 'start',
+      textDecorationLine: 'none',
+      textTransform: 'none',
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     stroke: "#eee",
@@ -1815,7 +1856,9 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M314.5 225.4c-.3 1.4 0 2.5.7 3.6.6.9 1 1.8.9 2.7a7.9 7.9 0 0 0-.7.5l-5.5-3.7 3.7 5.5a8 8 0 0 0-.2.2 4.9 4.9 0 0 0-3-.3 5 5 0 0 1-3.7-.8 4.5 4.5 0 0 0 3.1 2.1 5 5 0 0 1 2.6 1.3 8 8 0 0 0-.2.8l-6.6 1.3 6.6 1.3v.3a4.9 4.9 0 0 0-2.4 1.9 5 5 0 0 1-3 2c1.3.4 2.5 0 3.6-.7a5 5 0 0 1 2.7-.9l.4.7-3.6 5.6 5.4-3.7.3.2a4.9 4.9 0 0 0-.4 3 5 5 0 0 1-.7 3.6 4.5 4.5 0 0 0 2-3.1 4.9 4.9 0 0 1 1.4-2.5l.8.2 1.3 6.5 1.3-6.5h.3a4.9 4.9 0 0 0 1.8 2.3 5 5 0 0 1 2.1 3.1 4.4 4.4 0 0 0-.7-3.6 4.9 4.9 0 0 1-.9-2.8l.7-.4 5.5 3.7-3.7-5.5.2-.3c1 .5 2 .6 3 .4a5 5 0 0 1 3.7.7 4.5 4.5 0 0 0-3.1-2 4.9 4.9 0 0 1-2.6-1.4l.2-.8 6.6-1.3-6.6-1.2a7.9 7.9 0 0 0 0-.4 4.9 4.9 0 0 0 2.4-1.8 5 5 0 0 1 3-2 4.5 4.5 0 0 0-3.6.7 4.9 4.9 0 0 1-2.7.8 7.9 7.9 0 0 0-.4-.7l3.7-5.5-5.5 3.7a8 8 0 0 0-.3-.2c.5-1 .6-2 .4-3a5 5 0 0 1 .7-3.6 4.5 4.5 0 0 0-2 3 5 5 0 0 1-1.4 2.6 8 8 0 0 0-.8-.2l-1.3-6.5-1.2 6.5h-.4a4.9 4.9 0 0 0-1.8-2.3 5 5 0 0 1-2-3.1z",
     overflow: "visible",
-    style: "marker:none"
+    style: {
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("use", {
     width: "330",
     height: "330",
@@ -1889,7 +1932,14 @@ var BOL = forwardRef(function (_ref, ref) {
     fontFamily: "Sans",
     fontWeight: "400",
     overflow: "visible",
-    style: "line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none"
+    style: {
+      lineHeight: 'normal',
+      textIndent: '0',
+      textAlign: 'start',
+      textDecorationLine: 'none',
+      textTransform: 'none',
+      marker: 'none'
+    }
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#e8a30e",
     d: "M324.7 266.8c0 .2 0 .2-.4.3-.4 0-.5 0-.5-.2s.1-.2.5-.2c.3-.1.4-.1.4 0z"
