@@ -28,6 +28,7 @@ const propsToReplace = [
   ['style=\\"mix-blend-mode:multiply\\"', 'style={{ mixBlendMode: \\"multiply\\" }}'],
   ['style=\\"marker:none\\"', 'style={{ marker: \\"none\\" }}'],
   ['style=\\"line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none\\"', 'style={{ lineHeight: \\"normal\\", textIndent: \\"0\\",textAlign: \\"start\\",textDecorationLine: \\"none\\",textTransform: \\"none\\",marker: \\"none\\" }}'],
+  ['style: \\"line-height:125%;text-align:center\\"', 'style={{ lineHeight: \\"125%\\", textAlign: \\"center\\" }}'],
 ];
 
 /**
