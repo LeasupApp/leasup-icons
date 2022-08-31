@@ -38,6 +38,10 @@ export interface IconProps extends SVGAttributes<SVGElement> {
   size?: string | number;
 }
 
+export const LeasupMapIcons: {
+  [key: string]: Icon;
+};
+
 export type Icon = FC<IconProps>;
 `;
 
@@ -59,6 +63,8 @@ const attrsToString = (attrs) => {
     return key + '="' + attrs[key] + '"';
   }).join(' ');
 };
+
+const completeComponentNameList = [];
 
 // Classic Icons
 icons.forEach((i) => {
@@ -114,12 +120,14 @@ icons.forEach((i) => {
     },
   });
 
+  completeComponentNameList.push(ComponentName);
+
   fs.writeFileSync(location, component, 'utf-8');
 
   // eslint-disable-next-line no-console
   console.log('Successfully built', ComponentName);
 
-  const exportString = `export { default as ${ComponentName} } from './dist/icons/${i}';\n`;
+  const exportString = `import ${ComponentName} from './dist/icons/${i}';\n`;
   fs.appendFileSync(
     path.join(rootDir, 'index.js'),
     exportString,
@@ -171,6 +179,8 @@ flags.forEach((i) => {
     export default ${ComponentName}
   `;
 
+  completeComponentNameList.push(ComponentName);
+
   const component = format({
     text: element,
     eslintConfig: {
@@ -188,7 +198,7 @@ flags.forEach((i) => {
   // eslint-disable-next-line no-console
   console.log('Successfully built', ComponentName);
 
-  const exportString = `export { default as ${ComponentName} } from './dist/flags/${i}';\n`;
+  const exportString = `import ${ComponentName} from './dist/flags/${i}';\n`;
   fs.appendFileSync(
     path.join(rootDir, 'index.js'),
     exportString,
@@ -202,3 +212,24 @@ flags.forEach((i) => {
     'utf-8',
   );
 });
+
+// Creating the export list
+const exported = completeComponentNameList.reduce((acc, name) => {
+  return acc + `  ${name},\n`;
+}, '');
+
+fs.appendFileSync(
+  path.join(rootDir, 'index.js'),
+  '\nexport {\n' + exported + '};\n\n',
+  'utf-8',
+);
+
+// Creating the map of Icons from their name
+const objAcc = completeComponentNameList.reduce((acc, name) => {
+  return acc + `  ${name},\n`;
+}, '');
+fs.appendFileSync(
+  path.join(rootDir, 'index.js'),
+  'export const LeasupMapIcons = {\n' + objAcc + '};\n',
+  'utf-8',
+);

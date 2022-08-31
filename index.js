@@ -1,535 +1,1611 @@
-export { default as Activity } from './dist/icons/activity';
-export { default as Airplay } from './dist/icons/airplay';
-export { default as AlertCircle } from './dist/icons/alert-circle';
-export { default as AlertOctagon } from './dist/icons/alert-octagon';
-export { default as AlertTriangle } from './dist/icons/alert-triangle';
-export { default as AlignCenter } from './dist/icons/align-center';
-export { default as AlignJustify } from './dist/icons/align-justify';
-export { default as AlignLeft } from './dist/icons/align-left';
-export { default as AlignRight } from './dist/icons/align-right';
-export { default as Anchor } from './dist/icons/anchor';
-export { default as Aperture } from './dist/icons/aperture';
-export { default as Archive } from './dist/icons/archive';
-export { default as ArrowDownCircle } from './dist/icons/arrow-down-circle';
-export { default as ArrowDownLeft } from './dist/icons/arrow-down-left';
-export { default as ArrowDownRight } from './dist/icons/arrow-down-right';
-export { default as ArrowDown } from './dist/icons/arrow-down';
-export { default as ArrowLeftCircle } from './dist/icons/arrow-left-circle';
-export { default as ArrowLeft } from './dist/icons/arrow-left';
-export { default as ArrowRightCircle } from './dist/icons/arrow-right-circle';
-export { default as ArrowRight } from './dist/icons/arrow-right';
-export { default as ArrowUpCircle } from './dist/icons/arrow-up-circle';
-export { default as ArrowUpLeft } from './dist/icons/arrow-up-left';
-export { default as ArrowUpRight } from './dist/icons/arrow-up-right';
-export { default as ArrowUp } from './dist/icons/arrow-up';
-export { default as AtSign } from './dist/icons/at-sign';
-export { default as Award } from './dist/icons/award';
-export { default as BarChart2 } from './dist/icons/bar-chart-2';
-export { default as BarChart } from './dist/icons/bar-chart';
-export { default as BatteryCharging } from './dist/icons/battery-charging';
-export { default as Battery } from './dist/icons/battery';
-export { default as BellOff } from './dist/icons/bell-off';
-export { default as Bell } from './dist/icons/bell';
-export { default as Bluetooth } from './dist/icons/bluetooth';
-export { default as Bold } from './dist/icons/bold';
-export { default as BookOpen } from './dist/icons/book-open';
-export { default as Book } from './dist/icons/book';
-export { default as Bookmark } from './dist/icons/bookmark';
-export { default as Box } from './dist/icons/box';
-export { default as Briefcase } from './dist/icons/briefcase';
-export { default as Calendar } from './dist/icons/calendar';
-export { default as CameraOff } from './dist/icons/camera-off';
-export { default as Camera } from './dist/icons/camera';
-export { default as Cast } from './dist/icons/cast';
-export { default as CheckCircle } from './dist/icons/check-circle';
-export { default as CheckSquare } from './dist/icons/check-square';
-export { default as Check } from './dist/icons/check';
-export { default as ChevronDown } from './dist/icons/chevron-down';
-export { default as ChevronLeft } from './dist/icons/chevron-left';
-export { default as ChevronRight } from './dist/icons/chevron-right';
-export { default as ChevronUp } from './dist/icons/chevron-up';
-export { default as ChevronsDown } from './dist/icons/chevrons-down';
-export { default as ChevronsLeft } from './dist/icons/chevrons-left';
-export { default as ChevronsRight } from './dist/icons/chevrons-right';
-export { default as ChevronsUp } from './dist/icons/chevrons-up';
-export { default as Chrome } from './dist/icons/chrome';
-export { default as Circle } from './dist/icons/circle';
-export { default as Clipboard } from './dist/icons/clipboard';
-export { default as Clock } from './dist/icons/clock';
-export { default as CloudDrizzle } from './dist/icons/cloud-drizzle';
-export { default as CloudLightning } from './dist/icons/cloud-lightning';
-export { default as CloudOff } from './dist/icons/cloud-off';
-export { default as CloudRain } from './dist/icons/cloud-rain';
-export { default as CloudSnow } from './dist/icons/cloud-snow';
-export { default as Cloud } from './dist/icons/cloud';
-export { default as Code } from './dist/icons/code';
-export { default as Codepen } from './dist/icons/codepen';
-export { default as Codesandbox } from './dist/icons/codesandbox';
-export { default as Coffee } from './dist/icons/coffee';
-export { default as Columns } from './dist/icons/columns';
-export { default as Command } from './dist/icons/command';
-export { default as Compass } from './dist/icons/compass';
-export { default as Copy } from './dist/icons/copy';
-export { default as CornerDownLeft } from './dist/icons/corner-down-left';
-export { default as CornerDownRight } from './dist/icons/corner-down-right';
-export { default as CornerLeftDown } from './dist/icons/corner-left-down';
-export { default as CornerLeftUp } from './dist/icons/corner-left-up';
-export { default as CornerRightDown } from './dist/icons/corner-right-down';
-export { default as CornerRightUp } from './dist/icons/corner-right-up';
-export { default as CornerUpLeft } from './dist/icons/corner-up-left';
-export { default as CornerUpRight } from './dist/icons/corner-up-right';
-export { default as Cpu } from './dist/icons/cpu';
-export { default as CreditCard } from './dist/icons/credit-card';
-export { default as Crop } from './dist/icons/crop';
-export { default as Crosshair } from './dist/icons/crosshair';
-export { default as Database } from './dist/icons/database';
-export { default as Delete } from './dist/icons/delete';
-export { default as Disc } from './dist/icons/disc';
-export { default as DivideCircle } from './dist/icons/divide-circle';
-export { default as DivideSquare } from './dist/icons/divide-square';
-export { default as Divide } from './dist/icons/divide';
-export { default as DollarSign } from './dist/icons/dollar-sign';
-export { default as DownloadCloud } from './dist/icons/download-cloud';
-export { default as Download } from './dist/icons/download';
-export { default as Dribbble } from './dist/icons/dribbble';
-export { default as Droplet } from './dist/icons/droplet';
-export { default as Edit2 } from './dist/icons/edit-2';
-export { default as Edit3 } from './dist/icons/edit-3';
-export { default as Edit } from './dist/icons/edit';
-export { default as ExternalLink } from './dist/icons/external-link';
-export { default as EyeOff } from './dist/icons/eye-off';
-export { default as Eye } from './dist/icons/eye';
-export { default as Facebook } from './dist/icons/facebook';
-export { default as FastForward } from './dist/icons/fast-forward';
-export { default as Feather } from './dist/icons/feather';
-export { default as Figma } from './dist/icons/figma';
-export { default as FileMinus } from './dist/icons/file-minus';
-export { default as FilePlus } from './dist/icons/file-plus';
-export { default as FileText } from './dist/icons/file-text';
-export { default as File } from './dist/icons/file';
-export { default as Film } from './dist/icons/film';
-export { default as Filter } from './dist/icons/filter';
-export { default as Flag } from './dist/icons/flag';
-export { default as FolderMinus } from './dist/icons/folder-minus';
-export { default as FolderPlus } from './dist/icons/folder-plus';
-export { default as Folder } from './dist/icons/folder';
-export { default as Framer } from './dist/icons/framer';
-export { default as Frown } from './dist/icons/frown';
-export { default as Gift } from './dist/icons/gift';
-export { default as GitBranch } from './dist/icons/git-branch';
-export { default as GitCommit } from './dist/icons/git-commit';
-export { default as GitMerge } from './dist/icons/git-merge';
-export { default as GitPullRequest } from './dist/icons/git-pull-request';
-export { default as GitHub } from './dist/icons/github';
-export { default as Gitlab } from './dist/icons/gitlab';
-export { default as Globe } from './dist/icons/globe';
-export { default as Grid } from './dist/icons/grid';
-export { default as HardDrive } from './dist/icons/hard-drive';
-export { default as Hash } from './dist/icons/hash';
-export { default as Headphones } from './dist/icons/headphones';
-export { default as Heart } from './dist/icons/heart';
-export { default as HelpCircle } from './dist/icons/help-circle';
-export { default as Hexagon } from './dist/icons/hexagon';
-export { default as Home } from './dist/icons/home';
-export { default as Image } from './dist/icons/image';
-export { default as Inbox } from './dist/icons/inbox';
-export { default as Info } from './dist/icons/info';
-export { default as Instagram } from './dist/icons/instagram';
-export { default as Italic } from './dist/icons/italic';
-export { default as Key } from './dist/icons/key';
-export { default as Layers } from './dist/icons/layers';
-export { default as Layout } from './dist/icons/layout';
-export { default as LifeBuoy } from './dist/icons/life-buoy';
-export { default as Link2 } from './dist/icons/link-2';
-export { default as Link } from './dist/icons/link';
-export { default as Linkedin } from './dist/icons/linkedin';
-export { default as List } from './dist/icons/list';
-export { default as Loader } from './dist/icons/loader';
-export { default as Lock } from './dist/icons/lock';
-export { default as LogIn } from './dist/icons/log-in';
-export { default as LogOut } from './dist/icons/log-out';
-export { default as Mail } from './dist/icons/mail';
-export { default as MapPin } from './dist/icons/map-pin';
-export { default as Map } from './dist/icons/map';
-export { default as Maximize2 } from './dist/icons/maximize-2';
-export { default as Maximize } from './dist/icons/maximize';
-export { default as Meh } from './dist/icons/meh';
-export { default as Menu } from './dist/icons/menu';
-export { default as MessageCircle } from './dist/icons/message-circle';
-export { default as MessageSquare } from './dist/icons/message-square';
-export { default as MicOff } from './dist/icons/mic-off';
-export { default as Mic } from './dist/icons/mic';
-export { default as Minimize2 } from './dist/icons/minimize-2';
-export { default as Minimize } from './dist/icons/minimize';
-export { default as MinusCircle } from './dist/icons/minus-circle';
-export { default as MinusSquare } from './dist/icons/minus-square';
-export { default as Minus } from './dist/icons/minus';
-export { default as Monitor } from './dist/icons/monitor';
-export { default as Moon } from './dist/icons/moon';
-export { default as MoreHorizontal } from './dist/icons/more-horizontal';
-export { default as MoreVertical } from './dist/icons/more-vertical';
-export { default as MousePointer } from './dist/icons/mouse-pointer';
-export { default as Move } from './dist/icons/move';
-export { default as Music } from './dist/icons/music';
-export { default as Navigation2 } from './dist/icons/navigation-2';
-export { default as Navigation } from './dist/icons/navigation';
-export { default as Octagon } from './dist/icons/octagon';
-export { default as Package } from './dist/icons/package';
-export { default as Paperclip } from './dist/icons/paperclip';
-export { default as PauseCircle } from './dist/icons/pause-circle';
-export { default as Pause } from './dist/icons/pause';
-export { default as PenTool } from './dist/icons/pen-tool';
-export { default as Percent } from './dist/icons/percent';
-export { default as PhoneCall } from './dist/icons/phone-call';
-export { default as PhoneForwarded } from './dist/icons/phone-forwarded';
-export { default as PhoneIncoming } from './dist/icons/phone-incoming';
-export { default as PhoneMissed } from './dist/icons/phone-missed';
-export { default as PhoneOff } from './dist/icons/phone-off';
-export { default as PhoneOutgoing } from './dist/icons/phone-outgoing';
-export { default as Phone } from './dist/icons/phone';
-export { default as PieChart } from './dist/icons/pie-chart';
-export { default as PlayCircle } from './dist/icons/play-circle';
-export { default as Play } from './dist/icons/play';
-export { default as PlusCircle } from './dist/icons/plus-circle';
-export { default as PlusSquare } from './dist/icons/plus-square';
-export { default as Plus } from './dist/icons/plus';
-export { default as Pocket } from './dist/icons/pocket';
-export { default as Power } from './dist/icons/power';
-export { default as Printer } from './dist/icons/printer';
-export { default as Radio } from './dist/icons/radio';
-export { default as RefreshCcw } from './dist/icons/refresh-ccw';
-export { default as RefreshCw } from './dist/icons/refresh-cw';
-export { default as Repeat } from './dist/icons/repeat';
-export { default as Rewind } from './dist/icons/rewind';
-export { default as RotateCcw } from './dist/icons/rotate-ccw';
-export { default as RotateCw } from './dist/icons/rotate-cw';
-export { default as Rss } from './dist/icons/rss';
-export { default as Save } from './dist/icons/save';
-export { default as Scissors } from './dist/icons/scissors';
-export { default as Search } from './dist/icons/search';
-export { default as Send } from './dist/icons/send';
-export { default as Server } from './dist/icons/server';
-export { default as Settings } from './dist/icons/settings';
-export { default as Share2 } from './dist/icons/share-2';
-export { default as Share } from './dist/icons/share';
-export { default as ShieldOff } from './dist/icons/shield-off';
-export { default as Shield } from './dist/icons/shield';
-export { default as ShoppingBag } from './dist/icons/shopping-bag';
-export { default as ShoppingCart } from './dist/icons/shopping-cart';
-export { default as Shuffle } from './dist/icons/shuffle';
-export { default as Sidebar } from './dist/icons/sidebar';
-export { default as SkipBack } from './dist/icons/skip-back';
-export { default as SkipForward } from './dist/icons/skip-forward';
-export { default as Slack } from './dist/icons/slack';
-export { default as Slash } from './dist/icons/slash';
-export { default as Sliders } from './dist/icons/sliders';
-export { default as Smartphone } from './dist/icons/smartphone';
-export { default as Smile } from './dist/icons/smile';
-export { default as Speaker } from './dist/icons/speaker';
-export { default as Square } from './dist/icons/square';
-export { default as Star } from './dist/icons/star';
-export { default as StopCircle } from './dist/icons/stop-circle';
-export { default as Sun } from './dist/icons/sun';
-export { default as Sunrise } from './dist/icons/sunrise';
-export { default as Sunset } from './dist/icons/sunset';
-export { default as Table } from './dist/icons/table';
-export { default as Tablet } from './dist/icons/tablet';
-export { default as Tag } from './dist/icons/tag';
-export { default as Target } from './dist/icons/target';
-export { default as Terminal } from './dist/icons/terminal';
-export { default as Thermometer } from './dist/icons/thermometer';
-export { default as ThumbsDown } from './dist/icons/thumbs-down';
-export { default as ThumbsUp } from './dist/icons/thumbs-up';
-export { default as ToggleLeft } from './dist/icons/toggle-left';
-export { default as ToggleRight } from './dist/icons/toggle-right';
-export { default as Tool } from './dist/icons/tool';
-export { default as Trash2 } from './dist/icons/trash-2';
-export { default as Trash } from './dist/icons/trash';
-export { default as Trello } from './dist/icons/trello';
-export { default as TrendingDown } from './dist/icons/trending-down';
-export { default as TrendingUp } from './dist/icons/trending-up';
-export { default as Triangle } from './dist/icons/triangle';
-export { default as Truck } from './dist/icons/truck';
-export { default as Tv } from './dist/icons/tv';
-export { default as Twitch } from './dist/icons/twitch';
-export { default as Twitter } from './dist/icons/twitter';
-export { default as Type } from './dist/icons/type';
-export { default as Umbrella } from './dist/icons/umbrella';
-export { default as Underline } from './dist/icons/underline';
-export { default as Unlock } from './dist/icons/unlock';
-export { default as UploadCloud } from './dist/icons/upload-cloud';
-export { default as Upload } from './dist/icons/upload';
-export { default as UserCheck } from './dist/icons/user-check';
-export { default as UserMinus } from './dist/icons/user-minus';
-export { default as UserPlus } from './dist/icons/user-plus';
-export { default as UserX } from './dist/icons/user-x';
-export { default as User } from './dist/icons/user';
-export { default as Users } from './dist/icons/users';
-export { default as VideoOff } from './dist/icons/video-off';
-export { default as Video } from './dist/icons/video';
-export { default as Voicemail } from './dist/icons/voicemail';
-export { default as Volume1 } from './dist/icons/volume-1';
-export { default as Volume2 } from './dist/icons/volume-2';
-export { default as VolumeX } from './dist/icons/volume-x';
-export { default as Volume } from './dist/icons/volume';
-export { default as Watch } from './dist/icons/watch';
-export { default as WifiOff } from './dist/icons/wifi-off';
-export { default as Wifi } from './dist/icons/wifi';
-export { default as Wind } from './dist/icons/wind';
-export { default as XCircle } from './dist/icons/x-circle';
-export { default as XOctagon } from './dist/icons/x-octagon';
-export { default as XSquare } from './dist/icons/x-square';
-export { default as X } from './dist/icons/x';
-export { default as Youtube } from './dist/icons/youtube';
-export { default as ZapOff } from './dist/icons/zap-off';
-export { default as Zap } from './dist/icons/zap';
-export { default as ZoomIn } from './dist/icons/zoom-in';
-export { default as ZoomOut } from './dist/icons/zoom-out';
-export { default as ABW } from './dist/flags/ABW';
-export { default as AFG } from './dist/flags/AFG';
-export { default as AGO } from './dist/flags/AGO';
-export { default as AIA } from './dist/flags/AIA';
-export { default as ALA } from './dist/flags/ALA';
-export { default as ALB } from './dist/flags/ALB';
-export { default as AND } from './dist/flags/AND';
-export { default as ARE } from './dist/flags/ARE';
-export { default as ARG } from './dist/flags/ARG';
-export { default as ARM } from './dist/flags/ARM';
-export { default as ASM } from './dist/flags/ASM';
-export { default as ATA } from './dist/flags/ATA';
-export { default as ATF } from './dist/flags/ATF';
-export { default as ATG } from './dist/flags/ATG';
-export { default as AUS } from './dist/flags/AUS';
-export { default as AUT } from './dist/flags/AUT';
-export { default as AZE } from './dist/flags/AZE';
-export { default as BDI } from './dist/flags/BDI';
-export { default as BEL } from './dist/flags/BEL';
-export { default as BEN } from './dist/flags/BEN';
-export { default as BES } from './dist/flags/BES';
-export { default as BFA } from './dist/flags/BFA';
-export { default as BGD } from './dist/flags/BGD';
-export { default as BGR } from './dist/flags/BGR';
-export { default as BHR } from './dist/flags/BHR';
-export { default as BHS } from './dist/flags/BHS';
-export { default as BIH } from './dist/flags/BIH';
-export { default as BLM } from './dist/flags/BLM';
-export { default as BLR } from './dist/flags/BLR';
-export { default as BLZ } from './dist/flags/BLZ';
-export { default as BMU } from './dist/flags/BMU';
-export { default as BOL } from './dist/flags/BOL';
-export { default as BRA } from './dist/flags/BRA';
-export { default as BRB } from './dist/flags/BRB';
-export { default as BRN } from './dist/flags/BRN';
-export { default as BTN } from './dist/flags/BTN';
-export { default as BVT } from './dist/flags/BVT';
-export { default as BWA } from './dist/flags/BWA';
-export { default as CAF } from './dist/flags/CAF';
-export { default as CAN } from './dist/flags/CAN';
-export { default as CCK } from './dist/flags/CCK';
-export { default as CHE } from './dist/flags/CHE';
-export { default as CHL } from './dist/flags/CHL';
-export { default as CHN } from './dist/flags/CHN';
-export { default as CIV } from './dist/flags/CIV';
-export { default as CMR } from './dist/flags/CMR';
-export { default as COD } from './dist/flags/COD';
-export { default as COG } from './dist/flags/COG';
-export { default as COK } from './dist/flags/COK';
-export { default as COL } from './dist/flags/COL';
-export { default as COM } from './dist/flags/COM';
-export { default as CPV } from './dist/flags/CPV';
-export { default as CRI } from './dist/flags/CRI';
-export { default as CUB } from './dist/flags/CUB';
-export { default as CXR } from './dist/flags/CXR';
-export { default as CYM } from './dist/flags/CYM';
-export { default as CYP } from './dist/flags/CYP';
-export { default as CZE } from './dist/flags/CZE';
-export { default as DEU } from './dist/flags/DEU';
-export { default as DJI } from './dist/flags/DJI';
-export { default as DMA } from './dist/flags/DMA';
-export { default as DNK } from './dist/flags/DNK';
-export { default as DOM } from './dist/flags/DOM';
-export { default as DZA } from './dist/flags/DZA';
-export { default as ECU } from './dist/flags/ECU';
-export { default as EGY } from './dist/flags/EGY';
-export { default as ERI } from './dist/flags/ERI';
-export { default as ESH } from './dist/flags/ESH';
-export { default as ESP } from './dist/flags/ESP';
-export { default as EST } from './dist/flags/EST';
-export { default as ETH } from './dist/flags/ETH';
-export { default as FIN } from './dist/flags/FIN';
-export { default as FJI } from './dist/flags/FJI';
-export { default as FLK } from './dist/flags/FLK';
-export { default as FRA } from './dist/flags/FRA';
-export { default as FRO } from './dist/flags/FRO';
-export { default as FSM } from './dist/flags/FSM';
-export { default as GAB } from './dist/flags/GAB';
-export { default as GBR } from './dist/flags/GBR';
-export { default as GEO } from './dist/flags/GEO';
-export { default as GGY } from './dist/flags/GGY';
-export { default as GHA } from './dist/flags/GHA';
-export { default as GIB } from './dist/flags/GIB';
-export { default as GIN } from './dist/flags/GIN';
-export { default as GLP } from './dist/flags/GLP';
-export { default as GMB } from './dist/flags/GMB';
-export { default as GNB } from './dist/flags/GNB';
-export { default as GNQ } from './dist/flags/GNQ';
-export { default as GRC } from './dist/flags/GRC';
-export { default as GRD } from './dist/flags/GRD';
-export { default as GRL } from './dist/flags/GRL';
-export { default as GTM } from './dist/flags/GTM';
-export { default as GUF } from './dist/flags/GUF';
-export { default as GUM } from './dist/flags/GUM';
-export { default as GUY } from './dist/flags/GUY';
-export { default as HKG } from './dist/flags/HKG';
-export { default as HMD } from './dist/flags/HMD';
-export { default as HND } from './dist/flags/HND';
-export { default as HRV } from './dist/flags/HRV';
-export { default as HTI } from './dist/flags/HTI';
-export { default as HUN } from './dist/flags/HUN';
-export { default as IDN } from './dist/flags/IDN';
-export { default as IMN } from './dist/flags/IMN';
-export { default as IND } from './dist/flags/IND';
-export { default as IOT } from './dist/flags/IOT';
-export { default as IRL } from './dist/flags/IRL';
-export { default as IRN } from './dist/flags/IRN';
-export { default as IRQ } from './dist/flags/IRQ';
-export { default as ISL } from './dist/flags/ISL';
-export { default as ISR } from './dist/flags/ISR';
-export { default as ITA } from './dist/flags/ITA';
-export { default as JAM } from './dist/flags/JAM';
-export { default as JEY } from './dist/flags/JEY';
-export { default as JOR } from './dist/flags/JOR';
-export { default as JPN } from './dist/flags/JPN';
-export { default as KAZ } from './dist/flags/KAZ';
-export { default as KEN } from './dist/flags/KEN';
-export { default as KGZ } from './dist/flags/KGZ';
-export { default as KHM } from './dist/flags/KHM';
-export { default as KIR } from './dist/flags/KIR';
-export { default as KNA } from './dist/flags/KNA';
-export { default as KOR } from './dist/flags/KOR';
-export { default as KWT } from './dist/flags/KWT';
-export { default as LAO } from './dist/flags/LAO';
-export { default as LBN } from './dist/flags/LBN';
-export { default as LBR } from './dist/flags/LBR';
-export { default as LBY } from './dist/flags/LBY';
-export { default as LCA } from './dist/flags/LCA';
-export { default as LIE } from './dist/flags/LIE';
-export { default as LKA } from './dist/flags/LKA';
-export { default as LSO } from './dist/flags/LSO';
-export { default as LTU } from './dist/flags/LTU';
-export { default as LUX } from './dist/flags/LUX';
-export { default as LVA } from './dist/flags/LVA';
-export { default as MAC } from './dist/flags/MAC';
-export { default as MAF } from './dist/flags/MAF';
-export { default as MAR } from './dist/flags/MAR';
-export { default as MCO } from './dist/flags/MCO';
-export { default as MDA } from './dist/flags/MDA';
-export { default as MDG } from './dist/flags/MDG';
-export { default as MDV } from './dist/flags/MDV';
-export { default as MEX } from './dist/flags/MEX';
-export { default as MHL } from './dist/flags/MHL';
-export { default as MKD } from './dist/flags/MKD';
-export { default as MLI } from './dist/flags/MLI';
-export { default as MLT } from './dist/flags/MLT';
-export { default as MMR } from './dist/flags/MMR';
-export { default as MNE } from './dist/flags/MNE';
-export { default as MNG } from './dist/flags/MNG';
-export { default as MNP } from './dist/flags/MNP';
-export { default as MOZ } from './dist/flags/MOZ';
-export { default as MRT } from './dist/flags/MRT';
-export { default as MSR } from './dist/flags/MSR';
-export { default as MTQ } from './dist/flags/MTQ';
-export { default as MUS } from './dist/flags/MUS';
-export { default as MWI } from './dist/flags/MWI';
-export { default as MYS } from './dist/flags/MYS';
-export { default as MYT } from './dist/flags/MYT';
-export { default as NAM } from './dist/flags/NAM';
-export { default as NCL } from './dist/flags/NCL';
-export { default as NER } from './dist/flags/NER';
-export { default as NFK } from './dist/flags/NFK';
-export { default as NGA } from './dist/flags/NGA';
-export { default as NIC } from './dist/flags/NIC';
-export { default as NIU } from './dist/flags/NIU';
-export { default as NLD } from './dist/flags/NLD';
-export { default as NOR } from './dist/flags/NOR';
-export { default as NPL } from './dist/flags/NPL';
-export { default as NRU } from './dist/flags/NRU';
-export { default as NZL } from './dist/flags/NZL';
-export { default as OMN } from './dist/flags/OMN';
-export { default as PAK } from './dist/flags/PAK';
-export { default as PAN } from './dist/flags/PAN';
-export { default as PCN } from './dist/flags/PCN';
-export { default as PER } from './dist/flags/PER';
-export { default as PHL } from './dist/flags/PHL';
-export { default as PLW } from './dist/flags/PLW';
-export { default as PNG } from './dist/flags/PNG';
-export { default as POL } from './dist/flags/POL';
-export { default as PRI } from './dist/flags/PRI';
-export { default as PRK } from './dist/flags/PRK';
-export { default as PRT } from './dist/flags/PRT';
-export { default as PRY } from './dist/flags/PRY';
-export { default as PSE } from './dist/flags/PSE';
-export { default as PYF } from './dist/flags/PYF';
-export { default as QAT } from './dist/flags/QAT';
-export { default as REU } from './dist/flags/REU';
-export { default as ROU } from './dist/flags/ROU';
-export { default as RUS } from './dist/flags/RUS';
-export { default as RWA } from './dist/flags/RWA';
-export { default as SAU } from './dist/flags/SAU';
-export { default as SDN } from './dist/flags/SDN';
-export { default as SEN } from './dist/flags/SEN';
-export { default as SGP } from './dist/flags/SGP';
-export { default as SGS } from './dist/flags/SGS';
-export { default as SHN } from './dist/flags/SHN';
-export { default as SJM } from './dist/flags/SJM';
-export { default as SLB } from './dist/flags/SLB';
-export { default as SLE } from './dist/flags/SLE';
-export { default as SLV } from './dist/flags/SLV';
-export { default as SMR } from './dist/flags/SMR';
-export { default as SOM } from './dist/flags/SOM';
-export { default as SPM } from './dist/flags/SPM';
-export { default as SRB } from './dist/flags/SRB';
-export { default as SSD } from './dist/flags/SSD';
-export { default as STP } from './dist/flags/STP';
-export { default as SUR } from './dist/flags/SUR';
-export { default as SVK } from './dist/flags/SVK';
-export { default as SVN } from './dist/flags/SVN';
-export { default as SWE } from './dist/flags/SWE';
-export { default as SWZ } from './dist/flags/SWZ';
-export { default as SXM } from './dist/flags/SXM';
-export { default as SYC } from './dist/flags/SYC';
-export { default as SYR } from './dist/flags/SYR';
-export { default as TCA } from './dist/flags/TCA';
-export { default as TCD } from './dist/flags/TCD';
-export { default as TGO } from './dist/flags/TGO';
-export { default as THA } from './dist/flags/THA';
-export { default as TJK } from './dist/flags/TJK';
-export { default as TKL } from './dist/flags/TKL';
-export { default as TKM } from './dist/flags/TKM';
-export { default as TLS } from './dist/flags/TLS';
-export { default as TON } from './dist/flags/TON';
-export { default as TTO } from './dist/flags/TTO';
-export { default as TUN } from './dist/flags/TUN';
-export { default as TUR } from './dist/flags/TUR';
-export { default as TUV } from './dist/flags/TUV';
-export { default as TWN } from './dist/flags/TWN';
-export { default as TZA } from './dist/flags/TZA';
-export { default as UGA } from './dist/flags/UGA';
-export { default as UKR } from './dist/flags/UKR';
-export { default as UMI } from './dist/flags/UMI';
-export { default as URY } from './dist/flags/URY';
-export { default as USA } from './dist/flags/USA';
-export { default as UZB } from './dist/flags/UZB';
-export { default as VAT } from './dist/flags/VAT';
-export { default as VCT } from './dist/flags/VCT';
-export { default as VEN } from './dist/flags/VEN';
-export { default as VGB } from './dist/flags/VGB';
-export { default as VIR } from './dist/flags/VIR';
-export { default as VNM } from './dist/flags/VNM';
-export { default as VUT } from './dist/flags/VUT';
-export { default as WLF } from './dist/flags/WLF';
-export { default as WSM } from './dist/flags/WSM';
-export { default as YEM } from './dist/flags/YEM';
-export { default as ZAF } from './dist/flags/ZAF';
-export { default as ZMB } from './dist/flags/ZMB';
-export { default as ZWE } from './dist/flags/ZWE';
+import Activity from './dist/icons/activity';
+import Airplay from './dist/icons/airplay';
+import AlertCircle from './dist/icons/alert-circle';
+import AlertOctagon from './dist/icons/alert-octagon';
+import AlertTriangle from './dist/icons/alert-triangle';
+import AlignCenter from './dist/icons/align-center';
+import AlignJustify from './dist/icons/align-justify';
+import AlignLeft from './dist/icons/align-left';
+import AlignRight from './dist/icons/align-right';
+import Anchor from './dist/icons/anchor';
+import Aperture from './dist/icons/aperture';
+import Archive from './dist/icons/archive';
+import ArrowDownCircle from './dist/icons/arrow-down-circle';
+import ArrowDownLeft from './dist/icons/arrow-down-left';
+import ArrowDownRight from './dist/icons/arrow-down-right';
+import ArrowDown from './dist/icons/arrow-down';
+import ArrowLeftCircle from './dist/icons/arrow-left-circle';
+import ArrowLeft from './dist/icons/arrow-left';
+import ArrowRightCircle from './dist/icons/arrow-right-circle';
+import ArrowRight from './dist/icons/arrow-right';
+import ArrowUpCircle from './dist/icons/arrow-up-circle';
+import ArrowUpLeft from './dist/icons/arrow-up-left';
+import ArrowUpRight from './dist/icons/arrow-up-right';
+import ArrowUp from './dist/icons/arrow-up';
+import AtSign from './dist/icons/at-sign';
+import Award from './dist/icons/award';
+import BarChart2 from './dist/icons/bar-chart-2';
+import BarChart from './dist/icons/bar-chart';
+import BatteryCharging from './dist/icons/battery-charging';
+import Battery from './dist/icons/battery';
+import BellOff from './dist/icons/bell-off';
+import Bell from './dist/icons/bell';
+import Bluetooth from './dist/icons/bluetooth';
+import Bold from './dist/icons/bold';
+import BookOpen from './dist/icons/book-open';
+import Book from './dist/icons/book';
+import Bookmark from './dist/icons/bookmark';
+import Box from './dist/icons/box';
+import Briefcase from './dist/icons/briefcase';
+import Calendar from './dist/icons/calendar';
+import CameraOff from './dist/icons/camera-off';
+import Camera from './dist/icons/camera';
+import Cast from './dist/icons/cast';
+import CheckCircle from './dist/icons/check-circle';
+import CheckSquare from './dist/icons/check-square';
+import Check from './dist/icons/check';
+import ChevronDown from './dist/icons/chevron-down';
+import ChevronLeft from './dist/icons/chevron-left';
+import ChevronRight from './dist/icons/chevron-right';
+import ChevronUp from './dist/icons/chevron-up';
+import ChevronsDown from './dist/icons/chevrons-down';
+import ChevronsLeft from './dist/icons/chevrons-left';
+import ChevronsRight from './dist/icons/chevrons-right';
+import ChevronsUp from './dist/icons/chevrons-up';
+import Chrome from './dist/icons/chrome';
+import Circle from './dist/icons/circle';
+import Clipboard from './dist/icons/clipboard';
+import Clock from './dist/icons/clock';
+import CloudDrizzle from './dist/icons/cloud-drizzle';
+import CloudLightning from './dist/icons/cloud-lightning';
+import CloudOff from './dist/icons/cloud-off';
+import CloudRain from './dist/icons/cloud-rain';
+import CloudSnow from './dist/icons/cloud-snow';
+import Cloud from './dist/icons/cloud';
+import Code from './dist/icons/code';
+import Codepen from './dist/icons/codepen';
+import Codesandbox from './dist/icons/codesandbox';
+import Coffee from './dist/icons/coffee';
+import Columns from './dist/icons/columns';
+import Command from './dist/icons/command';
+import Compass from './dist/icons/compass';
+import Copy from './dist/icons/copy';
+import CornerDownLeft from './dist/icons/corner-down-left';
+import CornerDownRight from './dist/icons/corner-down-right';
+import CornerLeftDown from './dist/icons/corner-left-down';
+import CornerLeftUp from './dist/icons/corner-left-up';
+import CornerRightDown from './dist/icons/corner-right-down';
+import CornerRightUp from './dist/icons/corner-right-up';
+import CornerUpLeft from './dist/icons/corner-up-left';
+import CornerUpRight from './dist/icons/corner-up-right';
+import Cpu from './dist/icons/cpu';
+import CreditCard from './dist/icons/credit-card';
+import Crop from './dist/icons/crop';
+import Crosshair from './dist/icons/crosshair';
+import Database from './dist/icons/database';
+import Delete from './dist/icons/delete';
+import Disc from './dist/icons/disc';
+import DivideCircle from './dist/icons/divide-circle';
+import DivideSquare from './dist/icons/divide-square';
+import Divide from './dist/icons/divide';
+import DollarSign from './dist/icons/dollar-sign';
+import DownloadCloud from './dist/icons/download-cloud';
+import Download from './dist/icons/download';
+import Dribbble from './dist/icons/dribbble';
+import Droplet from './dist/icons/droplet';
+import Edit2 from './dist/icons/edit-2';
+import Edit3 from './dist/icons/edit-3';
+import Edit from './dist/icons/edit';
+import ExternalLink from './dist/icons/external-link';
+import EyeOff from './dist/icons/eye-off';
+import Eye from './dist/icons/eye';
+import Facebook from './dist/icons/facebook';
+import FastForward from './dist/icons/fast-forward';
+import Feather from './dist/icons/feather';
+import Figma from './dist/icons/figma';
+import FileMinus from './dist/icons/file-minus';
+import FilePlus from './dist/icons/file-plus';
+import FileText from './dist/icons/file-text';
+import File from './dist/icons/file';
+import Film from './dist/icons/film';
+import Filter from './dist/icons/filter';
+import Flag from './dist/icons/flag';
+import FolderMinus from './dist/icons/folder-minus';
+import FolderPlus from './dist/icons/folder-plus';
+import Folder from './dist/icons/folder';
+import Framer from './dist/icons/framer';
+import Frown from './dist/icons/frown';
+import Gift from './dist/icons/gift';
+import GitBranch from './dist/icons/git-branch';
+import GitCommit from './dist/icons/git-commit';
+import GitMerge from './dist/icons/git-merge';
+import GitPullRequest from './dist/icons/git-pull-request';
+import GitHub from './dist/icons/github';
+import Gitlab from './dist/icons/gitlab';
+import Globe from './dist/icons/globe';
+import Grid from './dist/icons/grid';
+import HardDrive from './dist/icons/hard-drive';
+import Hash from './dist/icons/hash';
+import Headphones from './dist/icons/headphones';
+import Heart from './dist/icons/heart';
+import HelpCircle from './dist/icons/help-circle';
+import Hexagon from './dist/icons/hexagon';
+import Home from './dist/icons/home';
+import Image from './dist/icons/image';
+import Inbox from './dist/icons/inbox';
+import Info from './dist/icons/info';
+import Instagram from './dist/icons/instagram';
+import Italic from './dist/icons/italic';
+import Key from './dist/icons/key';
+import Layers from './dist/icons/layers';
+import Layout from './dist/icons/layout';
+import LifeBuoy from './dist/icons/life-buoy';
+import Link2 from './dist/icons/link-2';
+import Link from './dist/icons/link';
+import Linkedin from './dist/icons/linkedin';
+import List from './dist/icons/list';
+import Loader from './dist/icons/loader';
+import Lock from './dist/icons/lock';
+import LogIn from './dist/icons/log-in';
+import LogOut from './dist/icons/log-out';
+import Mail from './dist/icons/mail';
+import MapPin from './dist/icons/map-pin';
+import Map from './dist/icons/map';
+import Maximize2 from './dist/icons/maximize-2';
+import Maximize from './dist/icons/maximize';
+import Meh from './dist/icons/meh';
+import Menu from './dist/icons/menu';
+import MessageCircle from './dist/icons/message-circle';
+import MessageSquare from './dist/icons/message-square';
+import MicOff from './dist/icons/mic-off';
+import Mic from './dist/icons/mic';
+import Minimize2 from './dist/icons/minimize-2';
+import Minimize from './dist/icons/minimize';
+import MinusCircle from './dist/icons/minus-circle';
+import MinusSquare from './dist/icons/minus-square';
+import Minus from './dist/icons/minus';
+import Monitor from './dist/icons/monitor';
+import Moon from './dist/icons/moon';
+import MoreHorizontal from './dist/icons/more-horizontal';
+import MoreVertical from './dist/icons/more-vertical';
+import MousePointer from './dist/icons/mouse-pointer';
+import Move from './dist/icons/move';
+import Music from './dist/icons/music';
+import Navigation2 from './dist/icons/navigation-2';
+import Navigation from './dist/icons/navigation';
+import Octagon from './dist/icons/octagon';
+import Package from './dist/icons/package';
+import Paperclip from './dist/icons/paperclip';
+import PauseCircle from './dist/icons/pause-circle';
+import Pause from './dist/icons/pause';
+import PenTool from './dist/icons/pen-tool';
+import Percent from './dist/icons/percent';
+import PhoneCall from './dist/icons/phone-call';
+import PhoneForwarded from './dist/icons/phone-forwarded';
+import PhoneIncoming from './dist/icons/phone-incoming';
+import PhoneMissed from './dist/icons/phone-missed';
+import PhoneOff from './dist/icons/phone-off';
+import PhoneOutgoing from './dist/icons/phone-outgoing';
+import Phone from './dist/icons/phone';
+import PieChart from './dist/icons/pie-chart';
+import PlayCircle from './dist/icons/play-circle';
+import Play from './dist/icons/play';
+import PlusCircle from './dist/icons/plus-circle';
+import PlusSquare from './dist/icons/plus-square';
+import Plus from './dist/icons/plus';
+import Pocket from './dist/icons/pocket';
+import Power from './dist/icons/power';
+import Printer from './dist/icons/printer';
+import Radio from './dist/icons/radio';
+import RefreshCcw from './dist/icons/refresh-ccw';
+import RefreshCw from './dist/icons/refresh-cw';
+import Repeat from './dist/icons/repeat';
+import Rewind from './dist/icons/rewind';
+import RotateCcw from './dist/icons/rotate-ccw';
+import RotateCw from './dist/icons/rotate-cw';
+import Rss from './dist/icons/rss';
+import Save from './dist/icons/save';
+import Scissors from './dist/icons/scissors';
+import Search from './dist/icons/search';
+import Send from './dist/icons/send';
+import Server from './dist/icons/server';
+import Settings from './dist/icons/settings';
+import Share2 from './dist/icons/share-2';
+import Share from './dist/icons/share';
+import ShieldOff from './dist/icons/shield-off';
+import Shield from './dist/icons/shield';
+import ShoppingBag from './dist/icons/shopping-bag';
+import ShoppingCart from './dist/icons/shopping-cart';
+import Shuffle from './dist/icons/shuffle';
+import Sidebar from './dist/icons/sidebar';
+import SkipBack from './dist/icons/skip-back';
+import SkipForward from './dist/icons/skip-forward';
+import Slack from './dist/icons/slack';
+import Slash from './dist/icons/slash';
+import Sliders from './dist/icons/sliders';
+import Smartphone from './dist/icons/smartphone';
+import Smile from './dist/icons/smile';
+import Speaker from './dist/icons/speaker';
+import Square from './dist/icons/square';
+import Star from './dist/icons/star';
+import StopCircle from './dist/icons/stop-circle';
+import Sun from './dist/icons/sun';
+import Sunrise from './dist/icons/sunrise';
+import Sunset from './dist/icons/sunset';
+import Table from './dist/icons/table';
+import Tablet from './dist/icons/tablet';
+import Tag from './dist/icons/tag';
+import Target from './dist/icons/target';
+import Terminal from './dist/icons/terminal';
+import Thermometer from './dist/icons/thermometer';
+import ThumbsDown from './dist/icons/thumbs-down';
+import ThumbsUp from './dist/icons/thumbs-up';
+import ToggleLeft from './dist/icons/toggle-left';
+import ToggleRight from './dist/icons/toggle-right';
+import Tool from './dist/icons/tool';
+import Trash2 from './dist/icons/trash-2';
+import Trash from './dist/icons/trash';
+import Trello from './dist/icons/trello';
+import TrendingDown from './dist/icons/trending-down';
+import TrendingUp from './dist/icons/trending-up';
+import Triangle from './dist/icons/triangle';
+import Truck from './dist/icons/truck';
+import Tv from './dist/icons/tv';
+import Twitch from './dist/icons/twitch';
+import Twitter from './dist/icons/twitter';
+import Type from './dist/icons/type';
+import Umbrella from './dist/icons/umbrella';
+import Underline from './dist/icons/underline';
+import Unlock from './dist/icons/unlock';
+import UploadCloud from './dist/icons/upload-cloud';
+import Upload from './dist/icons/upload';
+import UserCheck from './dist/icons/user-check';
+import UserMinus from './dist/icons/user-minus';
+import UserPlus from './dist/icons/user-plus';
+import UserX from './dist/icons/user-x';
+import User from './dist/icons/user';
+import Users from './dist/icons/users';
+import VideoOff from './dist/icons/video-off';
+import Video from './dist/icons/video';
+import Voicemail from './dist/icons/voicemail';
+import Volume1 from './dist/icons/volume-1';
+import Volume2 from './dist/icons/volume-2';
+import VolumeX from './dist/icons/volume-x';
+import Volume from './dist/icons/volume';
+import Watch from './dist/icons/watch';
+import WifiOff from './dist/icons/wifi-off';
+import Wifi from './dist/icons/wifi';
+import Wind from './dist/icons/wind';
+import XCircle from './dist/icons/x-circle';
+import XOctagon from './dist/icons/x-octagon';
+import XSquare from './dist/icons/x-square';
+import X from './dist/icons/x';
+import Youtube from './dist/icons/youtube';
+import ZapOff from './dist/icons/zap-off';
+import Zap from './dist/icons/zap';
+import ZoomIn from './dist/icons/zoom-in';
+import ZoomOut from './dist/icons/zoom-out';
+import ABW from './dist/flags/ABW';
+import AFG from './dist/flags/AFG';
+import AGO from './dist/flags/AGO';
+import AIA from './dist/flags/AIA';
+import ALA from './dist/flags/ALA';
+import ALB from './dist/flags/ALB';
+import AND from './dist/flags/AND';
+import ARE from './dist/flags/ARE';
+import ARG from './dist/flags/ARG';
+import ARM from './dist/flags/ARM';
+import ASM from './dist/flags/ASM';
+import ATA from './dist/flags/ATA';
+import ATF from './dist/flags/ATF';
+import ATG from './dist/flags/ATG';
+import AUS from './dist/flags/AUS';
+import AUT from './dist/flags/AUT';
+import AZE from './dist/flags/AZE';
+import BDI from './dist/flags/BDI';
+import BEL from './dist/flags/BEL';
+import BEN from './dist/flags/BEN';
+import BES from './dist/flags/BES';
+import BFA from './dist/flags/BFA';
+import BGD from './dist/flags/BGD';
+import BGR from './dist/flags/BGR';
+import BHR from './dist/flags/BHR';
+import BHS from './dist/flags/BHS';
+import BIH from './dist/flags/BIH';
+import BLM from './dist/flags/BLM';
+import BLR from './dist/flags/BLR';
+import BLZ from './dist/flags/BLZ';
+import BMU from './dist/flags/BMU';
+import BOL from './dist/flags/BOL';
+import BRA from './dist/flags/BRA';
+import BRB from './dist/flags/BRB';
+import BRN from './dist/flags/BRN';
+import BTN from './dist/flags/BTN';
+import BVT from './dist/flags/BVT';
+import BWA from './dist/flags/BWA';
+import CAF from './dist/flags/CAF';
+import CAN from './dist/flags/CAN';
+import CCK from './dist/flags/CCK';
+import CHE from './dist/flags/CHE';
+import CHL from './dist/flags/CHL';
+import CHN from './dist/flags/CHN';
+import CIV from './dist/flags/CIV';
+import CMR from './dist/flags/CMR';
+import COD from './dist/flags/COD';
+import COG from './dist/flags/COG';
+import COK from './dist/flags/COK';
+import COL from './dist/flags/COL';
+import COM from './dist/flags/COM';
+import CPV from './dist/flags/CPV';
+import CRI from './dist/flags/CRI';
+import CUB from './dist/flags/CUB';
+import CXR from './dist/flags/CXR';
+import CYM from './dist/flags/CYM';
+import CYP from './dist/flags/CYP';
+import CZE from './dist/flags/CZE';
+import DEU from './dist/flags/DEU';
+import DJI from './dist/flags/DJI';
+import DMA from './dist/flags/DMA';
+import DNK from './dist/flags/DNK';
+import DOM from './dist/flags/DOM';
+import DZA from './dist/flags/DZA';
+import ECU from './dist/flags/ECU';
+import EGY from './dist/flags/EGY';
+import ERI from './dist/flags/ERI';
+import ESH from './dist/flags/ESH';
+import ESP from './dist/flags/ESP';
+import EST from './dist/flags/EST';
+import ETH from './dist/flags/ETH';
+import FIN from './dist/flags/FIN';
+import FJI from './dist/flags/FJI';
+import FLK from './dist/flags/FLK';
+import FRA from './dist/flags/FRA';
+import FRO from './dist/flags/FRO';
+import FSM from './dist/flags/FSM';
+import GAB from './dist/flags/GAB';
+import GBR from './dist/flags/GBR';
+import GEO from './dist/flags/GEO';
+import GGY from './dist/flags/GGY';
+import GHA from './dist/flags/GHA';
+import GIB from './dist/flags/GIB';
+import GIN from './dist/flags/GIN';
+import GLP from './dist/flags/GLP';
+import GMB from './dist/flags/GMB';
+import GNB from './dist/flags/GNB';
+import GNQ from './dist/flags/GNQ';
+import GRC from './dist/flags/GRC';
+import GRD from './dist/flags/GRD';
+import GRL from './dist/flags/GRL';
+import GTM from './dist/flags/GTM';
+import GUF from './dist/flags/GUF';
+import GUM from './dist/flags/GUM';
+import GUY from './dist/flags/GUY';
+import HKG from './dist/flags/HKG';
+import HMD from './dist/flags/HMD';
+import HND from './dist/flags/HND';
+import HRV from './dist/flags/HRV';
+import HTI from './dist/flags/HTI';
+import HUN from './dist/flags/HUN';
+import IDN from './dist/flags/IDN';
+import IMN from './dist/flags/IMN';
+import IND from './dist/flags/IND';
+import IOT from './dist/flags/IOT';
+import IRL from './dist/flags/IRL';
+import IRN from './dist/flags/IRN';
+import IRQ from './dist/flags/IRQ';
+import ISL from './dist/flags/ISL';
+import ISR from './dist/flags/ISR';
+import ITA from './dist/flags/ITA';
+import JAM from './dist/flags/JAM';
+import JEY from './dist/flags/JEY';
+import JOR from './dist/flags/JOR';
+import JPN from './dist/flags/JPN';
+import KAZ from './dist/flags/KAZ';
+import KEN from './dist/flags/KEN';
+import KGZ from './dist/flags/KGZ';
+import KHM from './dist/flags/KHM';
+import KIR from './dist/flags/KIR';
+import KNA from './dist/flags/KNA';
+import KOR from './dist/flags/KOR';
+import KWT from './dist/flags/KWT';
+import LAO from './dist/flags/LAO';
+import LBN from './dist/flags/LBN';
+import LBR from './dist/flags/LBR';
+import LBY from './dist/flags/LBY';
+import LCA from './dist/flags/LCA';
+import LIE from './dist/flags/LIE';
+import LKA from './dist/flags/LKA';
+import LSO from './dist/flags/LSO';
+import LTU from './dist/flags/LTU';
+import LUX from './dist/flags/LUX';
+import LVA from './dist/flags/LVA';
+import MAC from './dist/flags/MAC';
+import MAF from './dist/flags/MAF';
+import MAR from './dist/flags/MAR';
+import MCO from './dist/flags/MCO';
+import MDA from './dist/flags/MDA';
+import MDG from './dist/flags/MDG';
+import MDV from './dist/flags/MDV';
+import MEX from './dist/flags/MEX';
+import MHL from './dist/flags/MHL';
+import MKD from './dist/flags/MKD';
+import MLI from './dist/flags/MLI';
+import MLT from './dist/flags/MLT';
+import MMR from './dist/flags/MMR';
+import MNE from './dist/flags/MNE';
+import MNG from './dist/flags/MNG';
+import MNP from './dist/flags/MNP';
+import MOZ from './dist/flags/MOZ';
+import MRT from './dist/flags/MRT';
+import MSR from './dist/flags/MSR';
+import MTQ from './dist/flags/MTQ';
+import MUS from './dist/flags/MUS';
+import MWI from './dist/flags/MWI';
+import MYS from './dist/flags/MYS';
+import MYT from './dist/flags/MYT';
+import NAM from './dist/flags/NAM';
+import NCL from './dist/flags/NCL';
+import NER from './dist/flags/NER';
+import NFK from './dist/flags/NFK';
+import NGA from './dist/flags/NGA';
+import NIC from './dist/flags/NIC';
+import NIU from './dist/flags/NIU';
+import NLD from './dist/flags/NLD';
+import NOR from './dist/flags/NOR';
+import NPL from './dist/flags/NPL';
+import NRU from './dist/flags/NRU';
+import NZL from './dist/flags/NZL';
+import OMN from './dist/flags/OMN';
+import PAK from './dist/flags/PAK';
+import PAN from './dist/flags/PAN';
+import PCN from './dist/flags/PCN';
+import PER from './dist/flags/PER';
+import PHL from './dist/flags/PHL';
+import PLW from './dist/flags/PLW';
+import PNG from './dist/flags/PNG';
+import POL from './dist/flags/POL';
+import PRI from './dist/flags/PRI';
+import PRK from './dist/flags/PRK';
+import PRT from './dist/flags/PRT';
+import PRY from './dist/flags/PRY';
+import PSE from './dist/flags/PSE';
+import PYF from './dist/flags/PYF';
+import QAT from './dist/flags/QAT';
+import REU from './dist/flags/REU';
+import ROU from './dist/flags/ROU';
+import RUS from './dist/flags/RUS';
+import RWA from './dist/flags/RWA';
+import SAU from './dist/flags/SAU';
+import SDN from './dist/flags/SDN';
+import SEN from './dist/flags/SEN';
+import SGP from './dist/flags/SGP';
+import SGS from './dist/flags/SGS';
+import SHN from './dist/flags/SHN';
+import SJM from './dist/flags/SJM';
+import SLB from './dist/flags/SLB';
+import SLE from './dist/flags/SLE';
+import SLV from './dist/flags/SLV';
+import SMR from './dist/flags/SMR';
+import SOM from './dist/flags/SOM';
+import SPM from './dist/flags/SPM';
+import SRB from './dist/flags/SRB';
+import SSD from './dist/flags/SSD';
+import STP from './dist/flags/STP';
+import SUR from './dist/flags/SUR';
+import SVK from './dist/flags/SVK';
+import SVN from './dist/flags/SVN';
+import SWE from './dist/flags/SWE';
+import SWZ from './dist/flags/SWZ';
+import SXM from './dist/flags/SXM';
+import SYC from './dist/flags/SYC';
+import SYR from './dist/flags/SYR';
+import TCA from './dist/flags/TCA';
+import TCD from './dist/flags/TCD';
+import TGO from './dist/flags/TGO';
+import THA from './dist/flags/THA';
+import TJK from './dist/flags/TJK';
+import TKL from './dist/flags/TKL';
+import TKM from './dist/flags/TKM';
+import TLS from './dist/flags/TLS';
+import TON from './dist/flags/TON';
+import TTO from './dist/flags/TTO';
+import TUN from './dist/flags/TUN';
+import TUR from './dist/flags/TUR';
+import TUV from './dist/flags/TUV';
+import TWN from './dist/flags/TWN';
+import TZA from './dist/flags/TZA';
+import UGA from './dist/flags/UGA';
+import UKR from './dist/flags/UKR';
+import UMI from './dist/flags/UMI';
+import URY from './dist/flags/URY';
+import USA from './dist/flags/USA';
+import UZB from './dist/flags/UZB';
+import VAT from './dist/flags/VAT';
+import VCT from './dist/flags/VCT';
+import VEN from './dist/flags/VEN';
+import VGB from './dist/flags/VGB';
+import VIR from './dist/flags/VIR';
+import VNM from './dist/flags/VNM';
+import VUT from './dist/flags/VUT';
+import WLF from './dist/flags/WLF';
+import WSM from './dist/flags/WSM';
+import YEM from './dist/flags/YEM';
+import ZAF from './dist/flags/ZAF';
+import ZMB from './dist/flags/ZMB';
+import ZWE from './dist/flags/ZWE';
+
+export {
+  Activity,
+  Airplay,
+  AlertCircle,
+  AlertOctagon,
+  AlertTriangle,
+  AlignCenter,
+  AlignJustify,
+  AlignLeft,
+  AlignRight,
+  Anchor,
+  Aperture,
+  Archive,
+  ArrowDownCircle,
+  ArrowDownLeft,
+  ArrowDownRight,
+  ArrowDown,
+  ArrowLeftCircle,
+  ArrowLeft,
+  ArrowRightCircle,
+  ArrowRight,
+  ArrowUpCircle,
+  ArrowUpLeft,
+  ArrowUpRight,
+  ArrowUp,
+  AtSign,
+  Award,
+  BarChart2,
+  BarChart,
+  BatteryCharging,
+  Battery,
+  BellOff,
+  Bell,
+  Bluetooth,
+  Bold,
+  BookOpen,
+  Book,
+  Bookmark,
+  Box,
+  Briefcase,
+  Calendar,
+  CameraOff,
+  Camera,
+  Cast,
+  CheckCircle,
+  CheckSquare,
+  Check,
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  ChevronUp,
+  ChevronsDown,
+  ChevronsLeft,
+  ChevronsRight,
+  ChevronsUp,
+  Chrome,
+  Circle,
+  Clipboard,
+  Clock,
+  CloudDrizzle,
+  CloudLightning,
+  CloudOff,
+  CloudRain,
+  CloudSnow,
+  Cloud,
+  Code,
+  Codepen,
+  Codesandbox,
+  Coffee,
+  Columns,
+  Command,
+  Compass,
+  Copy,
+  CornerDownLeft,
+  CornerDownRight,
+  CornerLeftDown,
+  CornerLeftUp,
+  CornerRightDown,
+  CornerRightUp,
+  CornerUpLeft,
+  CornerUpRight,
+  Cpu,
+  CreditCard,
+  Crop,
+  Crosshair,
+  Database,
+  Delete,
+  Disc,
+  DivideCircle,
+  DivideSquare,
+  Divide,
+  DollarSign,
+  DownloadCloud,
+  Download,
+  Dribbble,
+  Droplet,
+  Edit2,
+  Edit3,
+  Edit,
+  ExternalLink,
+  EyeOff,
+  Eye,
+  Facebook,
+  FastForward,
+  Feather,
+  Figma,
+  FileMinus,
+  FilePlus,
+  FileText,
+  File,
+  Film,
+  Filter,
+  Flag,
+  FolderMinus,
+  FolderPlus,
+  Folder,
+  Framer,
+  Frown,
+  Gift,
+  GitBranch,
+  GitCommit,
+  GitMerge,
+  GitPullRequest,
+  GitHub,
+  Gitlab,
+  Globe,
+  Grid,
+  HardDrive,
+  Hash,
+  Headphones,
+  Heart,
+  HelpCircle,
+  Hexagon,
+  Home,
+  Image,
+  Inbox,
+  Info,
+  Instagram,
+  Italic,
+  Key,
+  Layers,
+  Layout,
+  LifeBuoy,
+  Link2,
+  Link,
+  Linkedin,
+  List,
+  Loader,
+  Lock,
+  LogIn,
+  LogOut,
+  Mail,
+  MapPin,
+  Map,
+  Maximize2,
+  Maximize,
+  Meh,
+  Menu,
+  MessageCircle,
+  MessageSquare,
+  MicOff,
+  Mic,
+  Minimize2,
+  Minimize,
+  MinusCircle,
+  MinusSquare,
+  Minus,
+  Monitor,
+  Moon,
+  MoreHorizontal,
+  MoreVertical,
+  MousePointer,
+  Move,
+  Music,
+  Navigation2,
+  Navigation,
+  Octagon,
+  Package,
+  Paperclip,
+  PauseCircle,
+  Pause,
+  PenTool,
+  Percent,
+  PhoneCall,
+  PhoneForwarded,
+  PhoneIncoming,
+  PhoneMissed,
+  PhoneOff,
+  PhoneOutgoing,
+  Phone,
+  PieChart,
+  PlayCircle,
+  Play,
+  PlusCircle,
+  PlusSquare,
+  Plus,
+  Pocket,
+  Power,
+  Printer,
+  Radio,
+  RefreshCcw,
+  RefreshCw,
+  Repeat,
+  Rewind,
+  RotateCcw,
+  RotateCw,
+  Rss,
+  Save,
+  Scissors,
+  Search,
+  Send,
+  Server,
+  Settings,
+  Share2,
+  Share,
+  ShieldOff,
+  Shield,
+  ShoppingBag,
+  ShoppingCart,
+  Shuffle,
+  Sidebar,
+  SkipBack,
+  SkipForward,
+  Slack,
+  Slash,
+  Sliders,
+  Smartphone,
+  Smile,
+  Speaker,
+  Square,
+  Star,
+  StopCircle,
+  Sun,
+  Sunrise,
+  Sunset,
+  Table,
+  Tablet,
+  Tag,
+  Target,
+  Terminal,
+  Thermometer,
+  ThumbsDown,
+  ThumbsUp,
+  ToggleLeft,
+  ToggleRight,
+  Tool,
+  Trash2,
+  Trash,
+  Trello,
+  TrendingDown,
+  TrendingUp,
+  Triangle,
+  Truck,
+  Tv,
+  Twitch,
+  Twitter,
+  Type,
+  Umbrella,
+  Underline,
+  Unlock,
+  UploadCloud,
+  Upload,
+  UserCheck,
+  UserMinus,
+  UserPlus,
+  UserX,
+  User,
+  Users,
+  VideoOff,
+  Video,
+  Voicemail,
+  Volume1,
+  Volume2,
+  VolumeX,
+  Volume,
+  Watch,
+  WifiOff,
+  Wifi,
+  Wind,
+  XCircle,
+  XOctagon,
+  XSquare,
+  X,
+  Youtube,
+  ZapOff,
+  Zap,
+  ZoomIn,
+  ZoomOut,
+  ABW,
+  AFG,
+  AGO,
+  AIA,
+  ALA,
+  ALB,
+  AND,
+  ARE,
+  ARG,
+  ARM,
+  ASM,
+  ATA,
+  ATF,
+  ATG,
+  AUS,
+  AUT,
+  AZE,
+  BDI,
+  BEL,
+  BEN,
+  BES,
+  BFA,
+  BGD,
+  BGR,
+  BHR,
+  BHS,
+  BIH,
+  BLM,
+  BLR,
+  BLZ,
+  BMU,
+  BOL,
+  BRA,
+  BRB,
+  BRN,
+  BTN,
+  BVT,
+  BWA,
+  CAF,
+  CAN,
+  CCK,
+  CHE,
+  CHL,
+  CHN,
+  CIV,
+  CMR,
+  COD,
+  COG,
+  COK,
+  COL,
+  COM,
+  CPV,
+  CRI,
+  CUB,
+  CXR,
+  CYM,
+  CYP,
+  CZE,
+  DEU,
+  DJI,
+  DMA,
+  DNK,
+  DOM,
+  DZA,
+  ECU,
+  EGY,
+  ERI,
+  ESH,
+  ESP,
+  EST,
+  ETH,
+  FIN,
+  FJI,
+  FLK,
+  FRA,
+  FRO,
+  FSM,
+  GAB,
+  GBR,
+  GEO,
+  GGY,
+  GHA,
+  GIB,
+  GIN,
+  GLP,
+  GMB,
+  GNB,
+  GNQ,
+  GRC,
+  GRD,
+  GRL,
+  GTM,
+  GUF,
+  GUM,
+  GUY,
+  HKG,
+  HMD,
+  HND,
+  HRV,
+  HTI,
+  HUN,
+  IDN,
+  IMN,
+  IND,
+  IOT,
+  IRL,
+  IRN,
+  IRQ,
+  ISL,
+  ISR,
+  ITA,
+  JAM,
+  JEY,
+  JOR,
+  JPN,
+  KAZ,
+  KEN,
+  KGZ,
+  KHM,
+  KIR,
+  KNA,
+  KOR,
+  KWT,
+  LAO,
+  LBN,
+  LBR,
+  LBY,
+  LCA,
+  LIE,
+  LKA,
+  LSO,
+  LTU,
+  LUX,
+  LVA,
+  MAC,
+  MAF,
+  MAR,
+  MCO,
+  MDA,
+  MDG,
+  MDV,
+  MEX,
+  MHL,
+  MKD,
+  MLI,
+  MLT,
+  MMR,
+  MNE,
+  MNG,
+  MNP,
+  MOZ,
+  MRT,
+  MSR,
+  MTQ,
+  MUS,
+  MWI,
+  MYS,
+  MYT,
+  NAM,
+  NCL,
+  NER,
+  NFK,
+  NGA,
+  NIC,
+  NIU,
+  NLD,
+  NOR,
+  NPL,
+  NRU,
+  NZL,
+  OMN,
+  PAK,
+  PAN,
+  PCN,
+  PER,
+  PHL,
+  PLW,
+  PNG,
+  POL,
+  PRI,
+  PRK,
+  PRT,
+  PRY,
+  PSE,
+  PYF,
+  QAT,
+  REU,
+  ROU,
+  RUS,
+  RWA,
+  SAU,
+  SDN,
+  SEN,
+  SGP,
+  SGS,
+  SHN,
+  SJM,
+  SLB,
+  SLE,
+  SLV,
+  SMR,
+  SOM,
+  SPM,
+  SRB,
+  SSD,
+  STP,
+  SUR,
+  SVK,
+  SVN,
+  SWE,
+  SWZ,
+  SXM,
+  SYC,
+  SYR,
+  TCA,
+  TCD,
+  TGO,
+  THA,
+  TJK,
+  TKL,
+  TKM,
+  TLS,
+  TON,
+  TTO,
+  TUN,
+  TUR,
+  TUV,
+  TWN,
+  TZA,
+  UGA,
+  UKR,
+  UMI,
+  URY,
+  USA,
+  UZB,
+  VAT,
+  VCT,
+  VEN,
+  VGB,
+  VIR,
+  VNM,
+  VUT,
+  WLF,
+  WSM,
+  YEM,
+  ZAF,
+  ZMB,
+  ZWE,
+};
+
+export const LeasupMapIcons = {
+  Activity,
+  Airplay,
+  AlertCircle,
+  AlertOctagon,
+  AlertTriangle,
+  AlignCenter,
+  AlignJustify,
+  AlignLeft,
+  AlignRight,
+  Anchor,
+  Aperture,
+  Archive,
+  ArrowDownCircle,
+  ArrowDownLeft,
+  ArrowDownRight,
+  ArrowDown,
+  ArrowLeftCircle,
+  ArrowLeft,
+  ArrowRightCircle,
+  ArrowRight,
+  ArrowUpCircle,
+  ArrowUpLeft,
+  ArrowUpRight,
+  ArrowUp,
+  AtSign,
+  Award,
+  BarChart2,
+  BarChart,
+  BatteryCharging,
+  Battery,
+  BellOff,
+  Bell,
+  Bluetooth,
+  Bold,
+  BookOpen,
+  Book,
+  Bookmark,
+  Box,
+  Briefcase,
+  Calendar,
+  CameraOff,
+  Camera,
+  Cast,
+  CheckCircle,
+  CheckSquare,
+  Check,
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  ChevronUp,
+  ChevronsDown,
+  ChevronsLeft,
+  ChevronsRight,
+  ChevronsUp,
+  Chrome,
+  Circle,
+  Clipboard,
+  Clock,
+  CloudDrizzle,
+  CloudLightning,
+  CloudOff,
+  CloudRain,
+  CloudSnow,
+  Cloud,
+  Code,
+  Codepen,
+  Codesandbox,
+  Coffee,
+  Columns,
+  Command,
+  Compass,
+  Copy,
+  CornerDownLeft,
+  CornerDownRight,
+  CornerLeftDown,
+  CornerLeftUp,
+  CornerRightDown,
+  CornerRightUp,
+  CornerUpLeft,
+  CornerUpRight,
+  Cpu,
+  CreditCard,
+  Crop,
+  Crosshair,
+  Database,
+  Delete,
+  Disc,
+  DivideCircle,
+  DivideSquare,
+  Divide,
+  DollarSign,
+  DownloadCloud,
+  Download,
+  Dribbble,
+  Droplet,
+  Edit2,
+  Edit3,
+  Edit,
+  ExternalLink,
+  EyeOff,
+  Eye,
+  Facebook,
+  FastForward,
+  Feather,
+  Figma,
+  FileMinus,
+  FilePlus,
+  FileText,
+  File,
+  Film,
+  Filter,
+  Flag,
+  FolderMinus,
+  FolderPlus,
+  Folder,
+  Framer,
+  Frown,
+  Gift,
+  GitBranch,
+  GitCommit,
+  GitMerge,
+  GitPullRequest,
+  GitHub,
+  Gitlab,
+  Globe,
+  Grid,
+  HardDrive,
+  Hash,
+  Headphones,
+  Heart,
+  HelpCircle,
+  Hexagon,
+  Home,
+  Image,
+  Inbox,
+  Info,
+  Instagram,
+  Italic,
+  Key,
+  Layers,
+  Layout,
+  LifeBuoy,
+  Link2,
+  Link,
+  Linkedin,
+  List,
+  Loader,
+  Lock,
+  LogIn,
+  LogOut,
+  Mail,
+  MapPin,
+  Map,
+  Maximize2,
+  Maximize,
+  Meh,
+  Menu,
+  MessageCircle,
+  MessageSquare,
+  MicOff,
+  Mic,
+  Minimize2,
+  Minimize,
+  MinusCircle,
+  MinusSquare,
+  Minus,
+  Monitor,
+  Moon,
+  MoreHorizontal,
+  MoreVertical,
+  MousePointer,
+  Move,
+  Music,
+  Navigation2,
+  Navigation,
+  Octagon,
+  Package,
+  Paperclip,
+  PauseCircle,
+  Pause,
+  PenTool,
+  Percent,
+  PhoneCall,
+  PhoneForwarded,
+  PhoneIncoming,
+  PhoneMissed,
+  PhoneOff,
+  PhoneOutgoing,
+  Phone,
+  PieChart,
+  PlayCircle,
+  Play,
+  PlusCircle,
+  PlusSquare,
+  Plus,
+  Pocket,
+  Power,
+  Printer,
+  Radio,
+  RefreshCcw,
+  RefreshCw,
+  Repeat,
+  Rewind,
+  RotateCcw,
+  RotateCw,
+  Rss,
+  Save,
+  Scissors,
+  Search,
+  Send,
+  Server,
+  Settings,
+  Share2,
+  Share,
+  ShieldOff,
+  Shield,
+  ShoppingBag,
+  ShoppingCart,
+  Shuffle,
+  Sidebar,
+  SkipBack,
+  SkipForward,
+  Slack,
+  Slash,
+  Sliders,
+  Smartphone,
+  Smile,
+  Speaker,
+  Square,
+  Star,
+  StopCircle,
+  Sun,
+  Sunrise,
+  Sunset,
+  Table,
+  Tablet,
+  Tag,
+  Target,
+  Terminal,
+  Thermometer,
+  ThumbsDown,
+  ThumbsUp,
+  ToggleLeft,
+  ToggleRight,
+  Tool,
+  Trash2,
+  Trash,
+  Trello,
+  TrendingDown,
+  TrendingUp,
+  Triangle,
+  Truck,
+  Tv,
+  Twitch,
+  Twitter,
+  Type,
+  Umbrella,
+  Underline,
+  Unlock,
+  UploadCloud,
+  Upload,
+  UserCheck,
+  UserMinus,
+  UserPlus,
+  UserX,
+  User,
+  Users,
+  VideoOff,
+  Video,
+  Voicemail,
+  Volume1,
+  Volume2,
+  VolumeX,
+  Volume,
+  Watch,
+  WifiOff,
+  Wifi,
+  Wind,
+  XCircle,
+  XOctagon,
+  XSquare,
+  X,
+  Youtube,
+  ZapOff,
+  Zap,
+  ZoomIn,
+  ZoomOut,
+  ABW,
+  AFG,
+  AGO,
+  AIA,
+  ALA,
+  ALB,
+  AND,
+  ARE,
+  ARG,
+  ARM,
+  ASM,
+  ATA,
+  ATF,
+  ATG,
+  AUS,
+  AUT,
+  AZE,
+  BDI,
+  BEL,
+  BEN,
+  BES,
+  BFA,
+  BGD,
+  BGR,
+  BHR,
+  BHS,
+  BIH,
+  BLM,
+  BLR,
+  BLZ,
+  BMU,
+  BOL,
+  BRA,
+  BRB,
+  BRN,
+  BTN,
+  BVT,
+  BWA,
+  CAF,
+  CAN,
+  CCK,
+  CHE,
+  CHL,
+  CHN,
+  CIV,
+  CMR,
+  COD,
+  COG,
+  COK,
+  COL,
+  COM,
+  CPV,
+  CRI,
+  CUB,
+  CXR,
+  CYM,
+  CYP,
+  CZE,
+  DEU,
+  DJI,
+  DMA,
+  DNK,
+  DOM,
+  DZA,
+  ECU,
+  EGY,
+  ERI,
+  ESH,
+  ESP,
+  EST,
+  ETH,
+  FIN,
+  FJI,
+  FLK,
+  FRA,
+  FRO,
+  FSM,
+  GAB,
+  GBR,
+  GEO,
+  GGY,
+  GHA,
+  GIB,
+  GIN,
+  GLP,
+  GMB,
+  GNB,
+  GNQ,
+  GRC,
+  GRD,
+  GRL,
+  GTM,
+  GUF,
+  GUM,
+  GUY,
+  HKG,
+  HMD,
+  HND,
+  HRV,
+  HTI,
+  HUN,
+  IDN,
+  IMN,
+  IND,
+  IOT,
+  IRL,
+  IRN,
+  IRQ,
+  ISL,
+  ISR,
+  ITA,
+  JAM,
+  JEY,
+  JOR,
+  JPN,
+  KAZ,
+  KEN,
+  KGZ,
+  KHM,
+  KIR,
+  KNA,
+  KOR,
+  KWT,
+  LAO,
+  LBN,
+  LBR,
+  LBY,
+  LCA,
+  LIE,
+  LKA,
+  LSO,
+  LTU,
+  LUX,
+  LVA,
+  MAC,
+  MAF,
+  MAR,
+  MCO,
+  MDA,
+  MDG,
+  MDV,
+  MEX,
+  MHL,
+  MKD,
+  MLI,
+  MLT,
+  MMR,
+  MNE,
+  MNG,
+  MNP,
+  MOZ,
+  MRT,
+  MSR,
+  MTQ,
+  MUS,
+  MWI,
+  MYS,
+  MYT,
+  NAM,
+  NCL,
+  NER,
+  NFK,
+  NGA,
+  NIC,
+  NIU,
+  NLD,
+  NOR,
+  NPL,
+  NRU,
+  NZL,
+  OMN,
+  PAK,
+  PAN,
+  PCN,
+  PER,
+  PHL,
+  PLW,
+  PNG,
+  POL,
+  PRI,
+  PRK,
+  PRT,
+  PRY,
+  PSE,
+  PYF,
+  QAT,
+  REU,
+  ROU,
+  RUS,
+  RWA,
+  SAU,
+  SDN,
+  SEN,
+  SGP,
+  SGS,
+  SHN,
+  SJM,
+  SLB,
+  SLE,
+  SLV,
+  SMR,
+  SOM,
+  SPM,
+  SRB,
+  SSD,
+  STP,
+  SUR,
+  SVK,
+  SVN,
+  SWE,
+  SWZ,
+  SXM,
+  SYC,
+  SYR,
+  TCA,
+  TCD,
+  TGO,
+  THA,
+  TJK,
+  TKL,
+  TKM,
+  TLS,
+  TON,
+  TTO,
+  TUN,
+  TUR,
+  TUV,
+  TWN,
+  TZA,
+  UGA,
+  UKR,
+  UMI,
+  URY,
+  USA,
+  UZB,
+  VAT,
+  VCT,
+  VEN,
+  VGB,
+  VIR,
+  VNM,
+  VUT,
+  WLF,
+  WSM,
+  YEM,
+  ZAF,
+  ZMB,
+  ZWE,
+};

@@ -6,6 +6,10 @@ export interface IconProps extends SVGAttributes<SVGElement> {
   size?: string | number;
 }
 
+export const LeasupMapIcons: {
+  [key: string]: Icon;
+};
+
 export type Icon = FC<IconProps>;
 export const Activity: Icon;
 export const Airplay: Icon;
