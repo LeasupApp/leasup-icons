@@ -231,6 +231,6 @@ const exported = completeComponentNameList.reduce((acc, name) => {
 
 fs.appendFileSync(
   path.join(rootDir, 'index.js'),
-  '\nexport {\n' + exported + 'LeasupMapIcons,\n};\n',
+  '\nexport {\n' + exported + '  LeasupMapIcons,\n};\n',
   'utf-8',
 );

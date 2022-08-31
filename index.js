@@ -1608,5 +1608,5 @@ export {
   ZAF,
   ZMB,
   ZWE,
-LeasupMapIcons,
+  LeasupMapIcons,
 };
