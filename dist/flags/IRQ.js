@@ -18,7 +18,7 @@ var IRQ = forwardRef(function (_ref, ref) {
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size * 3 / 4,
-    viewBox: "0 0 32 24"
+    viewBox: "0 0 640 480"
   }, rest), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
     d: "M0 160h640v160H0z"

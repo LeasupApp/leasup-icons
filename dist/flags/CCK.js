@@ -18,7 +18,7 @@ var CCK = forwardRef(function (_ref, ref) {
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size * 3 / 4,
-    viewBox: "0 0 32 24"
+    viewBox: "0 0 640 480"
   }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("path", {
     id: "a",
     d: "m0-360 69.4 215.8 212-80.3L156-35.6 351 80.1 125 99.8l31.1 224.6L0 160l-156.2 164.3 31.1-224.5L-351 80l195-115.7-125.5-188.9 212 80.3z"

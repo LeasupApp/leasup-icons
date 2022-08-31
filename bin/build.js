@@ -151,7 +151,7 @@ flags.forEach((i) => {
     xmlns: 'http://www.w3.org/2000/svg',
     width: 'size',
     height: 'size * 3 / 4',
-    viewBox: '0 0 32 24',
+    viewBox: '0 0 640 480',
     rest: '...rest',
   };
 
