@@ -38,11 +38,12 @@ export interface IconProps extends SVGAttributes<SVGElement> {
   size?: string | number;
 }
 
+export type Icon = FC<IconProps>;
+
 export const LeasupMapIcons: {
   [key: string]: Icon;
 };
 
-export type Icon = FC<IconProps>;
 `;
 
 fs.writeFileSync(path.join(rootDir, 'index.js'), '', 'utf-8');
@@ -213,6 +214,16 @@ flags.forEach((i) => {
   );
 });
 
+// Creating the map of Icons from their name
+const objAcc = completeComponentNameList.reduce((acc, name) => {
+  return acc + `  ${name},\n`;
+}, '');
+fs.appendFileSync(
+  path.join(rootDir, 'index.js'),
+  'const LeasupMapIcons = {\n' + objAcc + '};\n',
+  'utf-8',
+);
+
 // Creating the export list
 const exported = completeComponentNameList.reduce((acc, name) => {
   return acc + `  ${name},\n`;
@@ -220,16 +231,6 @@ const exported = completeComponentNameList.reduce((acc, name) => {
 
 fs.appendFileSync(
   path.join(rootDir, 'index.js'),
-  '\nexport {\n' + exported + '};\n\n',
-  'utf-8',
-);
-
-// Creating the map of Icons from their name
-const objAcc = completeComponentNameList.reduce((acc, name) => {
-  return acc + `  ${name},\n`;
-}, '');
-fs.appendFileSync(
-  path.join(rootDir, 'index.js'),
-  'export const LeasupMapIcons = {\n' + objAcc + '};\n',
+  '\nexport {\n' + exported + 'LeasupMapIcons,\n};\n\n',
   'utf-8',
 );
