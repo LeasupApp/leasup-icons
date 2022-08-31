@@ -19,7 +19,21 @@ var MUS = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#00a04d",
+    d: "M0 360h640v120H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#151f6d",
+    d: "M0 120h640v120H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ee2737",
+    d: "M0 0h640v120H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ffcd00",
+    d: "M0 240h640v120H0z"
+  })));
 });
 MUS.propTypes = {
   color: PropTypes.string,

@@ -19,7 +19,29 @@ var LTU = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt",
+    transform: "scale(.64143 .96773)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: "1063",
+    height: "708.7",
+    fill: "#006a44",
+    rx: "0",
+    ry: "0",
+    transform: "scale(.93865 .69686)"
+  }), /*#__PURE__*/React.createElement("rect", {
+    width: "1063",
+    height: "236.2",
+    y: "475.6",
+    fill: "#c1272d",
+    rx: "0",
+    ry: "0",
+    transform: "scale(.93865 .69686)"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fdb913",
+    d: "M0 0h997.8v164.6H0z"
+  })));
 });
 LTU.propTypes = {
   color: PropTypes.string,

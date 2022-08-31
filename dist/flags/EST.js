@@ -19,7 +19,25 @@ var EST = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: "640",
+    height: "477.9",
+    rx: "0",
+    ry: "0"
+  }), /*#__PURE__*/React.createElement("rect", {
+    width: "640",
+    height: "159.3",
+    y: "320.7",
+    fill: "#fff",
+    rx: "0",
+    ry: "0"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#1791ff",
+    d: "M0 0h640v159.3H0z"
+  })));
 });
 EST.propTypes = {
   color: PropTypes.string,

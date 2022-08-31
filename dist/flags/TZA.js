@@ -19,7 +19,28 @@ var TZA = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M10 0h160v120H10z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt",
+    "clip-path": "url(#a)",
+    transform: "matrix(4 0 0 4 -40 0)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#09f",
+    d: "M0 0h180v120H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#090",
+    d: "M0 0h180L0 120V0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M0 120h40l140-95V0h-40L0 95v25z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ff0",
+    d: "M0 91.5 137.2 0h13.5L0 100.5v-9zM29.3 120 180 19.5v9L42.8 120H29.3z"
+  })));
 });
 TZA.propTypes = {
   color: PropTypes.string,

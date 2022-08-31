@@ -19,7 +19,67 @@ var HND = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#18c3df",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 160h640v160H0z"
+  }), /*#__PURE__*/React.createElement("g", {
+    id: "c",
+    fill: "#18c3df",
+    transform: "translate(320 240) scale(26.66665)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "b"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "a",
+    d: "m-.3 0 .5.1L0-1z"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#a",
+    width: "100%",
+    height: "100%",
+    transform: "scale(-1 1)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(72)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(-72)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(144)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(-144)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#c",
+    width: "100%",
+    height: "100%",
+    transform: "translate(133.3 -42.7)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#c",
+    width: "100%",
+    height: "100%",
+    transform: "translate(133.3 37.3)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#c",
+    width: "100%",
+    height: "100%",
+    transform: "translate(-133.3 -42.7)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#c",
+    width: "100%",
+    height: "100%",
+    transform: "translate(-133.3 37.3)"
+  }));
 });
 HND.propTypes = {
   color: PropTypes.string,

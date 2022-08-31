@@ -19,7 +19,23 @@ var PLW = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M-70.3 0h640v480h-640z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt",
+    "clip-path": "url(#a)",
+    transform: "translate(70.3)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#4aadd6",
+    d: "M-173.4 0h846.3v480h-846.3z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ffde00",
+    d: "M335.6 232.1a135.9 130.1 0 1 1-271.7 0 135.9 130.1 0 1 1 271.7 0z"
+  })));
 });
 PLW.propTypes = {
   color: PropTypes.string,

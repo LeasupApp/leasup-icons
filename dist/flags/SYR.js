@@ -19,7 +19,18 @@ var SYR = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    d: "M0 0h640v480H0Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h640v320H0Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ce1126",
+    d: "M0 0h640v160H0Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#007a3d",
+    d: "m161 300 39-120 39 120-102-74.2h126M401 300l39-120 39 120-102-74.2h126"
+  }));
 });
 SYR.propTypes = {
   color: PropTypes.string,

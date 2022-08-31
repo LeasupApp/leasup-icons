@@ -19,7 +19,19 @@ var MDG = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fc3d32",
+    d: "M213.3 0H640v240H213.3z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#007e3a",
+    d: "M213.3 240H640v240H213.3z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h213.3v480H0z"
+  })));
 });
 MDG.propTypes = {
   color: PropTypes.string,

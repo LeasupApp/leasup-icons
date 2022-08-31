@@ -19,7 +19,23 @@ var MDV = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#d21034",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#007e3a",
+    d: "M120 120h400v240H120z"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "350",
+    cy: "240",
+    r: "80",
+    fill: "#fff"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "380",
+    cy: "240",
+    r: "80",
+    fill: "#007e3a"
+  }));
 });
 MDV.propTypes = {
   color: PropTypes.string,

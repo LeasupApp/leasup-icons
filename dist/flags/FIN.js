@@ -19,7 +19,16 @@ var FIN = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#002f6c",
+    d: "M0 174.5h640v131H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#002f6c",
+    d: "M175.5 0h130.9v480h-131z"
+  }));
 });
 FIN.propTypes = {
   color: PropTypes.string,

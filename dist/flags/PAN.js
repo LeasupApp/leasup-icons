@@ -19,7 +19,33 @@ var PAN = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M0 0h640v480H0z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "clip-path": "url(#a)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    "fill-rule": "evenodd",
+    d: "M92.5 0h477.2v480H92.4z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#db0000",
+    "fill-rule": "evenodd",
+    d: "M323 3.6h358v221.7H323z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#0000ab",
+    "fill-rule": "evenodd",
+    d: "M3.2 225.3h319.9V480H3.2zm211.6-47.6-42-29.4-41.7 29.6 15.5-48L105 100l51.6-.4 16-48 16.3 47.9h51.6l-41.5 30 15.9 48z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#d80000",
+    "fill-rule": "evenodd",
+    d: "m516.9 413.9-42.4-27.7-42.1 28 15.6-45.6-42-28 52-.5 16.2-45.4 16.4 45.3h52l-41.8 28.5 16 45.4z"
+  })));
 });
 PAN.propTypes = {
   color: PropTypes.string,

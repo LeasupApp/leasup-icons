@@ -19,7 +19,99 @@ var UZB = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#1eb53a",
+    d: "M0 320h640v160H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#0099b5",
+    d: "M0 0h640v160H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ce1126",
+    d: "M0 153.6h640v172.8H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 163.2h640v153.6H0z"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "134.4",
+    cy: "76.8",
+    r: "57.6",
+    fill: "#fff"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "153.6",
+    cy: "76.8",
+    r: "57.6",
+    fill: "#0099b5"
+  }), /*#__PURE__*/React.createElement("g", {
+    fill: "#fff",
+    transform: "matrix(1.92 0 0 1.92 261.1 122.9)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "e"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "d"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "c"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "b"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "a",
+    d: "M0-6-1.9-.3 1 .7"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#a",
+    width: "100%",
+    height: "100%",
+    transform: "scale(-1 1)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(72)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(-72)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#c",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(144)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#d",
+    width: "100%",
+    height: "100%",
+    y: "-24"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#d",
+    width: "100%",
+    height: "100%",
+    y: "-48"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#e",
+    width: "100%",
+    height: "100%",
+    x: "24"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#e",
+    width: "100%",
+    height: "100%",
+    x: "48"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#d",
+    width: "100%",
+    height: "100%",
+    x: "-48"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#d",
+    width: "100%",
+    height: "100%",
+    x: "-24"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#d",
+    width: "100%",
+    height: "100%",
+    x: "-24",
+    y: "-24"
+  })));
 });
 UZB.propTypes = {
   color: PropTypes.string,

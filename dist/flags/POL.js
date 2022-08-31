@@ -19,7 +19,15 @@ var POL = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M640 480H0V0h640z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#dc143c",
+    d: "M640 480H0V240h640z"
+  })));
 });
 POL.propTypes = {
   color: PropTypes.string,

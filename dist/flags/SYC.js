@@ -19,7 +19,22 @@ var SYC = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h640v480H0Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#d92223",
+    d: "M0 480V0h640v160z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fcd955",
+    d: "M0 480V0h426.7z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#003d88",
+    d: "M0 480V0h213.3z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#007a39",
+    d: "m0 480 640-160v160z"
+  }));
 });
 SYC.propTypes = {
   color: PropTypes.string,

@@ -19,7 +19,22 @@ var SJM = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#ef2b2d",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M180 0h120v480H180z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 180h640v120H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#002868",
+    d: "M210 0h60v480h-60z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#002868",
+    d: "M0 210h640v60H0z"
+  }));
 });
 SJM.propTypes = {
   color: PropTypes.string,

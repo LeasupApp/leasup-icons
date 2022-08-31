@@ -19,7 +19,19 @@ var COL = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#ffe800",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#00148e",
+    d: "M0 240h640v240H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#da0010",
+    d: "M0 360h640v120H0z"
+  })));
 });
 COL.propTypes = {
   color: PropTypes.string,

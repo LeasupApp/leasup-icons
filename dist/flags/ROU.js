@@ -19,7 +19,19 @@ var ROU = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#00319c",
+    d: "M0 0h213.3v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ffde00",
+    d: "M213.3 0h213.4v480H213.3z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#de2110",
+    d: "M426.7 0H640v480H426.7z"
+  })));
 });
 ROU.propTypes = {
   color: PropTypes.string,

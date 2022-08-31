@@ -19,7 +19,15 @@ var BGD = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#006a4e",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "280",
+    cy: "240",
+    r: "160",
+    fill: "#f42a41"
+  }));
 });
 BGD.propTypes = {
   color: PropTypes.string,

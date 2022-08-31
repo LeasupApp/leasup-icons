@@ -19,7 +19,27 @@ var BHS = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M-12 0h640v480H-12z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "clip-path": "url(#a)",
+    transform: "translate(12)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M968.5 480h-979V1.8h979z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ffe900",
+    d: "M968.5 344.5h-979V143.3h979z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#08ced6",
+    d: "M968.5 480h-979V320.6h979zm0-318.7h-979V2h979z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M-11 0c2.3 0 391.8 236.8 391.8 236.8L-12 479.2-10.9 0z"
+  })));
 });
 BHS.propTypes = {
   color: PropTypes.string,

@@ -19,7 +19,18 @@ var CIV = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#00cd00",
+    d: "M426.8 0H640v480H426.8z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ff9a00",
+    d: "M0 0h212.9v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M212.9 0h214v480h-214z"
+  })));
 });
 CIV.propTypes = {
   color: PropTypes.string,

@@ -19,7 +19,16 @@ var CZE = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h640v240H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#d7141a",
+    d: "M0 240h640v240H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#11457e",
+    d: "M360 240 0 0v480z"
+  }));
 });
 CZE.propTypes = {
   color: PropTypes.string,

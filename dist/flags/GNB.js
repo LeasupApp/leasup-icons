@@ -19,7 +19,48 @@ var GNB = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#ce1126",
+    d: "M0 0h220v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fcd116",
+    d: "M220 0h420v240H220z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#009e49",
+    d: "M220 240h420v240H220z"
+  }), /*#__PURE__*/React.createElement("g", {
+    id: "b",
+    transform: "matrix(80 0 0 80 110 240)"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "a",
+    d: "M0-1v1h.5",
+    transform: "rotate(18 0 -1)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#a",
+    width: "100%",
+    height: "100%",
+    transform: "scale(-1 1)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(72 110 240)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(144 110 240)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(-144 110 240)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(-72 110 240)"
+  }));
 });
 GNB.propTypes = {
   color: PropTypes.string,

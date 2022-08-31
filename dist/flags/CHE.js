@@ -19,7 +19,19 @@ var CHE = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "red",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("g", {
+    fill: "#fff"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M170 195h300v90H170z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M275 90h90v300h-90z"
+  }))));
 });
 CHE.propTypes = {
   color: PropTypes.string,

@@ -19,7 +19,72 @@ var VEN = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("g", {
+    id: "d",
+    transform: "translate(0 -36)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "c"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "b"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "a",
+    fill: "#fff",
+    d: "M0-5-1.5-.2l2.8.9z"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#a",
+    width: "180",
+    height: "120",
+    transform: "scale(-1 1)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "180",
+    height: "120",
+    transform: "rotate(72)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "180",
+    height: "120",
+    transform: "rotate(-72)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#c",
+    width: "180",
+    height: "120",
+    transform: "rotate(144)"
+  }))), /*#__PURE__*/React.createElement("path", {
+    fill: "#cf142b",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#00247d",
+    d: "M0 0h640v320H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fc0",
+    d: "M0 0h640v160H0z"
+  }), /*#__PURE__*/React.createElement("g", {
+    id: "f",
+    transform: "matrix(4 0 0 4 320 336)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "e"
+  }, /*#__PURE__*/React.createElement("use", {
+    href: "#d",
+    width: "180",
+    height: "120",
+    transform: "rotate(10)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#d",
+    width: "180",
+    height: "120",
+    transform: "rotate(30)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#e",
+    width: "180",
+    height: "120",
+    transform: "rotate(40)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#f",
+    width: "180",
+    height: "120",
+    transform: "rotate(-80 320 336)"
+  }));
 });
 VEN.propTypes = {
   color: PropTypes.string,

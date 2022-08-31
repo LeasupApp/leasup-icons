@@ -19,7 +19,22 @@ var SOM = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M-85.3 0h682.6v512H-85.3z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "clip-path": "url(#a)",
+    transform: "translate(80) scale(.9375)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#40a6ff",
+    d: "M-128 0h768v512h-768z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M336.5 381.2 254 327.7l-82.1 54 30.5-87.7-82-54.2L222 239l31.4-87.5 32.1 87.3 101.4.1-81.5 54.7 31.2 87.6z"
+  })));
 });
 SOM.propTypes = {
   color: PropTypes.string,

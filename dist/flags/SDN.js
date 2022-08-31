@@ -19,7 +19,28 @@ var SDN = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M0 0h682.7v512H0z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt",
+    "clip-path": "url(#a)",
+    transform: "scale(.9375)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M0 341.3h1024V512H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 170.6h1024v170.7H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "red",
+    d: "M0 0h1024.8v170.7H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#009a00",
+    d: "M0 0v512l341.3-256L0 0z"
+  })));
 });
 SDN.propTypes = {
   color: PropTypes.string,

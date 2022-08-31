@@ -19,7 +19,20 @@ var JAM = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "m0 0 320 240L0 480zm640 0L320 240l320 240z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#090",
+    d: "m0 0 320 240L640 0zm0 480 320-240 320 240z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fc0",
+    d: "M640 0h-59.6L0 435.3V480h59.6L640 44.7z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fc0",
+    d: "M0 0v44.7L580.4 480H640v-44.7L59.6 0z"
+  })));
 });
 JAM.propTypes = {
   color: PropTypes.string,

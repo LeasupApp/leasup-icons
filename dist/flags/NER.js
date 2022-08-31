@@ -19,7 +19,21 @@ var NER = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#0db02b",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h640v320H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#e05206",
+    d: "M0 0h640v160H0z"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "320",
+    cy: "240",
+    r: "68",
+    fill: "#e05206"
+  }));
 });
 NER.propTypes = {
   color: PropTypes.string,

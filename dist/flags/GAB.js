@@ -19,7 +19,18 @@ var GAB = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#ffe700",
+    d: "M640 480H0V0h640z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#36a100",
+    d: "M640 160H0V0h640z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#006dbc",
+    d: "M640 480H0V320h640z"
+  })));
 });
 GAB.propTypes = {
   color: PropTypes.string,

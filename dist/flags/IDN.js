@@ -19,7 +19,13 @@ var IDN = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#e70011",
+    d: "M0 0h640v240H0Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 240h640v240H0Z"
+  }));
 });
 IDN.propTypes = {
   color: PropTypes.string,

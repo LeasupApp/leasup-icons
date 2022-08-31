@@ -19,7 +19,30 @@ var ALA = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M106.3 0h1133.3v850H106.3z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "clip-path": "url(#a)",
+    transform: "matrix(.56472 0 0 .56482 -60 -.1)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#0053a5",
+    d: "M0 0h1300v850H0z"
+  }), /*#__PURE__*/React.createElement("g", {
+    fill: "#ffce00"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M400 0h250v850H400z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M0 300h1300v250H0z"
+  })), /*#__PURE__*/React.createElement("g", {
+    fill: "#d21034"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M475 0h100v850H475z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M0 375h1300v100H0z"
+  }))));
 });
 ALA.propTypes = {
   color: PropTypes.string,

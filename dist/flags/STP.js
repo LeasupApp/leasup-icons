@@ -19,7 +19,56 @@ var STP = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#12ad2b",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ffce00",
+    d: "M0 137.1h640V343H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#d21034",
+    d: "M0 0v480l240-240"
+  }), /*#__PURE__*/React.createElement("g", {
+    id: "c",
+    transform: "translate(351.6 240) scale(.34286)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "b"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "a",
+    d: "M0-200V0h100",
+    transform: "rotate(18 0 -200)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#a",
+    width: "100%",
+    height: "100%",
+    transform: "scale(-1 1)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(72)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(144)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(-144)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    transform: "rotate(-72)"
+  })), /*#__PURE__*/React.createElement("use", {
+    href: "#c",
+    width: "100%",
+    height: "100%",
+    x: "700",
+    transform: "translate(-523.2)"
+  }));
 });
 STP.propTypes = {
   color: PropTypes.string,

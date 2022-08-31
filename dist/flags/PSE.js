@@ -19,7 +19,29 @@ var PSE = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M-118 0h682.7v512H-118z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "clip-path": "url(#a)",
+    transform: "translate(110.6) scale(.9375)"
+  }, /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M-246 0H778v170.7H-246z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M-246 170.7H778v170.6H-246z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#090",
+    d: "M-246 341.3H778V512H-246z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "red",
+    d: "m-246 512 512-256L-246 0v512z"
+  }))));
 });
 PSE.propTypes = {
   color: PropTypes.string,

@@ -19,7 +19,25 @@ var LBY = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M166.7-20h666.6v500H166.7z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "clip-path": "url(#a)",
+    transform: "matrix(.96 0 0 .96 -160 19.2)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#239e46",
+    d: "M0-20h1000v500H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M0-20h1000v375H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#e70013",
+    d: "M0-20h1000v125H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M544.2 185.8a54.3 54.3 0 1 0 0 88.4 62.5 62.5 0 1 1 0-88.4M530.4 230l84.1-27.3-52 71.5v-88.4l52 71.5z"
+  })));
 });
 LBY.propTypes = {
   color: PropTypes.string,

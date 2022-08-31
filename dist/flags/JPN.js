@@ -19,7 +19,26 @@ var JPN = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M-88 32h640v480H-88z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt",
+    "clip-path": "url(#a)",
+    transform: "translate(88 -32)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M-128 32h720v480h-720z"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "523.1",
+    cy: "344.1",
+    r: "194.9",
+    fill: "#bc002d",
+    transform: "translate(-168.4 8.6) scale(.76554)"
+  })));
 });
 JPN.propTypes = {
   color: PropTypes.string,

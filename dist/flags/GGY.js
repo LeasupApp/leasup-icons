@@ -19,7 +19,35 @@ var GGY = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#e8112d",
+    d: "M256 0h128v480H256z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#e8112d",
+    d: "M0 176h640v128H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "a",
+    fill: "#f9dd16",
+    d: "m110 286.7 23.3-23.4h210v-46.6h-210L110 193.3z"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#a",
+    width: "36",
+    height: "24",
+    transform: "rotate(90 320 240)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#a",
+    width: "36",
+    height: "24",
+    transform: "rotate(-90 320 240)"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#a",
+    width: "36",
+    height: "24",
+    transform: "rotate(180 320 240)"
+  }));
 });
 GGY.propTypes = {
   color: PropTypes.string,

@@ -19,7 +19,40 @@ var ESH = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M-158.7 0H524v512h-682.7z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "clip-path": "url(#a)",
+    transform: "translate(148.8) scale(.94)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M-158.3 0h680.9v255.3h-680.9z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#007a3d",
+    d: "M-158.3 255.3h680.9v255.3h-680.9z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M-158.3 148.9h680.9v212.8h-680.9z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#c4111b",
+    d: "m-158.3 0 340.4 255.3-340.4 255.3Z"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "352.3",
+    cy: "255.3",
+    r: "68.1",
+    fill: "#c4111b"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "377.9",
+    cy: "255.3",
+    r: "68.1",
+    fill: "#fff"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#c4111b",
+    d: "m334 296.5 29.1-20.7 28.8 21-10.8-34 29-20.9-35.7-.2-11-34-11.2 33.9-35.7-.2 28.7 21.2-11.1 34z"
+  })));
 });
 ESH.propTypes = {
   color: PropTypes.string,

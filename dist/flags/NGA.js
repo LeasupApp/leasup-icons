@@ -19,7 +19,16 @@ var NGA = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#008753",
+    d: "M426.6 0H640v480H426.6zM0 0h213.3v480H0z"
+  })));
 });
 NGA.propTypes = {
   color: PropTypes.string,

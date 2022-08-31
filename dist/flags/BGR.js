@@ -19,7 +19,19 @@ var BGR = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#d62612",
+    d: "M0 320h640v160H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h640v160H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#00966e",
+    d: "M0 160h640v160H0z"
+  })));
 });
 BGR.propTypes = {
   color: PropTypes.string,

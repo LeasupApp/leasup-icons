@@ -19,7 +19,26 @@ var COG = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M-79.5 32h640v480h-640z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt",
+    "clip-path": "url(#a)",
+    transform: "translate(79.5 -32)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#ff0",
+    d: "M-119.5 32h720v480h-720z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#00ca00",
+    d: "M-119.5 32v480l480-480h-480z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "red",
+    d: "M120.5 512h480V32l-480 480z"
+  })));
 });
 COG.propTypes = {
   color: PropTypes.string,

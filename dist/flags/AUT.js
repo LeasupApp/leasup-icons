@@ -19,7 +19,15 @@ var AUT = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M640 480H0V0h640z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#c8102e",
+    d: "M640 480H0V320h640zm0-319.9H0V.1h640z"
+  })));
 });
 AUT.propTypes = {
   color: PropTypes.string,

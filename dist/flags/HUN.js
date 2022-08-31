@@ -19,7 +19,18 @@ var HUN = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M640 480H0V0h640z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#388d00",
+    d: "M640 480H0V320h640z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#d43516",
+    d: "M640 160.1H0V.1h640z"
+  })));
 });
 HUN.propTypes = {
   color: PropTypes.string,

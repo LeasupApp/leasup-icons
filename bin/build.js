@@ -162,7 +162,7 @@ flags.forEach((i) => {
     const ${ComponentName} = forwardRef(({ color = 'currentColor', size = 32, ...rest }, ref) => {
       return (
         <svg ref={ref} ${attrsToString(defaultAttrs)}>
-          ${jsonIcons[i]}
+          ${jsonFlags[i]}
         </svg>
       )
     });

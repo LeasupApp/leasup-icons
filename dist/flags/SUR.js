@@ -19,7 +19,19 @@ var SUR = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#377e3f",
+    d: "M.1 0h640v480H.1z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M.1 96h640v288H.1z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#b40a2d",
+    d: "M.1 144h640v192H.1z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ecc81d",
+    d: "m320 153.2 56.4 173.6-147.7-107.3h182.6L263.6 326.8z"
+  }));
 });
 SUR.propTypes = {
   color: PropTypes.string,

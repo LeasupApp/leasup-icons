@@ -19,7 +19,15 @@ var MAR = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#c1272d",
+    d: "M640 0H0v480h640z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "none",
+    stroke: "#006233",
+    "stroke-width": "11.7",
+    d: "M320 179.4 284.4 289l93.2-67.6H262.4l93.2 67.6z"
+  }));
 });
 MAR.propTypes = {
   color: PropTypes.string,

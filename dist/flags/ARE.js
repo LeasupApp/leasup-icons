@@ -19,7 +19,18 @@ var ARE = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#00732f",
+    d: "M0 0h640v160H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 160h640v160H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M0 320h640v160H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "red",
+    d: "M0 0h220v480H0z"
+  }));
 });
 ARE.propTypes = {
   color: PropTypes.string,

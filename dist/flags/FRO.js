@@ -19,7 +19,26 @@ var FRO = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M-78 32h640v480H-78z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "0",
+    "clip-path": "url(#a)",
+    transform: "translate(78 -32)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M-78 32h663.9v480H-78z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#003897",
+    d: "M-76 218.7h185.9V32H216v186.7h371.8v106.6H216V512H109.9V325.3h-186V218.7z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#d72828",
+    d: "M-76 245.3h212.4V32h53.1v213.3H588v53.4H189.5V512h-53V298.7H-76v-53.4z"
+  })));
 });
 FRO.propTypes = {
   color: PropTypes.string,

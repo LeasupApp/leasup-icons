@@ -19,7 +19,22 @@ var TON = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#c10000",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h250v200.3H0z"
+  }), /*#__PURE__*/React.createElement("g", {
+    fill: "#c10000"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M102.8 31.2h39.9v139.6h-39.8z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M192.6 81v40H53V81z"
+  }))));
 });
 TON.propTypes = {
   color: PropTypes.string,

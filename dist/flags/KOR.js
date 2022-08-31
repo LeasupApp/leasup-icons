@@ -19,7 +19,53 @@ var KOR = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M-95.8-.4h682.7v512H-95.8z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "clip-path": "url(#a)",
+    transform: "translate(89.8 .4) scale(.9375)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M-95.8-.4H587v512H-95.8Z"
+  }), /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(-56.3 361.6 -101.3) scale(10.66667)"
+  }, /*#__PURE__*/React.createElement("g", {
+    id: "c"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "b",
+    d: "M-6-26H6v2H-6Zm0 3H6v2H-6Zm0 3H6v2H-6Z"
+  }), /*#__PURE__*/React.createElement("use", {
+    href: "#b",
+    width: "100%",
+    height: "100%",
+    y: "44"
+  })), /*#__PURE__*/React.createElement("path", {
+    stroke: "#fff",
+    d: "M0 17v10"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#cd2e3a",
+    d: "M0-12a12 12 0 0 1 0 24Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#0047a0",
+    d: "M0-12a12 12 0 0 0 0 24A6 6 0 0 0 0 0Z"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cy: "-6",
+    r: "6",
+    fill: "#cd2e3a"
+  })), /*#__PURE__*/React.createElement("g", {
+    transform: "rotate(-123.7 191.2 62.2) scale(10.66667)"
+  }, /*#__PURE__*/React.createElement("use", {
+    href: "#c",
+    width: "100%",
+    height: "100%"
+  }), /*#__PURE__*/React.createElement("path", {
+    stroke: "#fff",
+    d: "M0-23.5v3M0 17v3.5m0 3v3"
+  }))));
 });
 KOR.propTypes = {
   color: PropTypes.string,

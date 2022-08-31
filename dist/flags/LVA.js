@@ -19,7 +19,15 @@ var LVA = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#981e32",
+    d: "M0 0h640v192H0zm0 288h640v192H0z"
+  })));
 });
 LVA.propTypes = {
   color: PropTypes.string,

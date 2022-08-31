@@ -19,7 +19,19 @@ var CRI = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#0000b4",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M0 75.4h640v322.3H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#d90000",
+    d: "M0 157.7h640v157.7H0z"
+  })));
 });
 CRI.propTypes = {
   color: PropTypes.string,

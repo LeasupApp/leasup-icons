@@ -19,7 +19,18 @@ var THA = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#f4f5f8",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#2d2a4a",
+    d: "M0 162.5h640v160H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#a51931",
+    d: "M0 0h640v82.5H0zm0 400h640v80H0z"
+  })));
 });
 THA.propTypes = {
   color: PropTypes.string,

@@ -19,7 +19,18 @@ var TCD = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#000067",
+    d: "M0 0h214v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "red",
+    d: "M426 0h214v480H426z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ff0",
+    d: "M214 0h212v480H214z"
+  })));
 });
 TCD.propTypes = {
   color: PropTypes.string,

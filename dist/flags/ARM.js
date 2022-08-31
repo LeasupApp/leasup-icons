@@ -19,7 +19,16 @@ var ARM = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    fill: "#d90012",
+    d: "M0 0h640v160H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#0033a0",
+    d: "M0 160h640v160H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#f2a800",
+    d: "M0 320h640v160H0z"
+  }));
 });
 ARM.propTypes = {
   color: PropTypes.string,

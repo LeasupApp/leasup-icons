@@ -19,7 +19,19 @@ var GIN = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "red",
+    d: "M0 0h213.3v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#ff0",
+    d: "M213.3 0h213.4v480H213.3z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#090",
+    d: "M426.7 0H640v480H426.7z"
+  })));
 });
 GIN.propTypes = {
   color: PropTypes.string,

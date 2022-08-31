@@ -19,7 +19,21 @@ var VCT = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#f4f100",
+    d: "M0 0h640v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#199a00",
+    d: "M490 0h150v480H490z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#0058aa",
+    d: "M0 0h150v480H0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#199a00",
+    d: "m259.3 130-46.4 71.3 44.7 74.4 43.8-73.7-42.1-72zm121.2 0-46.3 71.3 44.7 74.4 43.8-73.7-42.2-72zm-61.2 97.3-46.4 71.4 44.8 74.4 43.8-73.7-42.2-72z"
+  })));
 });
 VCT.propTypes = {
   color: PropTypes.string,

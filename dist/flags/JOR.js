@@ -19,7 +19,32 @@ var JOR = forwardRef(function (_ref, ref) {
     width: size,
     height: size * 3 / 4,
     viewBox: "0 0 32 24"
-  }, rest), "undefined");
+  }, rest), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    "fill-opacity": ".7",
+    d: "M-117.8 0h682.6v512h-682.6z"
+  }))), /*#__PURE__*/React.createElement("g", {
+    "clip-path": "url(#a)",
+    transform: "translate(110.5) scale(.9375)"
+  }, /*#__PURE__*/React.createElement("g", {
+    "fill-rule": "evenodd",
+    "stroke-width": "1pt"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M-117.8 0h1024v170.7h-1024z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M-117.8 170.7h1024v170.6h-1024z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#090",
+    d: "M-117.8 341.3h1024V512h-1024z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "red",
+    d: "m-117.8 512 512-256-512-256v512z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "m24.5 289 5.7-24.9H4.7l23-11-15.9-19.9 23 11 5.6-24.8 5.7 24.9L69 233.2l-16 19.9 23 11H50.6l5.7 24.9-15.9-20z"
+  }))));
 });
 JOR.propTypes = {
   color: PropTypes.string,
