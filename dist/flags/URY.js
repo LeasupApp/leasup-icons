@@ -28,7 +28,7 @@ var URY = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("g", {
     fill: "#fcd116",
     stroke: "#000",
-    "stroke-miterlimit": "20",
+    strokeMiterlimit: "20",
     strokeWidth: ".6",
     transform: "translate(133.3 133.3) scale(2.93333)"
   }, /*#__PURE__*/React.createElement("g", {
@@ -38,7 +38,7 @@ var URY = forwardRef(function (_ref, ref) {
   }, /*#__PURE__*/React.createElement("g", {
     id: "a"
   }, /*#__PURE__*/React.createElement("path", {
-    "stroke-linecap": "square",
+    strokeLinecap: "square",
     d: "M1.5 9 6 12c-8 13 1 15-6 21 3-7-3-5-3-17",
     transform: "rotate(22.5)"
   }), /*#__PURE__*/React.createElement("path", {

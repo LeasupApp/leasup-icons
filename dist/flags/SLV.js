@@ -70,7 +70,7 @@ var SLV = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("g", {
     id: "a",
     stroke: "#000",
-    "stroke-miterlimit": "2.6"
+    strokeMiterlimit: "2.6"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#e60000",
     fillRule: "evenodd",
@@ -145,42 +145,42 @@ var SLV = forwardRef(function (_ref, ref) {
     fill: "#00209f",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "M514.4 370s-6.2 3.7-3 9l-2.1-1.3s-1.2 2.2-.1 3.4c0 0-4.3-3.8-1-8.3 3.4-4.6 6-4.3 6-4.3l.2 1.5z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#00209f",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "M514.4 367s-2.7-1.8-6.6-.7c0 0-1.7-5.6-1-7.4.2-.8.8-.9.8-.9s-2-1.2-1.3 4c.6 5.4 1.6 6.8 1.6 6.8s5.2.3 6.4-.3l.1-1.4z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#00209f",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "M514.4 367s-5.4-9-6.8-9c0 0-1.5-.2 2-.6 1.2-.1 3.2 0 4 1.7 1 1.6 1.7 5.5 2 6.1 0 0-1 .3-1.2 1.9z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#011322",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "M514.4 367s-3.6-1.6-4-2c-.5-.5-1.2-5.6-.8-5.3 0 0-1.5-1.7-2-1.7-.3 0-1.3.8-1 2.6.3 1.8.7 4.5 1.2 5.7 0 0 2.9-1.2 6.6.8z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#00209f",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "M517.7 370s2 1.3 2 3.5c0 2.3.9 6.4 2.7 7.3 0 0 .5-1.7 1-2 0 0 1.9 2.1 2.5 2.1 0 0-1-2-1-2.9 0-.9-1-4.3-2-5.2-.8-1-2.6-3-5.2-3.8v1z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#011322",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "m518.5 359.5-1.7 6.5.5 1.4s.6-.2.9-1c.3-.7 1.2-6.3 1.7-6.5l-1.4-.4z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -194,13 +194,13 @@ var SLV = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "M514.6 366.1s.7-1.8 2.2-.1c0 0 1.9 4.2.5 4.3-1.4.2-2.7.5-2.9-.3-.1-.7.2-3.9.2-3.9z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "M516.5 365.5s.5-6.4 1.4-6.7c.9-.3 3.6-1.8 5.3-.5 1.6 1.4 0 8-.5 8.7-.6.6-1.5 2.5-5 2l-.4-1.6s1.8-.2 3-.8c1.2-.6 1.6-1.2 1.5-1.8-.2-.9 0-4.2-1-4.5l-2.3-.8-1.7 6.5-.3-.5z"
   })), /*#__PURE__*/React.createElement("g", {
@@ -220,60 +220,60 @@ var SLV = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".3",
     d: "M517 250.7c-.2-.6-.2-.3.3-1.3s-.4-6-.4-6l-.9-6c0-1.3-.6-3-1.2-4.1l-.9 1.2c-.2.6 0 .8-.7 1.8-.6 1-3.6 9.5-3.8 11.2 0 1 0 7.5.4 8.4"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fc0",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "m515 234.1-.2-1.3c0-.2.6.9 1 .7.9.3 1.9 1.5 2.1 1.8-.4.5-1.3 1.6-2 1.4-.5-.2-.4-1-.5-1.5-.1-.3-.4-.6-.4-1z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "m515 233.3.4.4c.2.2.4 0 .7.2.6.4.9.8 1.6 1.5m-2-1.4c.8.4 1.2 1 1.8 1.7"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fc0",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "m514 233.4 1.3-.6c.1 0-.7.8-.4 1.2 0 .9-.7 2.2-1 2.5-.6-.1-1.2-.1-1.8-1.1-.2-.4.4-.8.8-1.1.2-.2.7-.8 1.2-.9z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "m514.9 233.2-.3.5.1.7c-.2.7-.5 1-.9 2"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "M514.4 234c0 .9-.5 1.5-1 2.3h.2"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fc0",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "M515.4 232.8c.6-.7 1.7-1.4 2.3-1l.6.6c.2.3.2.5 0 .8-.3.8-1.4.4-2 0-.2 0-.6-.4-.8-.3l-.3.1.3.1 1.8.9c.5.2 1.5-.5 1.4-1 0-.5-.9-1.5-1.3-1.5-1 0-1.8.6-2.5 1.4.2-.2.4 0 .5 0z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fc0",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "M514.9 232.8c-.6-.7-1.7-1.4-2.2-1l-.6.6c-.3.3-.3.5-.1.8.3.8 1.4.4 2 0 .2 0 .6-.4.8-.3l.4.1-.4.1-1.8.9c-.5.2-1.4-.5-1.4-1 0-.6 1-1.5 1.4-1.5 1 0 1.7.6 2.4 1.4-.1-.2-.4 0-.5 0z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fc0",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "M515 232.4c-.2-.1-.5.1-.6.3 0 .2.1.6.4.6.3.2.8 0 .9-.3 0-.4-.3-.5-.6-.6z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -283,13 +283,13 @@ var SLV = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "M515 226.3s.4 2.4 1.6 4c0 0-1.4 1.6-1.6 2.2 0 0-.8-1.7-1.6-2.2 0 0 1.3-2 1.6-4"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "m515 228.8.7 1.8s-.6.4-.7.7c0 0-.3-.8-.6-1 0 0 .6-.8.6-1.5z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -303,7 +303,7 @@ var SLV = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("g", {
     id: "b",
     fill: "none",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2"
   }, /*#__PURE__*/React.createElement("path", {
     stroke: "#011322",
@@ -346,7 +346,7 @@ var SLV = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "m518.6 335.2.5.5.3.5.3.5.6 1.2.5 1.1.3.8a2.5 2.5 0 0 1-.1 1.3c-.2.5-.8.8-1.3 1.1l-.1.2c-.3.2-.6 0-.9.2a1.9 1.9 0 0 0-.4.5l-.3.2c-.4.2-.7.3-1.1.3l-.2.3c-.2.2-1 .2-1.3.4l-.4.2-.3-.2c-.4-.2-1.2-.2-1.3-.4a.7.7 0 0 1-.2-.3l-1.2-.3s-.2 0-.3-.2a1.4 1.4 0 0 0-.4-.5c-.3-.2-.6 0-.8-.2l-.2-.2c-.6-.3-1-.6-1.2-1.1a2.5 2.5 0 0 1-.1-1.3l.2-.8.5-1.1.7-1.2c0-.2.1-.4.3-.5 0-.2.1-.4.3-.5 0-.2.3-.3.4-.5"
   }), /*#__PURE__*/React.createElement("g", {
@@ -367,7 +367,7 @@ var SLV = forwardRef(function (_ref, ref) {
     d: "M497.7 331.5c1.3.6 2 1.7 5.4 2.8 1.3 0 2.8.6 4 .6-1.5.3-1.5.5-2.8.8-2.6.6.5.2-2.3.5-2.4.3-3.4 1-5.7.8a11 11 0 0 1-6.3-2.5c-.6-.4-4.1-1.3-6-3h13.7z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "none",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2"
   }, /*#__PURE__*/React.createElement("path", {
     stroke: "#022743",
@@ -1212,12 +1212,12 @@ var SLV = forwardRef(function (_ref, ref) {
   })), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "M475 290a34 34 0 0 1-.2-3.3c0-5.2-.7-9-.1-14.5.4-4.2 1.5-9.8 1.3-14.4-.1-1.3.1-2.6.2-3.9l21 23.5M467 327.7a5.2 5.2 0 0 1-1.9-2.2c-.6-1.7-.4-1.7-.9-3.6-.2-1.1-.2-2.3-.5-3.4-.2-1.2-1.8-4.8-1.9-6.2-.1-4.8-1.7-8-1.3-13.1.3-4 1.2-9.5.7-13.6l.1-3.6 23.6 15.6m28.5 33.9c.2.5-.3 1.5-.5 1.9l-.5.6c-.2.6-.2.4-.7.9l-.8.6c-.4.3-.7.6-1.1.7-1.8.3-2.5.7-4.2 1.1-1.6.5-.8.4-2 .7l-2.4.7-2.4.6c-2.9.7-5.7.5-8.6.3-1.1 0-4-.7-5-1.4-1.8-1.2-5.7-1.7-7.4-2.9-.3-.2-1.4-.7-1.6-1-1.7-1.3-3-1.7-4.8-2.8"
   }), /*#__PURE__*/React.createElement("g", {
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fc0",
@@ -1283,24 +1283,24 @@ var SLV = forwardRef(function (_ref, ref) {
   })), /*#__PURE__*/React.createElement("path", {
     fill: "#fc0",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".3",
     d: "m319.3 197.9-40.2 67.3h80.5z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
     stroke: "#fff",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "M319.3 202.3 283 263h72.7z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007e93",
     stroke: "#007e93",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "M293.8 245 283 263h72.7l-10.9-18z"
   }), /*#__PURE__*/React.createElement("g", {
     fill: "none",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1"
   }, /*#__PURE__*/React.createElement("path", {
     stroke: "#086aad",
@@ -1505,7 +1505,7 @@ var SLV = forwardRef(function (_ref, ref) {
     d: "M325.2 212.2a9.5 9.5 0 0 0-5.9-2 8.3 8.3 0 0 0-6 2"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "none",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1"
   }, /*#__PURE__*/React.createElement("path", {
     stroke: "#fef2ec",
@@ -1667,7 +1667,7 @@ var SLV = forwardRef(function (_ref, ref) {
     fill: "#fff",
     fillRule: "evenodd",
     stroke: "#fff",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".1",
     d: "M319.3 232.8a4.9 4.9 0 0 0 4.9-4.9 4.9 4.9 0 0 0-4.9-4.8 4.9 4.9 0 0 0-4.9 4.8 4.9 4.9 0 0 0 5 4.9z"
   }), /*#__PURE__*/React.createElement("g", {
@@ -1679,21 +1679,21 @@ var SLV = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#e60000",
     fillRule: "evenodd",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     d: "M322.1 230.2s-.7-.4-1-.4l-3 .1c-.5.1-.8.5-.8.5s.5.5 1.4.6c1 0 1.7 0 2.2-.2l1.2-.6z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#e60000",
     fillRule: "evenodd",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     d: "M317.4 229.5s.1-1.4 1-3l-.4.8s-.6.3-.9 0c-.3-.4-.1-.5.1-1 .2-.4.2-.8.5-1 .2-.3.4-.3 1-.3.7 0 1.2 0 1.7.8l1 1.7c.6.8.6 1.9.6 1.9l.2.8s-.7-.4-1.1-.4l-3 .1-.8.5s-.3-.6.1-1z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     d: "M317.4 229.5s.6-.3 2.3-.3c2 0 2.1.2 2.3.3"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#fc0",
     fillRule: "evenodd",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     d: "M319.2 237.1v-7.2s.2-.2.8 0v7.1s.2 5.5-.4 5.5c-.7 0-.4-1.3-.4-5.4z"
   })), /*#__PURE__*/React.createElement("g", {
     fill: "#e60000"
@@ -1723,12 +1723,12 @@ var SLV = forwardRef(function (_ref, ref) {
   })), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-miterlimit": "2.6",
+    strokeMiterlimit: "2.6",
     strokeWidth: ".2",
     d: "M319.3 202.3 283 263h72.7z"
   }), /*#__PURE__*/React.createElement("g", {
     fill: "none",
-    "stroke-miterlimit": "2.6"
+    strokeMiterlimit: "2.6"
   }, /*#__PURE__*/React.createElement("path", {
     stroke: "#000",
     strokeWidth: ".1",

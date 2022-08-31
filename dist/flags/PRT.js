@@ -29,8 +29,8 @@ var PRT = forwardRef(function (_ref, ref) {
     fill: "#ff0",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".6"
   }, /*#__PURE__*/React.createElement("path", {
     d: "M339.5 306.2c-32.3-1-180-93.2-181-108l8.1-13.5c14.7 21.3 165.7 111 180.6 107.8l-7.7 13.7"

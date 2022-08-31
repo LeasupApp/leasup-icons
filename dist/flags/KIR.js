@@ -161,7 +161,7 @@ var KIR = forwardRef(function (_ref, ref) {
     fill: "#ffc84b",
     fillRule: "evenodd",
     stroke: "#d8aa3f",
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     strokeWidth: "1.7",
     d: "M174.8 108c7.7-3.9 11.5-2.3 18.2-2.5 4.5 8.3 8.8 9 18.8 10a49.5 49.5 0 0 0 39.9 21.8c29.9-.8 39.4-21.7 59.5-24h21.2c-3.5-6-6.3-9.5-14-9.9-15.8-.8-36.2-.4-54 3.6l-25.1 6.3c-7.4-3.6-25.3-22.4-36.8-22-6.7 1.8-6.7 4.1-10 6.7-6.5 2.8-13 1.4-17.7 10z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -179,7 +179,7 @@ var KIR = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#d9a43e",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: "1.8",
     d: "M317.9 72.5 351 74m-36.7 4 24.1 2"
   })));

@@ -31,7 +31,7 @@ var GIB = forwardRef(function (_ref, ref) {
   }, /*#__PURE__*/React.createElement("g", {
     id: "a",
     fill: "#da000c",
-    "stroke-linecap": "square"
+    strokeLinecap: "square"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#000",
     stroke: "none",
@@ -45,7 +45,7 @@ var GIB = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     d: "M223 88.7h-16.2v-5.8h-11.9v5.8h-8v-5.8H182v10.4h41m-36.2 0h35v4.5h-35zm14-45.7V83h6v-9.7c0-3.6 2.5-6.6 6.1-6.8h.4a6.8 6.8 0 0 1 6.8 6.8V83h5.7V47.6zm-2.3-4.8v4.8h29.3v-4.8zm-3.7-9.1v9.1h35v-9.1h-5.3v4.7h-6.6v-4.7h-10v4.7h-6.5v-4.7zM182 159.6h48m31-2.8h-32.4l-9.8 4.7v7H261"
   }), /*#__PURE__*/React.createElement("path", {
-    "stroke-linecap": "butt",
+    strokeLinecap: "butt",
     d: "M218.8 161.5H262"
   })), /*#__PURE__*/React.createElement("use", {
     href: "#a",
@@ -55,7 +55,7 @@ var GIB = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("g", {
     fill: "#f8d80e"
   }, /*#__PURE__*/React.createElement("g", {
-    "stroke-linecap": "round"
+    strokeLinecap: "round"
   }, /*#__PURE__*/React.createElement("path", {
     strokeWidth: ".8",
     d: "M273.3 150c-2.7 1-5 2.4-7.5 3.8a72.4 72.4 0 0 0-8.9 6c-1 .7-2 1.4-2.7 2.4-1 .8-2 2-1.8 3.5 0 .6.8-.8 1.4-.9a4.4 4.4 0 0 1 3.1-.4c1.3-1.4 3-2.3 4.4-3.4a77.4 77.4 0 0 1 13-7.6l-1-3.4z"
@@ -85,7 +85,7 @@ var GIB = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     d: "M220 82.9v15h72v-15h-6.8v5.8H276v-5.8h-12.2v5.8H248v-5.8h-12.2v5.8h-9v-5.8z"
   }), /*#__PURE__*/React.createElement("path", {
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     d: "M228.7 102.4v54.4h12.8v-20.4c0-9.5 6.4-14 14.5-14 7.8 0 14.5 4.5 14.5 14v20.4h12.8v-54.4z"
   }))));
 });

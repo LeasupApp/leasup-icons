@@ -23,18 +23,18 @@ var BLZ = forwardRef(function (_ref, ref) {
     id: "a"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0",
-    "stop-color": "#ffef5d"
+    stopColor: "#ffef5d"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#ea5700"
+    stopColor: "#ea5700"
   })), /*#__PURE__*/React.createElement("radialgradient", {
     id: "b"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0",
-    "stop-color": "#952d1a"
+    stopColor: "#952d1a"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#570a00"
+    stopColor: "#570a00"
   })), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#a",
     id: "c",
@@ -43,8 +43,8 @@ var BLZ = forwardRef(function (_ref, ref) {
     r: "36",
     fx: "247.1",
     fy: "238.3",
-    gradienttransform: "scale(1.22624 .8155)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "scale(1.22624 .8155)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#a",
     id: "d",
@@ -53,8 +53,8 @@ var BLZ = forwardRef(function (_ref, ref) {
     r: "10.6",
     fx: "322",
     fy: "152.9",
-    gradienttransform: "scale(.93615 1.06821)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "scale(.93615 1.06821)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#b",
     id: "e",
@@ -63,8 +63,8 @@ var BLZ = forwardRef(function (_ref, ref) {
     r: "36",
     fx: "364.2",
     fy: "237.8",
-    gradienttransform: "scale(1.2242 .81686)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "scale(1.2242 .81686)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#b",
     id: "f",
@@ -73,8 +73,8 @@ var BLZ = forwardRef(function (_ref, ref) {
     r: "10.7",
     fx: "468.1",
     fy: "156.1",
-    gradienttransform: "scale(.95596 1.04607)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "scale(.95596 1.04607)",
+    gradientUnits: "userSpaceOnUse"
   })), /*#__PURE__*/React.createElement("path", {
     fill: "#ce1126",
     d: "M0 0h640v480H0z"
@@ -222,7 +222,7 @@ var BLZ = forwardRef(function (_ref, ref) {
   }, /*#__PURE__*/React.createElement("path", {
     d: "M330.9 218.3c1 1 4 5 4 5m-2.6-2.9c-.2.6-.6 2.3-1.5 3.2m2-2.8c-.2.4-.2 1.7-1.5 3m2-2.4c-.3.7-.4 1.2-.8 1.7m1-1c0 .4-.3.5-.4.8m-3.2-2.7a29 29 0 0 1-4.8 2.8m4-1.8a14 14 0 0 1-3.1 2.2m2.8-1c-.5.4-1.5 1.4-2.3 1.7m1.8-.5c-.4.5-1 .8-1.5 1.1"
   }), /*#__PURE__*/React.createElement("path", {
-    "stroke-linecap": "square",
+    strokeLinecap: "square",
     d: "M311.3 224.7c.3-.6.9-1.8 1.6-2.8 1-1.4 1.3-1.6 1.8-2"
   }))), /*#__PURE__*/React.createElement("path", {
     fill: "#289400",

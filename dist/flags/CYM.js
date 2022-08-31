@@ -39,7 +39,7 @@ var CYM = forwardRef(function (_ref, ref) {
     d: "M0 96.5v48h320v-48zM136.5 0v240h48V0z"
   }), /*#__PURE__*/React.createElement("g", {
     stroke: "#fff",
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     strokeWidth: "9.6",
     transform: "translate(-306.8 -21.2) scale(.87136)"
   }, /*#__PURE__*/React.createElement("use", {

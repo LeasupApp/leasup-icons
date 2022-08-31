@@ -25,53 +25,53 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "500.6",
     y1: "289.1",
     y2: "283.4",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0",
-    "stop-color": "#510000"
+    stopColor: "#510000"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: ".3",
-    "stop-color": "#8a0000"
+    stopColor: "#8a0000"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#a00"
+    stopColor: "#a00"
   })), /*#__PURE__*/React.createElement("lineargradient", {
     id: "g",
     x1: "501.4",
     x2: "502.9",
     y1: "291.4",
     y2: "287.4",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0",
-    "stop-color": "#ff2a2a"
+    stopColor: "#ff2a2a"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "red"
+    stopColor: "red"
   })), /*#__PURE__*/React.createElement("lineargradient", {
     id: "b",
     x1: "484.8",
     x2: "484.8",
     y1: "311.7",
     y2: "317.6",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0",
-    "stop-color": "#F5F549"
+    stopColor: "#F5F549"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#97C924"
+    stopColor: "#97C924"
   })), /*#__PURE__*/React.createElement("lineargradient", {
     id: "a"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0",
-    "stop-color": "#025"
+    stopColor: "#025"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: ".5",
-    "stop-color": "#04a"
+    stopColor: "#04a"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#025"
+    stopColor: "#025"
   })), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "h",
@@ -79,7 +79,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "634.4",
     y1: "317.5",
     y2: "317.5",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#b",
     id: "v",
@@ -87,7 +87,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "484.8",
     y1: "311.7",
     y2: "317.6",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "o",
@@ -95,7 +95,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "634.4",
     y1: "317.5",
     y2: "317.5",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "p",
@@ -103,7 +103,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "634.4",
     y1: "317.5",
     y2: "317.5",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "q",
@@ -111,7 +111,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "634.4",
     y1: "317.5",
     y2: "317.5",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "r",
@@ -119,7 +119,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "634.4",
     y1: "317.5",
     y2: "317.5",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#b",
     id: "u",
@@ -127,7 +127,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "484.8",
     y1: "311.7",
     y2: "317.6",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "x",
@@ -135,8 +135,8 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "125",
     y1: "1440.2",
     y2: "1440.2",
-    gradienttransform: "scale(4.45715 .22436)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "scale(4.45715 .22436)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "j",
@@ -144,7 +144,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "634.4",
     y1: "317.5",
     y2: "317.5",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "l",
@@ -152,7 +152,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "634.4",
     y1: "317.5",
     y2: "317.5",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "m",
@@ -160,7 +160,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "634.4",
     y1: "317.5",
     y2: "317.5",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "i",
@@ -168,7 +168,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "634.4",
     y1: "317.5",
     y2: "317.5",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#b",
     id: "s",
@@ -176,7 +176,7 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "484.8",
     y1: "311.7",
     y2: "317.6",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "y",
@@ -184,8 +184,8 @@ var NIC = forwardRef(function (_ref, ref) {
     x2: "61.7",
     y1: "3054.2",
     y2: "3054.2",
-    gradienttransform: "scale(9.12405 .1096)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "scale(9.12405 .1096)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("clippath", {
     id: "c"
   }, /*#__PURE__*/React.createElement("path", {

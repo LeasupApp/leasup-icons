@@ -9,6 +9,22 @@ const propsToReplace = [
   ['stroke-width', 'strokeWidth'],
   ['fill-opacity', 'fillOpacity'],
   ['clip-path', 'clipPath'],
+  ['stroke-linejoin', 'strokeLinejoin'],
+  ['stroke-linecap', 'strokeLinecap'],
+  ['stop-color', 'stopColor'],
+  ['gradienttransform', 'gradientTransform'],
+  ['gradientunits', 'gradientUnits'],
+  ['stroke-miterlimit', 'strokeMiterlimit'],
+  ['font-family', 'fontFamily'],
+  ['font-weight', 'fontWeight'],
+  ['class', 'className'],
+  ['font-size', 'fontSize'],
+  ['letter-spacing', 'letterSpacing'],
+  ['text-anchor', 'textAnchor'],
+  ['word-spacing', 'wordSpacing'],
+  ['stroke-opacity', 'strokeOpacity'],
+  ['stop-opacity', 'stopOpacity'],
+  ['stroke-dashoffset', 'strokeDashoffset'],
 ];
 
 /**

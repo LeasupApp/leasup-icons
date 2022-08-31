@@ -101,7 +101,7 @@ var BOL = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: ".1",
     d: "M300.2 283.5c.7 2.6 8.7 2.4 16.6-3.6a69 69 0 0 1-16.6 3.6z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -172,7 +172,7 @@ var BOL = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: ".1",
     d: "M294.6 286c.7 2.7 8.7 2.3 16.5-3.8a62.4 62.4 0 0 1-16.5 3.9z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -248,7 +248,7 @@ var BOL = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: ".1",
     d: "M340.6 283.3c-.7 2.7-8.8 2.4-16.8-3.6a63.4 63.4 0 0 0 16.8 3.6z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -319,7 +319,7 @@ var BOL = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: ".1",
     d: "M345.6 286c-.8 2.7-8.7 2.3-16.5-3.8a62.4 62.4 0 0 0 16.5 3.9z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -573,7 +573,7 @@ var BOL = forwardRef(function (_ref, ref) {
     fill: "#e7e7e7",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     strokeWidth: ".1",
     d: "M337.8 215c2.6-3.5 12.8 5.8 10 8.7-2.6 2.8-12.4-5-10-8.6z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -590,7 +590,7 @@ var BOL = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: ".1",
     d: "M279.4 285c-.3 1.4-1 1.8-2.1 1.4m13.7-2c-2.1 3.5-4.5 2.4-6.5 2.5"
   }), /*#__PURE__*/React.createElement("path", {
@@ -601,7 +601,7 @@ var BOL = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: ".1",
     d: "M279.5 284.9c-.3 1.3-1 1.7-2 1.3m13.5-1.7c-2.1 3.4-4.5 2.3-6.5 2.4"
   }), /*#__PURE__*/React.createElement("path", {
@@ -799,7 +799,7 @@ var BOL = forwardRef(function (_ref, ref) {
     fill: "#e7e7e7",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     strokeWidth: ".1",
     d: "M302.2 215c-2.6-3.5-12.8 5.8-10 8.7 2.6 2.8 12.4-5 10-8.6z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -816,7 +816,7 @@ var BOL = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: ".1",
     d: "M360.6 285c.3 1.4 1 1.8 2.1 1.4m-13.7-2c2.1 3.5 4.5 2.4 6.5 2.5"
   }), /*#__PURE__*/React.createElement("path", {
@@ -827,7 +827,7 @@ var BOL = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: ".1",
     d: "M360.5 284.9c.3 1.3 1 1.7 2 1.3m-13.5-1.7c2.1 3.4 4.5 2.3 6.5 2.4"
   }), /*#__PURE__*/React.createElement("path", {
@@ -1795,8 +1795,8 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".8",
     d: "M293.7 251c0-17 12-30.2 26.3-30.2s26.3 13.1 26.3 30.3",
     color: "#000",
-    "font-family": "Sans",
-    "font-weight": "400",
+    fontFamily: "Sans",
+    fontWeight: "400",
     overflow: "visible",
     style: "line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none"
   }), /*#__PURE__*/React.createElement("path", {
@@ -1862,7 +1862,7 @@ var BOL = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#007934",
     stroke: "#000",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: ".1",
     d: "M323.2 258.4c1.6.2 3.3.2 4.7-.3a9.9 9.9 0 0 1 4.2-.6c0-.2.5-.3.2-.5-.5-.3-1.2-.3-1.8-.6-1-.5-1.7-1.3-2.7-2-.1 0-.6-.3-.6-.5 2.2 3.2 7.5 1.5 12 1.2.4.1 1.5-.2 2.4-.5 1-.4 3.6 0 4.3-.5l-1.3-1c-.6-.8-2.3-.7-3-1.5-1.3-1.5-3.3-1.9-4.9-3-.3-.3-1-.2-1.6-.3-.6-.6 0-.5-5-4.7-4.5-1.8-4.2-3.2-7-4.3-1-.5-1.9-1.4-2.7-1.1a30 30 0 0 0-6.3 3c-1.2.6-2.7 2-3.8 2.8-.2.2-3.4 2.9-7 4.8a115 115 0 0 1-9.2 4.8c8-.4-7.3 2.3 29.1 4.8z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -1886,8 +1886,8 @@ var BOL = forwardRef(function (_ref, ref) {
     strokeWidth: ".1",
     d: "M320 214.2c-18.1 0-32.8 16.5-32.8 36.9S301.9 288 320 288s32.8-16.5 32.8-37c0-20.3-14.7-36.9-32.8-36.9zm0 8.2c13.2 0 24.7 12.3 24.7 28.7s-11.5 28.6-24.7 28.6-24.7-12.2-24.7-28.6c0-16.4 11.5-28.7 24.7-28.7z",
     color: "#000",
-    "font-family": "Sans",
-    "font-weight": "400",
+    fontFamily: "Sans",
+    fontWeight: "400",
     overflow: "visible",
     style: "line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-transform:none;marker:none"
   }), /*#__PURE__*/React.createElement("path", {
@@ -2283,7 +2283,7 @@ var BOL = forwardRef(function (_ref, ref) {
     fill: "#e7e7e7",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     strokeWidth: ".1",
     d: "M329.1 273.6c.3.2 1 .1 1.2 0m-1.2-.7h1.2m-1.2-.8h1.2m-1.1-.7h1.1m-1.1-.8h1.1m-1.1-.8h1.1m-1-.8h1m-1-.7h1m-1-.8h1m-1-.8h1m-1-.8h1m-1-.8h1m-1-.8h1m-1-.7h1m-1-.8h1m-1-.8h1m-.9-.8h.8m-.8-.8h.8m-.8-.8h.8m-.8-.7h.8m-1 15.5h1.1m-1.2.7h1.2"
   }), /*#__PURE__*/React.createElement("path", {
@@ -2295,30 +2295,30 @@ var BOL = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#e7e7e7",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".1",
     d: "M330.3 257.1c3.1-.5 7.2 2.3 7.2 5.3-.3-.4-.6-1.1-1.3-1.8l.1 1a6 6 0 0 0-1.3-1.7l.2 1c-.4-.4-.9-1.2-1.5-1.6l.2.8-1.5-1.4.3 1c-.5-.6-1-1-1.3-1.1m-1.8-1.5c-1.9-1.2-5.8-1-8.7 2.3a10 10 0 0 1 2.2-.9l-.5.8c.5-.4 1.3-.8 2-1a4.8 4.8 0 0 0-.4.7l1.8-1-.4.8 1.7-.7-.5.7 1-.4"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#e7e7e7",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".1",
     d: "M329.7 256.6c-.4-2.2-3-4.8-6.9-4.6 1 .3 1.8.7 2.4 1a4.3 4.3 0 0 0-1 .1c.7.2 1.5.6 2 1a3.4 3.4 0 0 0-1 0l1.8.8a3.2 3.2 0 0 0-.8.1 5 5 0 0 1 1.5.7l-.7.1c1 .4 1 .6 1.2.7m1.5 1c-2.6.8-5.1 3.3-4.7 6.7 0-.4.5-1.5.8-2v1l1-2v1l1-2v1a13.3 13.3 0 0 1 1.1-1.9v.8a5 5 0 0 1 1-1.5m-1.6.2a8.7 8.7 0 0 0-.5 1.4m-.5-.8a9.7 9.7 0 0 0-.5 1.9m-.5-1a9 9 0 0 0-.5 2"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#e7e7e7",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".1",
     d: "M329.9 258.6v-.6",
-    "class": "fil1 str2"
+    className: "fil1 str2"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#e7e7e7",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".1",
     d: "M332.6 261.3v1.3m-1-3 .1 1.6m-1-2.7.1 1.3m4.8-.4.6 1.2m-2-2.1.8 1.4m-2-1.8c.3.3.5.7.7 1.2m-10.6-.8a4.7 4.7 0 0 1 1.7-1.2m-.2 1c.4-.6.6-.9 1.6-1.3m-.2 1c.4-.4.9-.8 1.7-1.1m-.4 1.2c.5-.5 1-.7 1.6-1m-3.7-4c.7 0 1.6.2 2.2.6m-1.2.4c.6 0 1.4.2 1.8.4m-1 .4c.6 0 1.3.3 2 .6m-1.3.2a4 4 0 0 1 1.7.6m.9.2a8.6 8.6 0 0 1 8.5-1.2 8 8 0 0 0-2.4.2c.4 0 .7.3.8.4h-2c.4 0 .7.2 1 .4a7.3 7.3 0 0 0-2.2 0l1 .3h-2.2l.8.3c-1 0-1.6 0-2 .2m4.8-1.6a6 6 0 0 0-2.2-.4m1 .7a5.8 5.8 0 0 0-2.5-.2m1.3.6a6.8 6.8 0 0 0-2.5-.2m1.3.7a5 5 0 0 0-2-.1m.8 1c.4.3.6.7.8 1.1m-3-3.1c.2-2 2-4.4 5.3-4.8a9 9 0 0 0-2 1.3h1c-.5.2-1.2.7-1.6 1.1a3.1 3.1 0 0 1 .9 0 6.7 6.7 0 0 0-1.4 1l.7-.1a4.1 4.1 0 0 0-1.2.9h.7l-1 1.1m2-4c-.5.1-1.1.4-1.6.7m1 .4a4.5 4.5 0 0 0-1.5.5m.9.4c-.5.1-1 .4-1.5.7m1 .2a3.2 3.2 0 0 0-1.4.8m-.5 2.4a6 6 0 0 0-.3 1.1m1.2-2c1.8 1.6 4.1 3.7 3 7.6a6 6 0 0 0-.4-2.2l-.3.9a6.8 6.8 0 0 0-.7-2.4 3.5 3.5 0 0 1-.2 1 8.3 8.3 0 0 0-.7-2.4c0 .2 0 .6-.2.9 0-.9-.3-1.7-.7-2"
   }), /*#__PURE__*/React.createElement("path", {
@@ -2326,18 +2326,18 @@ var BOL = forwardRef(function (_ref, ref) {
     stroke: "#000",
     strokeWidth: ".1",
     d: "m293.3 233.5 1.3.7.3-.6c.1-.3.2-.5.1-.6 0-.2-.2-.4-.5-.5-.3-.2-.6-.3-.7-.2-.2 0-.4.2-.5.4l-.2.5c0 .1 0 .2.2.3m1.6 1 1.7.8h.3l.3-.5.3-.6a.6.6 0 0 0 0-.4.7.7 0 0 0-.2-.2 1.9 1.9 0 0 0-.3-.2c-.8-.4-1.3-.3-1.7.3l-.4.7m-2.6-.8a33 33 0 0 0 .6-1.2 3.3 3.3 0 0 1 .6-.7l.6-.4h.9c.2.1.3.3.4.6.1.2.2.5.1.7a2 2 0 0 1 1-.6l1 .1c.3.2.5.6.6 1 .1.5 0 1-.4 1.7a32.4 32.4 0 0 1-.7 1.3l-.3.7-1.4-.9-1.8-1-1.5-.7.3-.6m9-10.8c-.8.6-.7 1.5.3 2.6.5.6 1 1 1.5 1 .4.2.9 0 1.3-.3.3-.3.5-.6.4-1a3.1 3.1 0 0 0-.8-1.5c-.5-.7-1-1-1.4-1.2-.5 0-1 0-1.4.4m3.8-.2c.5.6.7 1.3.7 2a2.8 2.8 0 0 1-1.2 2 2.9 2.9 0 0 1-2 .7 2.4 2.4 0 0 1-1.8-1 2.8 2.8 0 0 1-.7-2c0-.7.4-1.4 1-2a2.9 2.9 0 0 1 2-.7c.8 0 1.4.4 2 1m8-2.6.3 1a14.4 14.4 0 0 0 1.9-.7h.3a4.5 4.5 0 0 0 .3.7l-.5.1-2.4.7-.7.2-.4-1.6-.5-2a12 12 0 0 0-.5-1.5l.6-.2.7-.2.3 1.6.6 2m9.2-3a12.2 12.2 0 0 0 0-1.6h.8l.7.1c-.2.5-.2 1-.3 1.7l-.2 2a11.9 11.9 0 0 0-.1 1.6h-.7l-.7-.1.3-1.7.2-2m9.9 5.3c1.6-1.3 2.7-2.2 3.1-2.7l.4.2.4.2a230 230 0 0 0-4.7 3.6l-.5-.3a316.2 316.2 0 0 1 .2-2 362.5 362.5 0 0 0 .4-3.8 7.7 7.7 0 0 0 1.2.7 34.8 34.8 0 0 0-.5 4m8.4 4 1.2-1.3.4.6.5.4a11.1 11.1 0 0 0-1.3 1.1l-1.5 1.4a12 12 0 0 0-1.1 1.1l-.5-.5-.5-.5 1.3-1 1.5-1.4m5 10 1.3-1.4h-2a18 18 0 0 0 .7 1.4m-1.1-1.3-2 .1a1.9 1.9 0 0 0-.1-.3 2.6 2.6 0 0 0-.2-.4h5.9l.3.6a82.5 82.5 0 0 0-4 4.3l-.2-.7a5.4 5.4 0 0 0-.3-.6 23.9 23.9 0 0 0 1.4-1.3 35 35 0 0 0-.4-.8 39.5 39.5 0 0 0-.4-1",
-    "font-family": "Linux Biolinum",
-    "font-size": "100",
-    "font-weight": "700",
-    "letter-spacing": "60",
+    fontFamily: "Linux Biolinum",
+    fontSize: "100",
+    fontWeight: "700",
+    letterSpacing: "60",
     style: "line-height:125%;text-align:center",
-    "text-anchor": "middle",
-    "word-spacing": "0"
+    textAnchor: "middle",
+    wordSpacing: "0"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#e8a30e",
     stroke: "#000",
-    "stroke-linecap": "square",
-    "stroke-linejoin": "round",
+    strokeLinecap: "square",
+    strokeLinejoin: "round",
     strokeWidth: ".1",
     d: "m325 280.6-.8 2.2h-2.4l1.9 1.5-.7 2.2 2-1.3 1.8 1.3-.6-2.2 1.8-1.4h-2.3zm9-3.9-.7 2.2H331l1.8 1.5-.7 2.2 2-1.3 1.9 1.3-.7-2.2 1.9-1.4h-2.4zm14.2-25-.8 2.3h-2.3l1.8 1.4-.6 2.3 1.9-1.4 1.9 1.4-.7-2.3 1.9-1.4h-2.4zm-6.7 17.9.7 2.2h2.4l-1.9 1.4.7 2.3-2-1.4-1.9 1.4.7-2.3-1.8-1.4h2.3zm4.7-8.2.8 2.2h2.3l-1.9 1.5.7 2.2-1.9-1.3-2 1.3.8-2.2-1.9-1.4h2.3zm-31.1 19.2.8 2.2h2.3l-1.9 1.5.7 2.2-2-1.3-1.8 1.3.6-2.2-1.8-1.4h2.3zm-9.2-3.9.8 2.2h2.4l-2 1.5.8 2.2-2-1.3-1.9 1.3.7-2.2-1.9-1.4h2.4zm-14-25 .7 2.3h2.3l-1.8 1.4.6 2.3-1.9-1.4-1.9 1.4.7-2.3-1.9-1.4h2.4zm6.6 17.9-.7 2.2h-2.4l1.9 1.4-.7 2.3 2-1.4 1.9 1.4-.7-2.3 1.8-1.4h-2.3zm-4.7-8.2-.8 2.2h-2.3l1.9 1.5-.7 2.2 1.9-1.3 2 1.3-.8-2.2 1.9-1.4h-2.3z"
   }), /*#__PURE__*/React.createElement("path", {

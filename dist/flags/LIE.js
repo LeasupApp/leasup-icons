@@ -28,8 +28,8 @@ var LIE = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("g", {
     fill: "#ffd83d",
     stroke: "#000",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: "2",
     transform: "scale(.8)"
   }, /*#__PURE__*/React.createElement("g", {

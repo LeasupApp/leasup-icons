@@ -32,7 +32,7 @@ var EGY = forwardRef(function (_ref, ref) {
     stroke: "#c09300",
     transform: "matrix(.8 0 0 .8 -40 0)"
   }, /*#__PURE__*/React.createElement("path", {
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     strokeWidth: "1.3",
     d: "m450.8 302.4 68.5 63.6-4.9-115.5c-.7-17.5-15.9-13.5-27-7.2-11.1 7.2-24 7.2-37.4 2.5-13.5 4.7-26.3 4.7-37.4-2.5-11-6.3-26.3-10.3-27 7.2L380.7 366l70.1-63.6z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -52,7 +52,7 @@ var EGY = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("g", {
     id: "b",
     fill: "none",
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     strokeWidth: "1.3"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
@@ -70,8 +70,8 @@ var EGY = forwardRef(function (_ref, ref) {
     height: "100%",
     transform: "matrix(-1 0 0 1 900 0)"
   }), /*#__PURE__*/React.createElement("g", {
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: "1.3"
   }, /*#__PURE__*/React.createElement("path", {
     strokeWidth: "2.4",

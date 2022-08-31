@@ -26,8 +26,8 @@ var FLK = forwardRef(function (_ref, ref) {
     x2: "470.9",
     y1: "592.2",
     y2: "577.1",
-    gradienttransform: "matrix(-1.08448 0 0 1.26674 909.5 -414.7)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(-1.08448 0 0 1.26674 909.5 -414.7)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "g",
@@ -35,8 +35,8 @@ var FLK = forwardRef(function (_ref, ref) {
     x2: "646.2",
     y1: "369.9",
     y2: "369.9",
-    gradienttransform: "matrix(.85733 0 0 .9624 -161.5 .3)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(.85733 0 0 .9624 -161.5 .3)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "d",
@@ -44,8 +44,8 @@ var FLK = forwardRef(function (_ref, ref) {
     x2: "520.5",
     y1: "562.5",
     y2: "552.8",
-    gradienttransform: "matrix(-1.01941 0 0 1.3554 909.5 -414.7)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(-1.01941 0 0 1.3554 909.5 -414.7)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "e",
@@ -53,8 +53,8 @@ var FLK = forwardRef(function (_ref, ref) {
     x2: "445.3",
     y1: "578.7",
     y2: "580.2",
-    gradienttransform: "matrix(1.08448 0 0 1.26674 49.7 -414.7)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(1.08448 0 0 1.26674 49.7 -414.7)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "f",
@@ -62,16 +62,16 @@ var FLK = forwardRef(function (_ref, ref) {
     x2: "456.4",
     y1: "553.7",
     y2: "558.1",
-    gradienttransform: "matrix(1.01941 0 0 1.3554 49.7 -414.7)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(1.01941 0 0 1.3554 49.7 -414.7)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     id: "a"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0",
-    "stop-color": "#a43907"
+    stopColor: "#a43907"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#fff"
+    stopColor: "#fff"
   })), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "h",
@@ -79,8 +79,8 @@ var FLK = forwardRef(function (_ref, ref) {
     x2: "677.4",
     y1: "507.2",
     y2: "508.8",
-    gradienttransform: "matrix(.88927 0 0 1.54542 50.4 -413.6)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(.88927 0 0 1.54542 50.4 -413.6)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "i",
@@ -88,8 +88,8 @@ var FLK = forwardRef(function (_ref, ref) {
     x2: "556.8",
     y1: "504.9",
     y2: "505.9",
-    gradienttransform: "matrix(.91096 0 0 1.52008 49.7 -414.7)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(.91096 0 0 1.52008 49.7 -414.7)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "j",
@@ -97,8 +97,8 @@ var FLK = forwardRef(function (_ref, ref) {
     x2: "558.9",
     y1: "512",
     y2: "514.3",
-    gradienttransform: "matrix(-.88927 0 0 1.54542 908.8 -413.6)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(-.88927 0 0 1.54542 908.8 -413.6)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "k",
@@ -106,8 +106,8 @@ var FLK = forwardRef(function (_ref, ref) {
     x2: "589.8",
     y1: "517.9",
     y2: "503.9",
-    gradienttransform: "matrix(-.91096 0 0 1.52008 909.5 -414.7)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(-.91096 0 0 1.52008 909.5 -414.7)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     href: "#a",
     id: "b",
@@ -115,8 +115,8 @@ var FLK = forwardRef(function (_ref, ref) {
     x2: "470.9",
     y1: "592.2",
     y2: "577.1",
-    gradienttransform: "matrix(.85733 0 0 .9624 -162.4 -.6)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(.85733 0 0 .9624 -162.4 -.6)",
+    gradientUnits: "userSpaceOnUse"
   })), /*#__PURE__*/React.createElement("path", {
     fill: "#012169",
     d: "M0 0h640v480H0z"

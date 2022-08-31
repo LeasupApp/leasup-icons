@@ -57,8 +57,8 @@ var GUM = forwardRef(function (_ref, ref) {
     fill: "#bd0728",
     stroke: "#fff",
     strokeWidth: "1.6",
-    "font-family": "helvetica",
-    "font-size": "25.6",
+    fontFamily: "helvetica",
+    fontSize: "25.6",
     transform: "matrix(1.33 0 0 1.33 -363 -108)"
   }, /*#__PURE__*/React.createElement("tspan", null, "G")), /*#__PURE__*/React.createElement("text", {
     x: "488.1",
@@ -66,8 +66,8 @@ var GUM = forwardRef(function (_ref, ref) {
     fill: "#bd0728",
     stroke: "#fff",
     strokeWidth: "1.6",
-    "font-family": "helvetica",
-    "font-size": "25.6",
+    fontFamily: "helvetica",
+    fontSize: "25.6",
     transform: "matrix(1.33 0 0 1.33 -363 -108)"
   }, /*#__PURE__*/React.createElement("tspan", null, "U")), /*#__PURE__*/React.createElement("text", {
     x: "516",
@@ -75,8 +75,8 @@ var GUM = forwardRef(function (_ref, ref) {
     fill: "#bd0728",
     stroke: "#fff",
     strokeWidth: "1.6",
-    "font-family": "helvetica",
-    "font-size": "25.6",
+    fontFamily: "helvetica",
+    fontSize: "25.6",
     transform: "matrix(1.33 0 0 1.33 -363 -108)"
   }, /*#__PURE__*/React.createElement("tspan", null, "A")), /*#__PURE__*/React.createElement("text", {
     x: "539.5",
@@ -84,8 +84,8 @@ var GUM = forwardRef(function (_ref, ref) {
     fill: "#bd0728",
     stroke: "#fff",
     strokeWidth: "1.6",
-    "font-family": "helvetica",
-    "font-size": "25.6",
+    fontFamily: "helvetica",
+    fontSize: "25.6",
     transform: "matrix(1.33 0 0 1.33 -363 -108)"
   }, /*#__PURE__*/React.createElement("tspan", null, "M")), /*#__PURE__*/React.createElement("path", {
     fill: "#239e46",
@@ -110,26 +110,26 @@ var GUM = forwardRef(function (_ref, ref) {
     fill: "#bd0728",
     d: "M268.8 225.4q3.4 0 6 1.4 3.5 1.8 4.3 6.6H276q-.6-2.6-2.6-4-1.8-1.2-4.7-1.2-3.3 0-5.7 2.7-2.3 2.5-2.3 7.6 0 4.2 1.9 7 2 2.7 6.3 2.7 3.3 0 5.4-1.9 2.3-1.9 2.3-6.2H269v-2.7h10.6v13h-2.1l-.8-3.2q-1.6 1.9-3 2.7-2.2 1.2-5.5 1.2-4.3 0-7.5-2.8-3.4-3.6-3.4-9.7t3.3-9.7q3.2-3.5 8.2-3.5zm-.6 0z",
     "aria-label": "G",
-    "font-family": "helvetica",
-    "font-size": "25.6"
+    fontFamily: "helvetica",
+    fontSize: "25.6"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#bd0728",
     d: "M292.4 226.1v15.2q0 2.6 1 4.3 1.4 2.7 5 2.7 4.1 0 5.7-2.8.8-1.6.8-4.2V226h3.4v13.8q0 4.4-1.4 7-2.1 4.3-8.2 4.3-6.3 0-8.5-4.4-1.2-2.5-1.2-6.9V226zm6.3 0z",
     "aria-label": "U",
-    "font-family": "helvetica",
-    "font-size": "25.6"
+    fontFamily: "helvetica",
+    fontSize: "25.6"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#bd0728",
     d: "m338.4 240.5-3.7-10.7-4 10.7zM333 226h3.7l9 24.5h-3.8l-2.4-7.3h-9.7l-2.7 7.3h-3.3z",
     "aria-label": "A",
-    "font-family": "helvetica",
-    "font-size": "25.6"
+    fontFamily: "helvetica",
+    fontSize: "25.6"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#bd0728",
     d: "M357 226h4.9l6.9 20.7 7-20.7h4.7v24.4h-3.2v-20.6l-7 20.6h-3.1l-7-20.6v20.6H357z",
     "aria-label": "M",
-    "font-family": "helvetica",
-    "font-size": "25.6"
+    fontFamily: "helvetica",
+    fontSize: "25.6"
   }));
 });
 GUM.propTypes = {

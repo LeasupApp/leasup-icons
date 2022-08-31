@@ -172,7 +172,7 @@ var HTI = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#016a16",
     stroke: "#fff",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     d: "M238.4 161.8c0 1.2-.9 2.3-1.9 2.3s-1.8-1-1.8-2.4v-1.2h3.7v1.2z"
   }), /*#__PURE__*/React.createElement("ellipse", {
     cx: "236.5",
@@ -189,7 +189,7 @@ var HTI = forwardRef(function (_ref, ref) {
     id: "c",
     fill: "#016a16",
     stroke: "#fff",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     d: "M238.5 160.1c-.2.5-1 .9-2 .9s-1.7-.4-2-.9a.8.8 0 0 0 0 .4c0 .7.9 1.2 2 1.2 1.2 0 2.1-.5 2.1-1.2a.8.8 0 0 0 0-.4z"
   }), /*#__PURE__*/React.createElement("g", {
     id: "d"
@@ -212,7 +212,7 @@ var HTI = forwardRef(function (_ref, ref) {
     ry: "1.2"
   }), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     d: "M234.4 168.6c0 3.5-3 6.5-6.7 6.5a6.6 6.6 0 0 1-6.7-6.5c0-3.6 3-6.5 6.7-6.5a6.6 6.6 0 0 1 6.7 6.5zm-1.3 0a5.3 5.3 0 0 1-5.4 5.2 5.3 5.3 0 0 1-5.4-5.3 5.3 5.3 0 0 1 5.4-5.1 5.3 5.3 0 0 1 5.4 5.2z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "m223.5 165.3-1-.8m8.5 0 1-1m1 9.2-1.1-.9m-8.4 1.9 1-1m21.7-10.6 1.1 6-.9.4-1-6.3h.8z"

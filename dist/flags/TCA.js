@@ -34,8 +34,8 @@ var TCA = forwardRef(function (_ref, ref) {
     strokeWidth: "7",
     d: "M590 174.6v90c0 60-30 124.6-105 159.6-75-35-105-99.6-105-159.6v-90z"
   }), /*#__PURE__*/React.createElement("g", {
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: "2.2"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fcad56",

@@ -23,65 +23,65 @@ var GTM = forwardRef(function (_ref, ref) {
     id: "a"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: ".2",
-    "stop-color": "#f9f0aa"
+    stopColor: "#f9f0aa"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#b07e09"
+    stopColor: "#b07e09"
   })), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#b",
     id: "e",
     cx: "447.4",
     cy: "308.3",
     r: "16.5",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("radialgradient", {
     id: "b"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: ".2",
-    "stop-color": "#f9f0aa"
+    stopColor: "#f9f0aa"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#b07e09"
+    stopColor: "#b07e09"
   })), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#b",
     id: "f",
     cx: "451.6",
     cy: "313",
     r: "10.9",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#b",
     id: "g",
     cx: "454.1",
     cy: "308.6",
     r: "9.8",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#b",
     id: "h",
     cx: "458.4",
     cy: "307.1",
     r: "17.4",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#b",
     id: "k",
     cx: "446",
     cy: "252.4",
     r: "13",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("radialgradient", {
     id: "n",
     cx: "477.9",
     cy: "215.3",
     r: ".3",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: ".3",
-    "stop-color": "#a50a0a"
+    stopColor: "#a50a0a"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#4c0505"
+    stopColor: "#4c0505"
   })), /*#__PURE__*/React.createElement("radialgradient", {
     id: "o",
     cx: "489.1",
@@ -89,69 +89,69 @@ var GTM = forwardRef(function (_ref, ref) {
     r: ".3",
     fx: "489.1",
     fy: "210.3",
-    gradienttransform: "scale(.97707 1.02346)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "scale(.97707 1.02346)",
+    gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0",
-    "stop-color": "#fff"
+    stopColor: "#fff"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#fff",
-    "stop-opacity": "0"
+    stopColor: "#fff",
+    stopOpacity: "0"
   })), /*#__PURE__*/React.createElement("lineargradient", {
     id: "i",
     x1: "473.9",
     x2: "472.4",
     y1: "259.2",
     y2: "232",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: ".2",
-    "stop-color": "#b07e09",
-    "stop-opacity": "0"
+    stopColor: "#b07e09",
+    stopOpacity: "0"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#b07e09"
+    stopColor: "#b07e09"
   })), /*#__PURE__*/React.createElement("lineargradient", {
     id: "j",
     x1: "483.1",
     x2: "485.5",
     y1: "296.7",
     y2: "326.6",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: ".2",
-    "stop-color": "#b07e09",
-    "stop-opacity": "0"
+    stopColor: "#b07e09",
+    stopOpacity: "0"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#b07e09"
+    stopColor: "#b07e09"
   })), /*#__PURE__*/React.createElement("lineargradient", {
     id: "l",
     x1: "451.5",
     x2: "455.4",
     y1: "249.5",
     y2: "240.6",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: ".2",
-    "stop-color": "#f9f0aa"
+    stopColor: "#f9f0aa"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#b07e09"
+    stopColor: "#b07e09"
   })), /*#__PURE__*/React.createElement("lineargradient", {
     id: "m",
     x1: "473.3",
     x2: "475.9",
     y1: "237.2",
     y2: "270.4",
-    gradientunits: "userSpaceOnUse"
+    gradientUnits: "userSpaceOnUse"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: ".2",
-    "stop-color": "#f9f0aa"
+    stopColor: "#f9f0aa"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#b07e09"
+    stopColor: "#b07e09"
   }))), /*#__PURE__*/React.createElement("path", {
     fill: "#4997d0",
     d: "M0 0h640v480H0Z"
@@ -369,7 +369,7 @@ var GTM = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#6c301e",
     stroke: "#351710",
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     strokeWidth: ".2",
     d: "m515.2 249.3-40.1 39.5L434 328l-4.6 5.4c-2 2.3-4.4 5.3-7.2 8-.5.7-1.1.4-1.7.8-1.8 1-3.7 2.8-5 4.3L403.2 360c-.7.9-1 1.4-.4 2l6.6 8.8c1.2 1.2 2.6 1.8 3.2.8 3.1-5.5 11-13.8 14-20.3 1.7-4 3.9-11.1 5.5-12.8 2-2.2 7.1-7.8 11.8-12.7l1-1c.2-.4.5-.7.9-1 23.5-24 50.7-53.1 70.5-73.6l-1-1z"
   }), /*#__PURE__*/React.createElement("path", {

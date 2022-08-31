@@ -42,20 +42,20 @@ var PYF = forwardRef(function (_ref, ref) {
     fill: "red",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     strokeWidth: "2.5",
     d: "m301.3 218.9 38.4 10.2v-54.8c-17.6 1-32.2-33.4-1.2-35.7-30.5-4.4-34 3.5-37.5 12l.3 68.3z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#083d9c",
     fillRule: "evenodd",
     stroke: "#083d9c",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: "5",
     d: "m277 258.7 86.7.3"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "none",
     stroke: "#000",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: "4",
     d: "m281.1 238 10.3 13.7m-10.3 0 11.1-13.5M287 237l-.3 8.5m10.8-7.6 10.3 13.8m-10.3 0 11.1-13.5m-5.2-1.2-.3 8.5m11.1-7.6 10.3 13.8m-10.3 0 11.1-13.5m-5.2-1.2-.3 8.5m11.7-7.6 10.2 13.8m-10.2 0 11.1-13.5m-5.3-1.2-.2 8.5m11-7.6 10.3 13.8m-10.2 0 11.1-13.5M354 237l-.3 8.5"
   }), /*#__PURE__*/React.createElement("path", {
@@ -66,7 +66,7 @@ var PYF = forwardRef(function (_ref, ref) {
     fill: "red",
     fillRule: "evenodd",
     stroke: "#000",
-    "stroke-linejoin": "round",
+    strokeLinejoin: "round",
     strokeWidth: "2.5",
     d: "M309.8 268.4c-8.3 13.8-30.6 9.7-35.9 0-1.5-.4-.6-59.5-.6-59.5s-2.5-1.1-2.6-3c-.1-1.8 3.4-2 3.4-4.3s-3.6-1.4-3.7-3.8c0-2.2 3.9-2 3.7-4-.2-2.4-4.3-2-4.5-4.2 0-1.7 3-3.2 3.8-4a61.3 61.3 0 0 1-2.8 0l-6.4.1c-4.6 0 0 1 0 3.6 0 1.7-2.3 2.9-2.5 4.3-.1 1.6 3.2 2.6 3.3 4.5 0 1.6-3.3 1.7-3.2 3.3.2 2.5 3 3.1 2.9 4.7 0 1.5-3.6 2.1-3.7 3.3.2 2.4.6 60.8.6 60.8 5.7 29.8 38.8 37.3 48.2-1.8zm21.9 0c8.3 13.8 30.6 9.7 35.8 0 1.6-.4.7-59.5.7-59.5s2.5-1.1 2.6-3c.1-1.8-3.2-2-3.2-4.3s3.4-1.4 3.4-3.8c0-2.2-3.5-2-3.3-4.2.2-2.3 3-2 3.1-4.2.1-1.9-1.7-3-2.6-3.8h2.7l6.4.1c4.5 0 0 1 0 3.6 0 1.7 2.3 2.9 2.5 4.3 0 1.6-3.2 2.6-3.3 4.5 0 1.6 3.3 1.7 3.2 3.3-.2 2.5-3 3.1-3 4.7.1 1.5 3.7 2.1 3.7 3.3l-.5 60.8c-5.7 29.8-38.9 37.3-48.2-1.8z"
   }), /*#__PURE__*/React.createElement("path", {

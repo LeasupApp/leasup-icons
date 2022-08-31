@@ -25,32 +25,32 @@ var MEX = forwardRef(function (_ref, ref) {
     cx: "842.3",
     cy: "103.7",
     r: "25.9",
-    gradienttransform: "matrix(.14152 .03595 -.03453 .14198 213.1 162.4)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(.14152 .03595 -.03453 .14198 213.1 162.4)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#a",
     id: "c",
     cx: "651.5",
     cy: "550.5",
     r: "25.9",
-    gradienttransform: "matrix(-.13441 -.05384 .04964 -.12489 397.9 -24.3)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(-.13441 -.05384 .04964 -.12489 397.9 -24.3)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("radialgradient", {
     href: "#a",
     id: "d",
     cx: "380.8",
     cy: "740.4",
     r: "25.9",
-    gradienttransform: "matrix(.07536 .00282 -.00343 .14804 412.4 -203.6)",
-    gradientunits: "userSpaceOnUse"
+    gradientTransform: "matrix(.07536 .00282 -.00343 .14804 412.4 -203.6)",
+    gradientUnits: "userSpaceOnUse"
   }), /*#__PURE__*/React.createElement("lineargradient", {
     id: "a"
   }, /*#__PURE__*/React.createElement("stop", {
     offset: "0",
-    "stop-color": "#fff"
+    stopColor: "#fff"
   }), /*#__PURE__*/React.createElement("stop", {
     offset: "1",
-    "stop-color": "#f15770"
+    stopColor: "#f15770"
   }))), /*#__PURE__*/React.createElement("path", {
     fill: "#ce1126",
     d: "M426.7 0H640v480H426.7z"
@@ -305,29 +305,29 @@ var MEX = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#f9aa51",
     stroke: "#953220",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".5",
     d: "m321.9 276.4-.9-.6h-2.8l-3.4.1 3.4 9.9 4 5.8 1.6.6 3.1-.2.6-1.6-1.2-9.5-4.4-4.5z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#f9aa51",
     stroke: "#953220",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".5",
     d: "m310.6 277 .2-1.1 1.8-.1a7.2 7.2 0 0 1 2.2.1s2.3 2.9 3.1 4.7c.8 1.8 1.7 4.8 2.7 6.6 1 1.9 3.2 5 3.2 5h-4l-2-.6-5.6-9-1.6-5.6z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#f9aa51",
     stroke: "#953220",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".5",
     d: "M308.2 275.8h2.6a14 14 0 0 1 3.9 5.4c1 2.8.5 3.2 1.8 6.2 1.4 2.9 3.2 4.9 3.2 4.9s-3.9.2-6-.2c-2.3-.4-3-.3-3.6-1a9.2 9.2 0 0 0-1.7-1.3h-2.2l.5-3.1-.6-6.9.1-3.5 2-.5zm23.4 1.8-3.7-1.5-7-.4.6 3.6a30.2 30.2 0 0 0 2.6 7.7c1.1 2 2.2 4.4 2.8 5 .6.5 4.6-1.1 4.6-1.1l2.6-.4-.3-2.8-.4-1 .6-8-.6-1.2-1.8.1z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#f9aa51",
     stroke: "#953220",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".5",
     d: "M307.1 277.7c0 .8 1 .9 1.2.8.2 0 1-.3 1-1.5s-.7-2.1-2.2-2.2c-1.4 0-2.5 1.7-2.5 3 0 1.2 1.2 1.8 1.2 2.3 0 0-1.2 1.1-1.1 3.1 0 2 1.6 3.6 1.6 3.6s-1.7 1.3-1.7 2.7c0 1.4 1.3 2.3 2.6 2.3 1.2 0 2.8-.8 2.8-1.8s-1-1.7-1.7-1.7c-.8 0-1.1.5-1.1.8m25.6-10.9c0 .9-.6 1-1 1s-1.2-.4-1.2-1.5c0-1 1.4-1.6 2.4-1.6.9 0 2.4 1.2 2.4 2.7 0 1.5-1 2.6-1 2.6s.6.3.6 2.2c0 2-1.2 3.3-1.2 3.3s1.6.6 1.6 2.6-1.4 2.6-2.3 2.6c-1 0-2.6-.5-2.6-1.9 0-1.3.8-1.8 1.5-1.8.6 0 1.3.7 1.3 1.5"
   }), /*#__PURE__*/React.createElement("path", {
@@ -876,8 +876,8 @@ var MEX = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#f8c83c",
     stroke: "#977c2e",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".3",
     d: "m338 260.8 1.2.2s0 .3.3.5c.3.3.3 0 .3 0s.2 1.2 1.4 2c0 0 1.4.6 2 .2.8-.4.7 0 .7 0l2-2.4s0-.5-.5-.5c0 0 .4-1.6-1-2-1.2-.2-2.2.2-2.2.2s-1 1.8-1.6 1.6a2.4 2.4 0 0 1-.8-.5l-.7-.9s-.4.1-.9-.2c-.5-.3-.9-1.1-.9-1.1s-.7-.1-1-.4l-.5-.8-1.9 1.4s0 .5-1.1 1.3-1.7.8-1.7.8-.4 1.7-1.6 1.4c-1.2-.3-2-1.6-2-1.6s-.9-.2-1.4.6c-.6.7-.9 1-.9 1.7 0 .8.5 1.8 1 2.2.3.3 1.5 1.3 3 .6 1.4-.8.9-2 .9-2l.8-.5c.9-.6 1.8-1.5 2.5-1.7"
   }), /*#__PURE__*/React.createElement("path", {
@@ -888,8 +888,8 @@ var MEX = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#f8c83c",
     stroke: "#977c2e",
-    "stroke-linecap": "round",
-    "stroke-linejoin": "round",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
     strokeWidth: ".3",
     d: "M333.3 260.5s-.5.8 1 1c.4 0 .7-.2.9-.4.4-.4.3-.8.3-.8s-.2 1.2 1.2 1.2c1.4.1 1.3-1.3 1.3-1.3"
   }), /*#__PURE__*/React.createElement("path", {

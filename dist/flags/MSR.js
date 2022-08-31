@@ -49,7 +49,7 @@ var MSR = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("g", {
     fill: "none",
     stroke: "#ffdf00",
-    "stroke-linecap": "round",
+    strokeLinecap: "round",
     strokeWidth: "1.8"
   }, /*#__PURE__*/React.createElement("path", {
     strokeWidth: ".8",

@@ -23,7 +23,7 @@ var FJI = forwardRef(function (_ref, ref) {
     fill: "#68bfe5",
     d: "M0 0v480h640V0H0z"
   }), /*#__PURE__*/React.createElement("g", {
-    "stroke-miterlimit": "4.8"
+    strokeMiterlimit: "4.8"
   }, /*#__PURE__*/React.createElement("path", {
     fill: "#fff",
     d: "M420.9 193.2v136.4c0 44.6 80.6 71 80.6 71s80.5-26.4 80.5-71V193.2z"
@@ -34,7 +34,7 @@ var FJI = forwardRef(function (_ref, ref) {
     fill: "#d21034",
     d: "M420.9 193.2H582V246H420.8z"
   }), /*#__PURE__*/React.createElement("g", {
-    "stroke-miterlimit": "3"
+    strokeMiterlimit: "3"
   }, /*#__PURE__*/React.createElement("g", {
     fill: "#fff",
     stroke: "#000",
