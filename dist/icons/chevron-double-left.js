@@ -26,16 +26,10 @@ var ChevronDoubleLeft = forwardRef(function (_ref, ref) {
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
     d: "M16.25 8.75L12.75 12L16.25 15.25",
-    stroke: "#21304F",
-    strokeWidth: "1.25",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    strokeWidth: "1.25"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M11.25 8.75L7.75 12L11.25 15.25",
-    stroke: "#21304F",
-    strokeWidth: "1.25",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    strokeWidth: "1.25"
   }));
 });
 ChevronDoubleLeft.propTypes = {

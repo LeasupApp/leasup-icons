@@ -26,22 +26,13 @@ var Menu = forwardRef(function (_ref, ref) {
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
     d: "M4.75 7H19.25",
-    stroke: "#21304F",
-    strokeWidth: "1.25",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    strokeWidth: "1.25"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M4.75 17H14.75",
-    stroke: "#21304F",
-    strokeWidth: "1.25",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    strokeWidth: "1.25"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M4.75 12H19.25",
-    stroke: "#21304F",
-    strokeWidth: "1.25",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    strokeWidth: "1.25"
   }));
 });
 Menu.propTypes = {

@@ -25,15 +25,9 @@ var Close = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M17.25 6.75L6.75 17.25",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M17.25 6.75L6.75 17.25"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M6.75 6.75L17.25 17.25",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M6.75 6.75L17.25 17.25"
   }));
 });
 Close.propTypes = {

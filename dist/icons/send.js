@@ -27,16 +27,10 @@ var Send = forwardRef(function (_ref, ref) {
   }, rest), /*#__PURE__*/React.createElement("g", {
     clipPath: "url(#clip0_1648_20988)"
   }, /*#__PURE__*/React.createElement("path", {
-    d: "M4.24988 9.50305L19.6295 4.37652L14.5029 19.7561L11.8513 12.1547L4.24988 9.50305Z",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M4.24988 9.50305L19.6295 4.37652L14.5029 19.7561L11.8513 12.1547L4.24988 9.50305Z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M12.0281 11.978L13.9727 10.0334",
-    stroke: "#21304F",
-    strokeWidth: "1.5",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    strokeWidth: "1.5"
   })), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
     id: "clip0_1648_20988"
   }, /*#__PURE__*/React.createElement("rect", {

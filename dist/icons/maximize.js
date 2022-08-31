@@ -25,25 +25,13 @@ var Maximize = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M4.75 14.75V17.25C4.75 18.3546 5.64543 19.25 6.75 19.25H9.25",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M4.75 14.75V17.25C4.75 18.3546 5.64543 19.25 6.75 19.25H9.25"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M19.25 14.75V17.25C19.25 18.3546 18.3546 19.25 17.25 19.25H14.75",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M19.25 14.75V17.25C19.25 18.3546 18.3546 19.25 17.25 19.25H14.75"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M19.25 9.25V6.75C19.25 5.64543 18.3546 4.75 17.25 4.75H14.75",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M19.25 9.25V6.75C19.25 5.64543 18.3546 4.75 17.25 4.75H14.75"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M4.75 9.25V6.75C4.75 5.64543 5.64543 4.75 6.75 4.75H9.25",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M4.75 9.25V6.75C4.75 5.64543 5.64543 4.75 6.75 4.75H9.25"
   }));
 });
 Maximize.propTypes = {

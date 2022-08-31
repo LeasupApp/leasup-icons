@@ -26,10 +26,7 @@ var Checkmark = forwardRef(function (_ref, ref) {
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
     d: "M6.75 12.9231L9.52941 16L17.25 8",
-    stroke: "#21304F",
-    strokeWidth: "1.5",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    strokeWidth: "1.5"
   }));
 });
 Checkmark.propTypes = {

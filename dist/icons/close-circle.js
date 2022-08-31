@@ -25,20 +25,11 @@ var CloseCircle = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M4.75 12C4.75 7.99594 7.99594 4.75 12 4.75C16.0041 4.75 19.25 7.99594 19.25 12C19.25 16.0041 16.0041 19.25 12 19.25C7.99594 19.25 4.75 16.0041 4.75 12Z",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M4.75 12C4.75 7.99594 7.99594 4.75 12 4.75C16.0041 4.75 19.25 7.99594 19.25 12C19.25 16.0041 16.0041 19.25 12 19.25C7.99594 19.25 4.75 16.0041 4.75 12Z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.75 9.75L14.25 14.25",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M9.75 9.75L14.25 14.25"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M14.25 9.75L9.75 14.25",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M14.25 9.75L9.75 14.25"
   }));
 });
 CloseCircle.propTypes = {

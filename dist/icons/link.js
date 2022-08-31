@@ -25,20 +25,11 @@ var Link = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M16.75 13.25L18 12C19.6569 10.3431 19.6569 7.65681 18 5.99996C16.3431 4.34311 13.6569 4.34311 12 5.99996L10.75 7.24996",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M16.75 13.25L18 12C19.6569 10.3431 19.6569 7.65681 18 5.99996C16.3431 4.34311 13.6569 4.34311 12 5.99996L10.75 7.24996"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.24996 10.75L5.99996 12C4.34311 13.6569 4.34311 16.3431 5.99996 18C7.65681 19.6569 10.3431 19.6569 12 18L13.25 16.75",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M7.24996 10.75L5.99996 12C4.34311 13.6569 4.34311 16.3431 5.99996 18C7.65681 19.6569 10.3431 19.6569 12 18L13.25 16.75"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M14.25 9.75L9.75 14.25",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M14.25 9.75L9.75 14.25"
   }));
 });
 Link.propTypes = {

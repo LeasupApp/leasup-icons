@@ -26,10 +26,7 @@ var ChevronUp = forwardRef(function (_ref, ref) {
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
     d: "M8.75 14.25L12 10.75L15.25 14.25",
-    stroke: "#21304F",
-    strokeWidth: "1.25",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    strokeWidth: "1.25"
   }));
 });
 ChevronUp.propTypes = {

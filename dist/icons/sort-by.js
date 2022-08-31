@@ -26,16 +26,10 @@ var SortBy = forwardRef(function (_ref, ref) {
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
     d: "M10.1666 9.83337L7.99992 12.1667L5.83325 9.83337",
-    stroke: "#21304F",
-    strokeWidth: "1.25",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    strokeWidth: "1.25"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M5.83341 6.16663L8.00008 3.83329L10.1667 6.16663",
-    stroke: "#21304F",
-    strokeWidth: "1.25",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    strokeWidth: "1.25"
   }));
 });
 SortBy.propTypes = {

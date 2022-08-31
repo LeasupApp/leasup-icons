@@ -4,7 +4,6 @@ import ArrowDownRightCircle from './dist/icons/arrow-down-right-circle';
 import ArrowLeft from './dist/icons/arrow-left';
 import ArrowRight from './dist/icons/arrow-right';
 import Attachment from './dist/icons/attachment';
-import Bell1 from './dist/icons/bell-1';
 import Bell from './dist/icons/bell';
 import Book from './dist/icons/book';
 import Calendar from './dist/icons/calendar';
@@ -43,7 +42,6 @@ import Mail from './dist/icons/mail';
 import Map from './dist/icons/map';
 import Maximize from './dist/icons/maximize';
 import Menu from './dist/icons/menu';
-import MessageBadge from './dist/icons/message-badge';
 import Message from './dist/icons/message';
 import Minus from './dist/icons/minus';
 import More from './dist/icons/more';
@@ -322,7 +320,6 @@ const LeasupMapIcons = {
   ArrowLeft,
   ArrowRight,
   Attachment,
-  Bell1,
   Bell,
   Book,
   Calendar,
@@ -361,7 +358,6 @@ const LeasupMapIcons = {
   Map,
   Maximize,
   Menu,
-  MessageBadge,
   Message,
   Minus,
   More,
@@ -641,7 +637,6 @@ export {
   ArrowLeft,
   ArrowRight,
   Attachment,
-  Bell1,
   Bell,
   Book,
   Calendar,
@@ -680,7 +675,6 @@ export {
   Map,
   Maximize,
   Menu,
-  MessageBadge,
   Message,
   Minus,
   More,

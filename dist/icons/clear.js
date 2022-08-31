@@ -25,15 +25,9 @@ var Clear = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M6.8735 17.1265C9.7048 19.9578 14.2952 19.9578 17.1265 17.1265C19.9578 14.2952 19.9578 9.7048 17.1265 6.8735C14.2952 4.0422 9.7048 4.0422 6.8735 6.8735C6.2397 7.5073 5.7478 8.2292 5.3977 8.9999",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M6.8735 17.1265C9.7048 19.9578 14.2952 19.9578 17.1265 17.1265C19.9578 14.2952 19.9578 9.7048 17.1265 6.8735C14.2952 4.0422 9.7048 4.0422 6.8735 6.8735C6.2397 7.5073 5.7478 8.2292 5.3977 8.9999"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M4.75 4.75L4.75 8.25C4.75 8.8023 5.1977 9.25 5.75 9.25H9.25",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M4.75 4.75L4.75 8.25C4.75 8.8023 5.1977 9.25 5.75 9.25H9.25"
   }));
 });
 Clear.propTypes = {

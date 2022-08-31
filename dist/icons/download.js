@@ -25,20 +25,11 @@ var Download = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M4.75 14.75V16.25C4.75 17.9069 6.09315 19.25 7.75 19.25H16.25C17.9069 19.25 19.25 17.9069 19.25 16.25V14.75",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M4.75 14.75V16.25C4.75 17.9069 6.09315 19.25 7.75 19.25H16.25C17.9069 19.25 19.25 17.9069 19.25 16.25V14.75"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12 14.25V4.75",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M12 14.25V4.75"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M8.75 10.75L12 14.25L15.25 10.75",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M8.75 10.75L12 14.25L15.25 10.75"
   }));
 });
 Download.propTypes = {

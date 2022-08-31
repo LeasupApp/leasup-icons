@@ -25,10 +25,7 @@ var Minus = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M17 12.25H7",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M17 12.25H7"
   }));
 });
 Minus.propTypes = {

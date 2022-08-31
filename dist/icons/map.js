@@ -25,20 +25,11 @@ var Map = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M4.75 6.75L9.25 4.75V17.25L4.75 19.25V6.75Z",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M4.75 6.75L9.25 4.75V17.25L4.75 19.25V6.75Z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M14.75 6.75L19.25 4.75V17.25L14.75 19.25V6.75Z",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M14.75 6.75L19.25 4.75V17.25L14.75 19.25V6.75Z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M14.75 6.75L9.25 4.75V17.25L14.75 19.25V6.75Z",
-    stroke: "#21304F",
-    strokeLinecap: "round",
-    strokeLinejoin: "round"
+    d: "M14.75 6.75L9.25 4.75V17.25L14.75 19.25V6.75Z"
   }));
 });
 Map.propTypes = {
