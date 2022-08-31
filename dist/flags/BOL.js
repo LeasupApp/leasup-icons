@@ -2380,7 +2380,10 @@ var BOL = forwardRef(function (_ref, ref) {
     fontSize: "100",
     fontWeight: "700",
     letterSpacing: "60",
-    style: "line-height:125%;text-align:center",
+    style: {
+      lineHeight: '125%',
+      textAlign: 'center'
+    },
     textAnchor: "middle",
     wordSpacing: "0"
   }), /*#__PURE__*/React.createElement("path", {
