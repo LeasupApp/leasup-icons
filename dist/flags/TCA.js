@@ -18,7 +18,8 @@ var TCA = forwardRef(function (_ref, ref) {
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size * 3 / 4,
-    viewBox: "0 0 640 480"
+    viewBox: "0 0 640 480",
+    className: "flag-icon"
   }, rest), /*#__PURE__*/React.createElement("path", {
     fill: "#002868",
     d: "M640 480V0H0v480h640z"

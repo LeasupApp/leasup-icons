@@ -18,7 +18,8 @@ var BGD = forwardRef(function (_ref, ref) {
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size * 3 / 4,
-    viewBox: "0 0 640 480"
+    viewBox: "0 0 640 480",
+    className: "flag-icon"
   }, rest), /*#__PURE__*/React.createElement("path", {
     fill: "#006a4e",
     d: "M0 0h640v480H0z"

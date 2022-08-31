@@ -152,6 +152,7 @@ flags.forEach((i) => {
     width: 'size',
     height: 'size * 3 / 4',
     viewBox: '0 0 640 480',
+    className: 'flag-icon',
     rest: '...rest',
   };
 
