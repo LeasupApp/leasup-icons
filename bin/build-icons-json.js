@@ -4,9 +4,6 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const { minify } = require('html-minifier');
 
-const IN_DIR = path.resolve(__dirname, '../icons');
-const OUT_FILE = path.resolve(__dirname, '../src/icons.json');
-
 /**
  * Get contents between opening and closing `<svg>` tags.
  * @param {string} svg
@@ -40,18 +37,20 @@ function buildIconsObject(svgFiles, getSvg) {
     }, {});
 }
 
+function createJsonFile(inDir, outFile) {
+  const svgFiles = fs
+    .readdirSync(inDir)
+    .filter((file) => path.extname(file) === '.svg');
+  const getSvg = (svgFile) => fs.readFileSync(path.join(inDir, svgFile));
+  const icons = buildIconsObject(svgFiles, getSvg);
+
+  fs.mkdirSync(path.dirname(outFile), { recursive: true });
+  fs.writeFileSync(outFile, JSON.stringify(icons));
+
+  // eslint-disable-next-line no-console
+  console.log(`Building ${outFile}...`);
+}
+
 // Script execution starts here.
-
-// eslint-disable-next-line no-console
-console.log(`Building ${OUT_FILE}...`);
-
-const svgFiles = fs
-  .readdirSync(IN_DIR)
-  .filter((file) => path.extname(file) === '.svg');
-
-const getSvg = (svgFile) => fs.readFileSync(path.join(IN_DIR, svgFile));
-
-const icons = buildIconsObject(svgFiles, getSvg);
-
-fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
-fs.writeFileSync(OUT_FILE, JSON.stringify(icons));
+createJsonFile(path.resolve(__dirname, '../icons'), path.resolve(__dirname, '../src/icons.json'));
+createJsonFile(path.resolve(__dirname, '../flags'), path.resolve(__dirname, '../src/flags.json'));
