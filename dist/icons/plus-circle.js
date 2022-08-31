@@ -24,20 +24,21 @@ var PlusCircle = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("circle", {
-    cx: "12",
-    cy: "12",
-    r: "10"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "12",
-    y1: "8",
-    x2: "12",
-    y2: "16"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "8",
-    y1: "12",
-    x2: "16",
-    y2: "12"
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    d: "M4.75 12C4.75 7.99594 7.99594 4.75 12 4.75C16.0041 4.75 19.25 7.99594 19.25 12C19.25 16.0041 16.0041 19.25 12 19.25C7.99594 19.25 4.75 16.0041 4.75 12Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12 8.75V15.25",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M15.25 12H8.75",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 PlusCircle.propTypes = {

@@ -24,18 +24,21 @@ var Map = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("polygon", {
-    points: "1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "8",
-    y1: "2",
-    x2: "8",
-    y2: "18"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "16",
-    y1: "6",
-    x2: "16",
-    y2: "22"
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    d: "M4.75 6.75L9.25 4.75V17.25L4.75 19.25V6.75Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M14.75 6.75L19.25 4.75V17.25L14.75 19.25V6.75Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M14.75 6.75L9.25 4.75V17.25L14.75 19.25V6.75Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 Map.propTypes = {

@@ -24,21 +24,24 @@ var Menu = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("line", {
-    x1: "3",
-    y1: "12",
-    x2: "21",
-    y2: "12"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "3",
-    y1: "6",
-    x2: "21",
-    y2: "6"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "3",
-    y1: "18",
-    x2: "21",
-    y2: "18"
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    d: "M4.75 7H19.25",
+    stroke: "#21304F",
+    strokeWidth: "1.25",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M4.75 17H14.75",
+    stroke: "#21304F",
+    strokeWidth: "1.25",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M4.75 12H19.25",
+    stroke: "#21304F",
+    strokeWidth: "1.25",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 Menu.propTypes = {

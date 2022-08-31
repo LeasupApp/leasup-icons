@@ -25,14 +25,20 @@ var Upload = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
-  }), /*#__PURE__*/React.createElement("polyline", {
-    points: "17 8 12 3 7 8"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "12",
-    y1: "3",
-    x2: "12",
-    y2: "15"
+    d: "M4.75 14.75V16.25C4.75 17.9069 6.09315 19.25 7.75 19.25H16.25C17.9069 19.25 19.25 17.9069 19.25 16.25V14.75",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12 14.25V4.75",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M15.25 8.25L12 4.75L8.75 8.25",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 Upload.propTypes = {

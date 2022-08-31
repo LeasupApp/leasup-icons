@@ -24,13 +24,18 @@ var ArrowRight = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("line", {
-    x1: "5",
-    y1: "12",
-    x2: "19",
-    y2: "12"
-  }), /*#__PURE__*/React.createElement("polyline", {
-    points: "12 5 19 12 12 19"
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    d: "M13.75 6.75L19.25 12L13.75 17.25",
+    stroke: "#21304F",
+    strokeWidth: "1.25",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M19 12H4.75",
+    stroke: "#21304F",
+    strokeWidth: "1.25",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 ArrowRight.propTypes = {

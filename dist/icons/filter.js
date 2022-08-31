@@ -24,8 +24,11 @@ var Filter = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("polygon", {
-    points: "22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    d: "M19.25 4.75H4.75L9.31174 10.4522C9.59544 10.8068 9.75 11.2474 9.75 11.7016V18.25C9.75 18.8023 10.1977 19.25 10.75 19.25H13.25C13.8023 19.25 14.25 18.8023 14.25 18.25V11.7016C14.25 11.2474 14.4046 10.8068 14.6883 10.4522L19.25 4.75Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 Filter.propTypes = {

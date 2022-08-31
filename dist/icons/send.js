@@ -24,14 +24,26 @@ var Send = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("line", {
-    x1: "22",
-    y1: "2",
-    x2: "11",
-    y2: "13"
-  }), /*#__PURE__*/React.createElement("polygon", {
-    points: "22 2 15 22 11 13 2 9 22 2"
-  }));
+  }, rest), /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_1648_20988)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M4.24988 9.50305L19.6295 4.37652L14.5029 19.7561L11.8513 12.1547L4.24988 9.50305Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12.0281 11.978L13.9727 10.0334",
+    stroke: "#21304F",
+    strokeWidth: "1.5",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clippath", {
+    id: "clip0_1648_20988"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: "24",
+    height: "24",
+    fill: "white"
+  }))));
 });
 Send.propTypes = {
   color: PropTypes.string,

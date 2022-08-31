@@ -24,8 +24,12 @@ var ChevronDown = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("polyline", {
-    points: "6 9 12 15 18 9"
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    d: "M15.25 10.75L12 14.25L8.75 10.75",
+    stroke: "#21304F",
+    strokeWidth: "1.25",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 ChevronDown.propTypes = {

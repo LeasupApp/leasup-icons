@@ -25,9 +25,15 @@ var Book = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20"
+    d: "M19.25 15.25V5.75C19.25 5.19772 18.8023 4.75 18.25 4.75H6.75C5.64543 4.75 4.75 5.64543 4.75 6.75V16.75",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"
+    d: "M19.25 15.25H6.75C5.64543 15.25 4.75 16.1454 4.75 17.25C4.75 18.3546 5.64543 19.25 6.75 19.25H19.25V15.25Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 Book.propTypes = {

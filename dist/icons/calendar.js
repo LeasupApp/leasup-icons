@@ -24,28 +24,26 @@ var Calendar = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("rect", {
-    x: "3",
-    y: "4",
-    width: "18",
-    height: "18",
-    rx: "2",
-    ry: "2"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "16",
-    y1: "2",
-    x2: "16",
-    y2: "6"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "8",
-    y1: "2",
-    x2: "8",
-    y2: "6"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "3",
-    y1: "10",
-    x2: "21",
-    y2: "10"
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    d: "M4.75 8.75C4.75 7.64543 5.64543 6.75 6.75 6.75H17.25C18.3546 6.75 19.25 7.64543 19.25 8.75V17.25C19.25 18.3546 18.3546 19.25 17.25 19.25H6.75C5.64543 19.25 4.75 18.3546 4.75 17.25V8.75Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8 4.75V8.25",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M16 4.75V8.25",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M7.75 10.75H16.25",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 Calendar.propTypes = {

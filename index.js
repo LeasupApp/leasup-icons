@@ -1,290 +1,68 @@
-import Activity from './dist/icons/activity';
-import Airplay from './dist/icons/airplay';
-import AlertCircle from './dist/icons/alert-circle';
-import AlertOctagon from './dist/icons/alert-octagon';
-import AlertTriangle from './dist/icons/alert-triangle';
-import AlignCenter from './dist/icons/align-center';
-import AlignJustify from './dist/icons/align-justify';
-import AlignLeft from './dist/icons/align-left';
-import AlignRight from './dist/icons/align-right';
-import Anchor from './dist/icons/anchor';
-import Aperture from './dist/icons/aperture';
 import Archive from './dist/icons/archive';
-import ArrowDownCircle from './dist/icons/arrow-down-circle';
-import ArrowDownLeft from './dist/icons/arrow-down-left';
-import ArrowDownRight from './dist/icons/arrow-down-right';
-import ArrowDown from './dist/icons/arrow-down';
-import ArrowLeftCircle from './dist/icons/arrow-left-circle';
+import ArrowDownRightCircle from './dist/icons/arrow-down-right-circle';
 import ArrowLeft from './dist/icons/arrow-left';
-import ArrowRightCircle from './dist/icons/arrow-right-circle';
 import ArrowRight from './dist/icons/arrow-right';
-import ArrowUpCircle from './dist/icons/arrow-up-circle';
-import ArrowUpLeft from './dist/icons/arrow-up-left';
-import ArrowUpRight from './dist/icons/arrow-up-right';
-import ArrowUp from './dist/icons/arrow-up';
-import AtSign from './dist/icons/at-sign';
-import Award from './dist/icons/award';
-import BarChart2 from './dist/icons/bar-chart-2';
-import BarChart from './dist/icons/bar-chart';
-import BatteryCharging from './dist/icons/battery-charging';
-import Battery from './dist/icons/battery';
-import BellOff from './dist/icons/bell-off';
+import Attachment from './dist/icons/attachment';
+import Bell1 from './dist/icons/bell-1';
 import Bell from './dist/icons/bell';
-import Bluetooth from './dist/icons/bluetooth';
-import Bold from './dist/icons/bold';
-import BookOpen from './dist/icons/book-open';
 import Book from './dist/icons/book';
-import Bookmark from './dist/icons/bookmark';
-import Box from './dist/icons/box';
-import Briefcase from './dist/icons/briefcase';
 import Calendar from './dist/icons/calendar';
-import CameraOff from './dist/icons/camera-off';
-import Camera from './dist/icons/camera';
-import Cast from './dist/icons/cast';
-import CheckCircle from './dist/icons/check-circle';
-import CheckSquare from './dist/icons/check-square';
-import Check from './dist/icons/check';
+import Cards from './dist/icons/cards';
+import Checkmark from './dist/icons/checkmark';
+import ChevronDoubleLeft from './dist/icons/chevron-double-left';
+import ChevronDoubleRight from './dist/icons/chevron-double-right';
 import ChevronDown from './dist/icons/chevron-down';
 import ChevronLeft from './dist/icons/chevron-left';
 import ChevronRight from './dist/icons/chevron-right';
 import ChevronUp from './dist/icons/chevron-up';
-import ChevronsDown from './dist/icons/chevrons-down';
-import ChevronsLeft from './dist/icons/chevrons-left';
-import ChevronsRight from './dist/icons/chevrons-right';
-import ChevronsUp from './dist/icons/chevrons-up';
-import Chrome from './dist/icons/chrome';
-import Circle from './dist/icons/circle';
-import Clipboard from './dist/icons/clipboard';
+import Clear from './dist/icons/clear';
 import Clock from './dist/icons/clock';
-import CloudDrizzle from './dist/icons/cloud-drizzle';
-import CloudLightning from './dist/icons/cloud-lightning';
-import CloudOff from './dist/icons/cloud-off';
-import CloudRain from './dist/icons/cloud-rain';
-import CloudSnow from './dist/icons/cloud-snow';
-import Cloud from './dist/icons/cloud';
-import Code from './dist/icons/code';
-import Codepen from './dist/icons/codepen';
-import Codesandbox from './dist/icons/codesandbox';
-import Coffee from './dist/icons/coffee';
-import Columns from './dist/icons/columns';
-import Command from './dist/icons/command';
-import Compass from './dist/icons/compass';
+import CloseCircle from './dist/icons/close-circle';
+import Close from './dist/icons/close';
+import ContractPlus from './dist/icons/contract-plus';
+import ContractX from './dist/icons/contract-x';
 import Copy from './dist/icons/copy';
-import CornerDownLeft from './dist/icons/corner-down-left';
-import CornerDownRight from './dist/icons/corner-down-right';
-import CornerLeftDown from './dist/icons/corner-left-down';
-import CornerLeftUp from './dist/icons/corner-left-up';
-import CornerRightDown from './dist/icons/corner-right-down';
-import CornerRightUp from './dist/icons/corner-right-up';
-import CornerUpLeft from './dist/icons/corner-up-left';
-import CornerUpRight from './dist/icons/corner-up-right';
-import Cpu from './dist/icons/cpu';
-import CreditCard from './dist/icons/credit-card';
-import Crop from './dist/icons/crop';
-import Crosshair from './dist/icons/crosshair';
-import Database from './dist/icons/database';
+import Dashboard from './dist/icons/dashboard';
 import Delete from './dist/icons/delete';
-import Disc from './dist/icons/disc';
-import DivideCircle from './dist/icons/divide-circle';
-import DivideSquare from './dist/icons/divide-square';
-import Divide from './dist/icons/divide';
-import DollarSign from './dist/icons/dollar-sign';
-import DownloadCloud from './dist/icons/download-cloud';
+import Dots from './dist/icons/dots';
 import Download from './dist/icons/download';
-import Dribbble from './dist/icons/dribbble';
-import Droplet from './dist/icons/droplet';
-import Edit2 from './dist/icons/edit-2';
-import Edit3 from './dist/icons/edit-3';
 import Edit from './dist/icons/edit';
-import ExternalLink from './dist/icons/external-link';
 import EyeOff from './dist/icons/eye-off';
-import Eye from './dist/icons/eye';
-import Facebook from './dist/icons/facebook';
-import FastForward from './dist/icons/fast-forward';
-import Feather from './dist/icons/feather';
-import Figma from './dist/icons/figma';
-import FileMinus from './dist/icons/file-minus';
-import FilePlus from './dist/icons/file-plus';
-import FileText from './dist/icons/file-text';
+import EyeOn from './dist/icons/eye-on';
+import FileEmpty from './dist/icons/file-empty';
 import File from './dist/icons/file';
-import Film from './dist/icons/film';
 import Filter from './dist/icons/filter';
-import Flag from './dist/icons/flag';
-import FolderMinus from './dist/icons/folder-minus';
-import FolderPlus from './dist/icons/folder-plus';
-import Folder from './dist/icons/folder';
-import Framer from './dist/icons/framer';
-import Frown from './dist/icons/frown';
-import Gift from './dist/icons/gift';
-import GitBranch from './dist/icons/git-branch';
-import GitCommit from './dist/icons/git-commit';
-import GitMerge from './dist/icons/git-merge';
-import GitPullRequest from './dist/icons/git-pull-request';
-import GitHub from './dist/icons/github';
-import Gitlab from './dist/icons/gitlab';
-import Globe from './dist/icons/globe';
-import Grid from './dist/icons/grid';
-import HardDrive from './dist/icons/hard-drive';
-import Hash from './dist/icons/hash';
-import Headphones from './dist/icons/headphones';
-import Heart from './dist/icons/heart';
-import HelpCircle from './dist/icons/help-circle';
-import Hexagon from './dist/icons/hexagon';
-import Home from './dist/icons/home';
-import Image from './dist/icons/image';
-import Inbox from './dist/icons/inbox';
 import Info from './dist/icons/info';
-import Instagram from './dist/icons/instagram';
-import Italic from './dist/icons/italic';
-import Key from './dist/icons/key';
-import Layers from './dist/icons/layers';
-import Layout from './dist/icons/layout';
-import LifeBuoy from './dist/icons/life-buoy';
-import Link2 from './dist/icons/link-2';
 import Link from './dist/icons/link';
-import Linkedin from './dist/icons/linkedin';
-import List from './dist/icons/list';
-import Loader from './dist/icons/loader';
-import Lock from './dist/icons/lock';
+import Linked from './dist/icons/linked';
 import LogIn from './dist/icons/log-in';
 import LogOut from './dist/icons/log-out';
-import Mail from './dist/icons/mail';
-import MapPin from './dist/icons/map-pin';
 import Map from './dist/icons/map';
-import Maximize2 from './dist/icons/maximize-2';
 import Maximize from './dist/icons/maximize';
-import Meh from './dist/icons/meh';
 import Menu from './dist/icons/menu';
-import MessageCircle from './dist/icons/message-circle';
-import MessageSquare from './dist/icons/message-square';
-import MicOff from './dist/icons/mic-off';
-import Mic from './dist/icons/mic';
-import Minimize2 from './dist/icons/minimize-2';
-import Minimize from './dist/icons/minimize';
-import MinusCircle from './dist/icons/minus-circle';
-import MinusSquare from './dist/icons/minus-square';
+import MessageBadge from './dist/icons/message-badge';
+import Message from './dist/icons/message';
 import Minus from './dist/icons/minus';
-import Monitor from './dist/icons/monitor';
-import Moon from './dist/icons/moon';
-import MoreHorizontal from './dist/icons/more-horizontal';
-import MoreVertical from './dist/icons/more-vertical';
-import MousePointer from './dist/icons/mouse-pointer';
-import Move from './dist/icons/move';
-import Music from './dist/icons/music';
-import Navigation2 from './dist/icons/navigation-2';
-import Navigation from './dist/icons/navigation';
-import Octagon from './dist/icons/octagon';
-import Package from './dist/icons/package';
-import Paperclip from './dist/icons/paperclip';
-import PauseCircle from './dist/icons/pause-circle';
-import Pause from './dist/icons/pause';
-import PenTool from './dist/icons/pen-tool';
-import Percent from './dist/icons/percent';
-import PhoneCall from './dist/icons/phone-call';
-import PhoneForwarded from './dist/icons/phone-forwarded';
-import PhoneIncoming from './dist/icons/phone-incoming';
-import PhoneMissed from './dist/icons/phone-missed';
-import PhoneOff from './dist/icons/phone-off';
-import PhoneOutgoing from './dist/icons/phone-outgoing';
-import Phone from './dist/icons/phone';
-import PieChart from './dist/icons/pie-chart';
-import PlayCircle from './dist/icons/play-circle';
-import Play from './dist/icons/play';
+import More from './dist/icons/more';
+import Pin from './dist/icons/pin';
 import PlusCircle from './dist/icons/plus-circle';
-import PlusSquare from './dist/icons/plus-square';
 import Plus from './dist/icons/plus';
-import Pocket from './dist/icons/pocket';
-import Power from './dist/icons/power';
-import Printer from './dist/icons/printer';
-import Radio from './dist/icons/radio';
-import RefreshCcw from './dist/icons/refresh-ccw';
-import RefreshCw from './dist/icons/refresh-cw';
-import Repeat from './dist/icons/repeat';
-import Rewind from './dist/icons/rewind';
-import RotateCcw from './dist/icons/rotate-ccw';
-import RotateCw from './dist/icons/rotate-cw';
-import Rss from './dist/icons/rss';
+import Print from './dist/icons/print';
+import Refresh from './dist/icons/refresh';
+import Reporting from './dist/icons/reporting';
 import Save from './dist/icons/save';
-import Scissors from './dist/icons/scissors';
 import Search from './dist/icons/search';
 import Send from './dist/icons/send';
-import Server from './dist/icons/server';
 import Settings from './dist/icons/settings';
-import Share2 from './dist/icons/share-2';
-import Share from './dist/icons/share';
-import ShieldOff from './dist/icons/shield-off';
-import Shield from './dist/icons/shield';
-import ShoppingBag from './dist/icons/shopping-bag';
-import ShoppingCart from './dist/icons/shopping-cart';
-import Shuffle from './dist/icons/shuffle';
-import Sidebar from './dist/icons/sidebar';
-import SkipBack from './dist/icons/skip-back';
-import SkipForward from './dist/icons/skip-forward';
-import Slack from './dist/icons/slack';
-import Slash from './dist/icons/slash';
-import Sliders from './dist/icons/sliders';
-import Smartphone from './dist/icons/smartphone';
-import Smile from './dist/icons/smile';
-import Speaker from './dist/icons/speaker';
-import Square from './dist/icons/square';
-import Star from './dist/icons/star';
-import StopCircle from './dist/icons/stop-circle';
-import Sun from './dist/icons/sun';
-import Sunrise from './dist/icons/sunrise';
-import Sunset from './dist/icons/sunset';
-import Table from './dist/icons/table';
-import Tablet from './dist/icons/tablet';
-import Tag from './dist/icons/tag';
-import Target from './dist/icons/target';
-import Terminal from './dist/icons/terminal';
-import Thermometer from './dist/icons/thermometer';
-import ThumbsDown from './dist/icons/thumbs-down';
-import ThumbsUp from './dist/icons/thumbs-up';
-import ToggleLeft from './dist/icons/toggle-left';
-import ToggleRight from './dist/icons/toggle-right';
-import Tool from './dist/icons/tool';
-import Trash2 from './dist/icons/trash-2';
-import Trash from './dist/icons/trash';
-import Trello from './dist/icons/trello';
-import TrendingDown from './dist/icons/trending-down';
+import SortBy from './dist/icons/sort-by';
+import Sparkles from './dist/icons/sparkles';
+import Store from './dist/icons/store';
+import TableRows from './dist/icons/table-rows';
 import TrendingUp from './dist/icons/trending-up';
-import Triangle from './dist/icons/triangle';
-import Truck from './dist/icons/truck';
-import Tv from './dist/icons/tv';
-import Twitch from './dist/icons/twitch';
-import Twitter from './dist/icons/twitter';
-import Type from './dist/icons/type';
-import Umbrella from './dist/icons/umbrella';
-import Underline from './dist/icons/underline';
-import Unlock from './dist/icons/unlock';
-import UploadCloud from './dist/icons/upload-cloud';
 import Upload from './dist/icons/upload';
-import UserCheck from './dist/icons/user-check';
-import UserMinus from './dist/icons/user-minus';
-import UserPlus from './dist/icons/user-plus';
-import UserX from './dist/icons/user-x';
-import User from './dist/icons/user';
 import Users from './dist/icons/users';
-import VideoOff from './dist/icons/video-off';
-import Video from './dist/icons/video';
-import Voicemail from './dist/icons/voicemail';
-import Volume1 from './dist/icons/volume-1';
-import Volume2 from './dist/icons/volume-2';
-import VolumeX from './dist/icons/volume-x';
-import Volume from './dist/icons/volume';
-import Watch from './dist/icons/watch';
-import WifiOff from './dist/icons/wifi-off';
-import Wifi from './dist/icons/wifi';
-import Wind from './dist/icons/wind';
-import XCircle from './dist/icons/x-circle';
-import XOctagon from './dist/icons/x-octagon';
-import XSquare from './dist/icons/x-square';
-import X from './dist/icons/x';
-import Youtube from './dist/icons/youtube';
-import ZapOff from './dist/icons/zap-off';
-import Zap from './dist/icons/zap';
-import ZoomIn from './dist/icons/zoom-in';
-import ZoomOut from './dist/icons/zoom-out';
+import ValidationCircle from './dist/icons/validation-circle';
+import Warning from './dist/icons/warning';
 import ABW from './dist/flags/ABW';
 import AFG from './dist/flags/AFG';
 import AGO from './dist/flags/AGO';
@@ -535,293 +313,71 @@ import ZMB from './dist/flags/ZMB';
 import ZWE from './dist/flags/ZWE';
 
 const LeasupMapIcons = {
-  Activity,
-  Airplay,
-  AlertCircle,
-  AlertOctagon,
-  AlertTriangle,
-  AlignCenter,
-  AlignJustify,
-  AlignLeft,
-  AlignRight,
-  Anchor,
-  Aperture,
   Archive,
-  ArrowDownCircle,
-  ArrowDownLeft,
-  ArrowDownRight,
-  ArrowDown,
-  ArrowLeftCircle,
+  ArrowDownRightCircle,
   ArrowLeft,
-  ArrowRightCircle,
   ArrowRight,
-  ArrowUpCircle,
-  ArrowUpLeft,
-  ArrowUpRight,
-  ArrowUp,
-  AtSign,
-  Award,
-  BarChart2,
-  BarChart,
-  BatteryCharging,
-  Battery,
-  BellOff,
+  Attachment,
+  Bell1,
   Bell,
-  Bluetooth,
-  Bold,
-  BookOpen,
   Book,
-  Bookmark,
-  Box,
-  Briefcase,
   Calendar,
-  CameraOff,
-  Camera,
-  Cast,
-  CheckCircle,
-  CheckSquare,
-  Check,
+  Cards,
+  Checkmark,
+  ChevronDoubleLeft,
+  ChevronDoubleRight,
   ChevronDown,
   ChevronLeft,
   ChevronRight,
   ChevronUp,
-  ChevronsDown,
-  ChevronsLeft,
-  ChevronsRight,
-  ChevronsUp,
-  Chrome,
-  Circle,
-  Clipboard,
+  Clear,
   Clock,
-  CloudDrizzle,
-  CloudLightning,
-  CloudOff,
-  CloudRain,
-  CloudSnow,
-  Cloud,
-  Code,
-  Codepen,
-  Codesandbox,
-  Coffee,
-  Columns,
-  Command,
-  Compass,
+  CloseCircle,
+  Close,
+  ContractPlus,
+  ContractX,
   Copy,
-  CornerDownLeft,
-  CornerDownRight,
-  CornerLeftDown,
-  CornerLeftUp,
-  CornerRightDown,
-  CornerRightUp,
-  CornerUpLeft,
-  CornerUpRight,
-  Cpu,
-  CreditCard,
-  Crop,
-  Crosshair,
-  Database,
+  Dashboard,
   Delete,
-  Disc,
-  DivideCircle,
-  DivideSquare,
-  Divide,
-  DollarSign,
-  DownloadCloud,
+  Dots,
   Download,
-  Dribbble,
-  Droplet,
-  Edit2,
-  Edit3,
   Edit,
-  ExternalLink,
   EyeOff,
-  Eye,
-  Facebook,
-  FastForward,
-  Feather,
-  Figma,
-  FileMinus,
-  FilePlus,
-  FileText,
+  EyeOn,
+  FileEmpty,
   File,
-  Film,
   Filter,
-  Flag,
-  FolderMinus,
-  FolderPlus,
-  Folder,
-  Framer,
-  Frown,
-  Gift,
-  GitBranch,
-  GitCommit,
-  GitMerge,
-  GitPullRequest,
-  GitHub,
-  Gitlab,
-  Globe,
-  Grid,
-  HardDrive,
-  Hash,
-  Headphones,
-  Heart,
-  HelpCircle,
-  Hexagon,
-  Home,
-  Image,
-  Inbox,
   Info,
-  Instagram,
-  Italic,
-  Key,
-  Layers,
-  Layout,
-  LifeBuoy,
-  Link2,
   Link,
-  Linkedin,
-  List,
-  Loader,
-  Lock,
+  Linked,
   LogIn,
   LogOut,
-  Mail,
-  MapPin,
   Map,
-  Maximize2,
   Maximize,
-  Meh,
   Menu,
-  MessageCircle,
-  MessageSquare,
-  MicOff,
-  Mic,
-  Minimize2,
-  Minimize,
-  MinusCircle,
-  MinusSquare,
+  MessageBadge,
+  Message,
   Minus,
-  Monitor,
-  Moon,
-  MoreHorizontal,
-  MoreVertical,
-  MousePointer,
-  Move,
-  Music,
-  Navigation2,
-  Navigation,
-  Octagon,
-  Package,
-  Paperclip,
-  PauseCircle,
-  Pause,
-  PenTool,
-  Percent,
-  PhoneCall,
-  PhoneForwarded,
-  PhoneIncoming,
-  PhoneMissed,
-  PhoneOff,
-  PhoneOutgoing,
-  Phone,
-  PieChart,
-  PlayCircle,
-  Play,
+  More,
+  Pin,
   PlusCircle,
-  PlusSquare,
   Plus,
-  Pocket,
-  Power,
-  Printer,
-  Radio,
-  RefreshCcw,
-  RefreshCw,
-  Repeat,
-  Rewind,
-  RotateCcw,
-  RotateCw,
-  Rss,
+  Print,
+  Refresh,
+  Reporting,
   Save,
-  Scissors,
   Search,
   Send,
-  Server,
   Settings,
-  Share2,
-  Share,
-  ShieldOff,
-  Shield,
-  ShoppingBag,
-  ShoppingCart,
-  Shuffle,
-  Sidebar,
-  SkipBack,
-  SkipForward,
-  Slack,
-  Slash,
-  Sliders,
-  Smartphone,
-  Smile,
-  Speaker,
-  Square,
-  Star,
-  StopCircle,
-  Sun,
-  Sunrise,
-  Sunset,
-  Table,
-  Tablet,
-  Tag,
-  Target,
-  Terminal,
-  Thermometer,
-  ThumbsDown,
-  ThumbsUp,
-  ToggleLeft,
-  ToggleRight,
-  Tool,
-  Trash2,
-  Trash,
-  Trello,
-  TrendingDown,
+  SortBy,
+  Sparkles,
+  Store,
+  TableRows,
   TrendingUp,
-  Triangle,
-  Truck,
-  Tv,
-  Twitch,
-  Twitter,
-  Type,
-  Umbrella,
-  Underline,
-  Unlock,
-  UploadCloud,
   Upload,
-  UserCheck,
-  UserMinus,
-  UserPlus,
-  UserX,
-  User,
   Users,
-  VideoOff,
-  Video,
-  Voicemail,
-  Volume1,
-  Volume2,
-  VolumeX,
-  Volume,
-  Watch,
-  WifiOff,
-  Wifi,
-  Wind,
-  XCircle,
-  XOctagon,
-  XSquare,
-  X,
-  Youtube,
-  ZapOff,
-  Zap,
-  ZoomIn,
-  ZoomOut,
+  ValidationCircle,
+  Warning,
   ABW,
   AFG,
   AGO,
@@ -1073,293 +629,71 @@ const LeasupMapIcons = {
 };
 
 export {
-  Activity,
-  Airplay,
-  AlertCircle,
-  AlertOctagon,
-  AlertTriangle,
-  AlignCenter,
-  AlignJustify,
-  AlignLeft,
-  AlignRight,
-  Anchor,
-  Aperture,
   Archive,
-  ArrowDownCircle,
-  ArrowDownLeft,
-  ArrowDownRight,
-  ArrowDown,
-  ArrowLeftCircle,
+  ArrowDownRightCircle,
   ArrowLeft,
-  ArrowRightCircle,
   ArrowRight,
-  ArrowUpCircle,
-  ArrowUpLeft,
-  ArrowUpRight,
-  ArrowUp,
-  AtSign,
-  Award,
-  BarChart2,
-  BarChart,
-  BatteryCharging,
-  Battery,
-  BellOff,
+  Attachment,
+  Bell1,
   Bell,
-  Bluetooth,
-  Bold,
-  BookOpen,
   Book,
-  Bookmark,
-  Box,
-  Briefcase,
   Calendar,
-  CameraOff,
-  Camera,
-  Cast,
-  CheckCircle,
-  CheckSquare,
-  Check,
+  Cards,
+  Checkmark,
+  ChevronDoubleLeft,
+  ChevronDoubleRight,
   ChevronDown,
   ChevronLeft,
   ChevronRight,
   ChevronUp,
-  ChevronsDown,
-  ChevronsLeft,
-  ChevronsRight,
-  ChevronsUp,
-  Chrome,
-  Circle,
-  Clipboard,
+  Clear,
   Clock,
-  CloudDrizzle,
-  CloudLightning,
-  CloudOff,
-  CloudRain,
-  CloudSnow,
-  Cloud,
-  Code,
-  Codepen,
-  Codesandbox,
-  Coffee,
-  Columns,
-  Command,
-  Compass,
+  CloseCircle,
+  Close,
+  ContractPlus,
+  ContractX,
   Copy,
-  CornerDownLeft,
-  CornerDownRight,
-  CornerLeftDown,
-  CornerLeftUp,
-  CornerRightDown,
-  CornerRightUp,
-  CornerUpLeft,
-  CornerUpRight,
-  Cpu,
-  CreditCard,
-  Crop,
-  Crosshair,
-  Database,
+  Dashboard,
   Delete,
-  Disc,
-  DivideCircle,
-  DivideSquare,
-  Divide,
-  DollarSign,
-  DownloadCloud,
+  Dots,
   Download,
-  Dribbble,
-  Droplet,
-  Edit2,
-  Edit3,
   Edit,
-  ExternalLink,
   EyeOff,
-  Eye,
-  Facebook,
-  FastForward,
-  Feather,
-  Figma,
-  FileMinus,
-  FilePlus,
-  FileText,
+  EyeOn,
+  FileEmpty,
   File,
-  Film,
   Filter,
-  Flag,
-  FolderMinus,
-  FolderPlus,
-  Folder,
-  Framer,
-  Frown,
-  Gift,
-  GitBranch,
-  GitCommit,
-  GitMerge,
-  GitPullRequest,
-  GitHub,
-  Gitlab,
-  Globe,
-  Grid,
-  HardDrive,
-  Hash,
-  Headphones,
-  Heart,
-  HelpCircle,
-  Hexagon,
-  Home,
-  Image,
-  Inbox,
   Info,
-  Instagram,
-  Italic,
-  Key,
-  Layers,
-  Layout,
-  LifeBuoy,
-  Link2,
   Link,
-  Linkedin,
-  List,
-  Loader,
-  Lock,
+  Linked,
   LogIn,
   LogOut,
-  Mail,
-  MapPin,
   Map,
-  Maximize2,
   Maximize,
-  Meh,
   Menu,
-  MessageCircle,
-  MessageSquare,
-  MicOff,
-  Mic,
-  Minimize2,
-  Minimize,
-  MinusCircle,
-  MinusSquare,
+  MessageBadge,
+  Message,
   Minus,
-  Monitor,
-  Moon,
-  MoreHorizontal,
-  MoreVertical,
-  MousePointer,
-  Move,
-  Music,
-  Navigation2,
-  Navigation,
-  Octagon,
-  Package,
-  Paperclip,
-  PauseCircle,
-  Pause,
-  PenTool,
-  Percent,
-  PhoneCall,
-  PhoneForwarded,
-  PhoneIncoming,
-  PhoneMissed,
-  PhoneOff,
-  PhoneOutgoing,
-  Phone,
-  PieChart,
-  PlayCircle,
-  Play,
+  More,
+  Pin,
   PlusCircle,
-  PlusSquare,
   Plus,
-  Pocket,
-  Power,
-  Printer,
-  Radio,
-  RefreshCcw,
-  RefreshCw,
-  Repeat,
-  Rewind,
-  RotateCcw,
-  RotateCw,
-  Rss,
+  Print,
+  Refresh,
+  Reporting,
   Save,
-  Scissors,
   Search,
   Send,
-  Server,
   Settings,
-  Share2,
-  Share,
-  ShieldOff,
-  Shield,
-  ShoppingBag,
-  ShoppingCart,
-  Shuffle,
-  Sidebar,
-  SkipBack,
-  SkipForward,
-  Slack,
-  Slash,
-  Sliders,
-  Smartphone,
-  Smile,
-  Speaker,
-  Square,
-  Star,
-  StopCircle,
-  Sun,
-  Sunrise,
-  Sunset,
-  Table,
-  Tablet,
-  Tag,
-  Target,
-  Terminal,
-  Thermometer,
-  ThumbsDown,
-  ThumbsUp,
-  ToggleLeft,
-  ToggleRight,
-  Tool,
-  Trash2,
-  Trash,
-  Trello,
-  TrendingDown,
+  SortBy,
+  Sparkles,
+  Store,
+  TableRows,
   TrendingUp,
-  Triangle,
-  Truck,
-  Tv,
-  Twitch,
-  Twitter,
-  Type,
-  Umbrella,
-  Underline,
-  Unlock,
-  UploadCloud,
   Upload,
-  UserCheck,
-  UserMinus,
-  UserPlus,
-  UserX,
-  User,
   Users,
-  VideoOff,
-  Video,
-  Voicemail,
-  Volume1,
-  Volume2,
-  VolumeX,
-  Volume,
-  Watch,
-  WifiOff,
-  Wifi,
-  Wind,
-  XCircle,
-  XOctagon,
-  XSquare,
-  X,
-  Youtube,
-  ZapOff,
-  Zap,
-  ZoomIn,
-  ZoomOut,
+  ValidationCircle,
+  Warning,
   ABW,
   AFG,
   AGO,

@@ -25,9 +25,15 @@ var Edit = forwardRef(function (_ref, ref) {
     strokeLinecap: "round",
     strokeLinejoin: "round"
   }, rest), /*#__PURE__*/React.createElement("path", {
-    d: "M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
+    d: "M4.75 19.25L9 18.25L18.9491 8.30083C19.3397 7.9103 19.3397 7.27714 18.9491 6.88661L17.1134 5.05083C16.7228 4.6603 16.0897 4.6603 15.6991 5.05083L5.75 15L4.75 19.25Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"
+    d: "M14.0234 7.03906L17.0234 10.0391",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 Edit.propTypes = {

@@ -24,16 +24,16 @@ var Plus = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("line", {
-    x1: "12",
-    y1: "5",
-    x2: "12",
-    y2: "19"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "5",
-    y1: "12",
-    x2: "19",
-    y2: "12"
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    d: "M12 7V17",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M17 12H7",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 Plus.propTypes = {

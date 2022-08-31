@@ -24,18 +24,26 @@ var Archive = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("polyline", {
-    points: "21 8 21 21 3 21 3 8"
-  }), /*#__PURE__*/React.createElement("rect", {
-    x: "1",
-    y: "3",
-    width: "22",
-    height: "5"
-  }), /*#__PURE__*/React.createElement("line", {
-    x1: "10",
-    y1: "12",
-    x2: "14",
-    y2: "12"
+  }, rest), /*#__PURE__*/React.createElement("path", {
+    d: "M5.83956 5.39136C5.91203 5.1662 6.3173 5 6.79385 5H17.2061C17.6827 5 18.088 5.16621 18.1604 5.39136L19 8H5L5.83956 5.39136Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5 8H12H19V16.25C19 17.7688 18.1354 19 17.069 19H6.93103C5.86455 19 5 17.7688 5 16.25V8Z",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12 16.5V10.5",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M9.25 13.5L12 16.5L14.75 13.5",
+    stroke: "#21304F",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
   }));
 });
 Archive.propTypes = {
