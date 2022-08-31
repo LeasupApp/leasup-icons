@@ -533,6 +533,7 @@ import YEM from './dist/flags/YEM';
 import ZAF from './dist/flags/ZAF';
 import ZMB from './dist/flags/ZMB';
 import ZWE from './dist/flags/ZWE';
+
 const LeasupMapIcons = {
   Activity,
   Airplay,
@@ -1609,4 +1610,3 @@ export {
   ZWE,
 LeasupMapIcons,
 };
-

@@ -220,7 +220,7 @@ const objAcc = completeComponentNameList.reduce((acc, name) => {
 }, '');
 fs.appendFileSync(
   path.join(rootDir, 'index.js'),
-  'const LeasupMapIcons = {\n' + objAcc + '};\n',
+  '\nconst LeasupMapIcons = {\n' + objAcc + '};\n',
   'utf-8',
 );
 
@@ -231,6 +231,6 @@ const exported = completeComponentNameList.reduce((acc, name) => {
 
 fs.appendFileSync(
   path.join(rootDir, 'index.js'),
-  '\nexport {\n' + exported + 'LeasupMapIcons,\n};\n\n',
+  '\nexport {\n' + exported + 'LeasupMapIcons,\n};\n',
   'utf-8',
 );
