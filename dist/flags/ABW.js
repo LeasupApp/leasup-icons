@@ -60,7 +60,7 @@ var ABW = forwardRef(function (_ref, ref) {
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#c00",
     stroke: "#fff",
-    "stroke-width": "3.7",
+    strokeWidth: "3.7",
     d: "m142.2 34-20.7 78.5L42.8 134l78.4 20.5 21 78.4 20.9-78.4 78.4-21-78.4-20.9-21-78.4z"
   }), /*#__PURE__*/React.createElement("path", {
     fill: "#6cc",

@@ -45,7 +45,10 @@ function createJsonFile(inDir, outFile) {
   const icons = buildIconsObject(svgFiles, getSvg);
 
   fs.mkdirSync(path.dirname(outFile), { recursive: true });
-  fs.writeFileSync(outFile, JSON.stringify(icons));
+  const json = JSON.stringify(icons);
+  const editedJson = json.replace('fill-rule=', 'fillRule=').replace('stroke-width=', 'strokeWidth=');
+
+  fs.writeFileSync(outFile, editedJson);
 
   // eslint-disable-next-line no-console
   console.log(`Building ${outFile}...`);
