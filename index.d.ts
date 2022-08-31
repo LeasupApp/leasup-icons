@@ -12,6 +12,7 @@ export const LeasupMapIcons: {
   [key: string]: Icon;
 };
 
+export const Activity: Icon;
 export const Archive: Icon;
 export const ArrowDownRightCircle: Icon;
 export const ArrowLeft: Icon;
@@ -29,6 +30,7 @@ export const ChevronDown: Icon;
 export const ChevronLeft: Icon;
 export const ChevronRight: Icon;
 export const ChevronUp: Icon;
+export const Circle: Icon;
 export const Clear: Icon;
 export const Clock: Icon;
 export const CloseCircle: Icon;
@@ -51,6 +53,7 @@ export const Link: Icon;
 export const Linked: Icon;
 export const LogIn: Icon;
 export const LogOut: Icon;
+export const Mail: Icon;
 export const Map: Icon;
 export const Maximize: Icon;
 export const Menu: Icon;

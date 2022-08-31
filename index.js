@@ -1,3 +1,4 @@
+import Activity from './dist/icons/activity';
 import Archive from './dist/icons/archive';
 import ArrowDownRightCircle from './dist/icons/arrow-down-right-circle';
 import ArrowLeft from './dist/icons/arrow-left';
@@ -15,6 +16,7 @@ import ChevronDown from './dist/icons/chevron-down';
 import ChevronLeft from './dist/icons/chevron-left';
 import ChevronRight from './dist/icons/chevron-right';
 import ChevronUp from './dist/icons/chevron-up';
+import Circle from './dist/icons/circle';
 import Clear from './dist/icons/clear';
 import Clock from './dist/icons/clock';
 import CloseCircle from './dist/icons/close-circle';
@@ -37,6 +39,7 @@ import Link from './dist/icons/link';
 import Linked from './dist/icons/linked';
 import LogIn from './dist/icons/log-in';
 import LogOut from './dist/icons/log-out';
+import Mail from './dist/icons/mail';
 import Map from './dist/icons/map';
 import Maximize from './dist/icons/maximize';
 import Menu from './dist/icons/menu';
@@ -313,6 +316,7 @@ import ZMB from './dist/flags/ZMB';
 import ZWE from './dist/flags/ZWE';
 
 const LeasupMapIcons = {
+  Activity,
   Archive,
   ArrowDownRightCircle,
   ArrowLeft,
@@ -330,6 +334,7 @@ const LeasupMapIcons = {
   ChevronLeft,
   ChevronRight,
   ChevronUp,
+  Circle,
   Clear,
   Clock,
   CloseCircle,
@@ -352,6 +357,7 @@ const LeasupMapIcons = {
   Linked,
   LogIn,
   LogOut,
+  Mail,
   Map,
   Maximize,
   Menu,
@@ -629,6 +635,7 @@ const LeasupMapIcons = {
 };
 
 export {
+  Activity,
   Archive,
   ArrowDownRightCircle,
   ArrowLeft,
@@ -646,6 +653,7 @@ export {
   ChevronLeft,
   ChevronRight,
   ChevronUp,
+  Circle,
   Clear,
   Clock,
   CloseCircle,
@@ -668,6 +676,7 @@ export {
   Linked,
   LogIn,
   LogOut,
+  Mail,
   Map,
   Maximize,
   Menu,
