@@ -83,6 +83,19 @@ function createJsonFile(inDir, outFile) {
   console.log(`Building ${outFile}...`);
 }
 
+function copySvgFiles(inDir, outDir) {
+  const svgFiles = fs
+    .readdirSync(inDir)
+    .filter((file) => path.extname(file) === '.svg');
+
+  fs.mkdirSync(outDir, { recursive: true });
+  svgFiles.forEach((svgFile) => {
+    fs.copyFileSync(path.join(inDir, svgFile), path.join(outDir, svgFile));
+  });
+}
+
 // Script execution starts here.
 createJsonFile(path.resolve(__dirname, '../icons'), path.resolve(__dirname, '../src/icons.json'));
 createJsonFile(path.resolve(__dirname, '../flags'), path.resolve(__dirname, '../src/flags.json'));
+copySvgFiles(path.resolve(__dirname, '../icons'), path.resolve(__dirname, '../src/icons'));
+copySvgFiles(path.resolve(__dirname, '../flags'), path.resolve(__dirname, '../src/flags'));
