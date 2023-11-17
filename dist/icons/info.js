@@ -24,17 +24,17 @@ var Info = forwardRef(function (_ref, ref) {
     strokeWidth: "1",
     strokeLinecap: "round",
     strokeLinejoin: "round"
-  }, rest), /*#__PURE__*/React.createElement("circle", {
-    cx: "12",
-    cy: "12",
-    r: "10"
-  }), /*#__PURE__*/React.createElement("path", {
+  }, rest), /*#__PURE__*/React.createElement("path", {
     d: "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"
   }), /*#__PURE__*/React.createElement("line", {
     x1: "12",
     y1: "17",
     x2: "12.01",
     y2: "17"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "7.5"
   }));
 });
 Info.propTypes = {
