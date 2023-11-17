@@ -48,7 +48,6 @@ export const FileEmpty: Icon;
 export const File: Icon;
 export const Filter: Icon;
 export const Info: Icon;
-export const Info2: Icon;
 export const Link: Icon;
 export const Linked: Icon;
 export const LogIn: Icon;
