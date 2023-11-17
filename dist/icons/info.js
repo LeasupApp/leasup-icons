@@ -35,10 +35,6 @@ var Info = forwardRef(function (_ref, ref) {
     y1: "17",
     x2: "12.01",
     y2: "17"
-  }), /*#__PURE__*/React.createElement("circle", {
-    cx: "12",
-    cy: "12",
-    r: "7.5"
   }));
 });
 Info.propTypes = {
