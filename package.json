@@ -1,6 +1,6 @@
 {
   "name": "leasup-icons",
-  "version": "1.2.29",
+  "version": "1.2.30",
   "description": "React component for Leasup Icons",
   "main": "build/index.js",
   "module": "index.js",
