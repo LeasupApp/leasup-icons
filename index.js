@@ -34,6 +34,7 @@ import FileEmpty from './dist/icons/file-empty';
 import File from './dist/icons/file';
 import Filter from './dist/icons/filter';
 import Info from './dist/icons/info';
+import Info2 from './dist/icons/info2';
 import Link from './dist/icons/link';
 import Linked from './dist/icons/linked';
 import LogIn from './dist/icons/log-in';
@@ -350,6 +351,7 @@ const LeasupMapIcons = {
   File,
   Filter,
   Info,
+  Info2,
   Link,
   Linked,
   LogIn,
@@ -667,6 +669,7 @@ export {
   File,
   Filter,
   Info,
+  Info2,
   Link,
   Linked,
   LogIn,
