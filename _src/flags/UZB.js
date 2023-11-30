@@ -1,0 +1,76 @@
+import React, { forwardRef } from 'react';
+import PropTypes from 'prop-types';
+
+const UZB = forwardRef(
+  ({ color = 'currentColor', size = 32, ...rest }, ref) => {
+    return (
+      <svg
+        ref={ref}
+        xmlns="http://www.w3.org/2000/svg"
+        width={size}
+        height={(size * 3) / 4}
+        viewBox="0 0 640 480"
+        className="flag-icon"
+        {...rest}
+      >
+        <path fill="#1eb53a" d="M0 320h640v160H0z"></path>
+        <path fill="#0099b5" d="M0 0h640v160H0z"></path>
+        <path fill="#ce1126" d="M0 153.6h640v172.8H0z"></path>
+        <path fill="#fff" d="M0 163.2h640v153.6H0z"></path>
+        <circle cx="134.4" cy="76.8" r="57.6" fill="#fff"></circle>
+        <circle cx="153.6" cy="76.8" r="57.6" fill="#0099b5"></circle>
+        <g fill="#fff" transform="matrix(1.92 0 0 1.92 261.1 122.9)">
+          <g id="e">
+            <g id="d">
+              <g id="c">
+                <g id="b">
+                  <path id="a" d="M0-6-1.9-.3 1 .7"></path>
+                  <use
+                    href="#a"
+                    width="100%"
+                    height="100%"
+                    transform="scale(-1 1)"
+                  ></use>
+                </g>
+                <use
+                  href="#b"
+                  width="100%"
+                  height="100%"
+                  transform="rotate(72)"
+                ></use>
+              </g>
+              <use
+                href="#b"
+                width="100%"
+                height="100%"
+                transform="rotate(-72)"
+              ></use>
+              <use
+                href="#c"
+                width="100%"
+                height="100%"
+                transform="rotate(144)"
+              ></use>
+            </g>
+            <use href="#d" width="100%" height="100%" y="-24"></use>
+            <use href="#d" width="100%" height="100%" y="-48"></use>
+          </g>
+          <use href="#e" width="100%" height="100%" x="24"></use>
+          <use href="#e" width="100%" height="100%" x="48"></use>
+          <use href="#d" width="100%" height="100%" x="-48"></use>
+          <use href="#d" width="100%" height="100%" x="-24"></use>
+          <use href="#d" width="100%" height="100%" x="-24" y="-24"></use>
+        </g>
+      </svg>
+    );
+  }
+);
+
+UZB.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+};
+
+UZB.displayName = 'UZB';
+
+export default UZB;
