@@ -33,6 +33,7 @@ import EyeOn from './dist/icons/eye-on';
 import FileEmpty from './dist/icons/file-empty';
 import File from './dist/icons/file';
 import Filter from './dist/icons/filter';
+import InfoNew from './dist/icons/info-new';
 import Info from './dist/icons/info';
 import Link from './dist/icons/link';
 import Linked from './dist/icons/linked';
@@ -349,6 +350,7 @@ const LeasupMapIcons = {
   FileEmpty,
   File,
   Filter,
+  InfoNew,
   Info,
   Link,
   Linked,
@@ -666,6 +668,7 @@ export {
   FileEmpty,
   File,
   Filter,
+  InfoNew,
   Info,
   Link,
   Linked,

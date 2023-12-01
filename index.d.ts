@@ -47,6 +47,7 @@ export const EyeOn: Icon;
 export const FileEmpty: Icon;
 export const File: Icon;
 export const Filter: Icon;
+export const InfoNew: Icon;
 export const Info: Icon;
 export const Link: Icon;
 export const Linked: Icon;
