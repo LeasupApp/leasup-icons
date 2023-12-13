@@ -39,6 +39,7 @@ export const ContractX: Icon;
 export const Copy: Icon;
 export const Dashboard: Icon;
 export const Delete: Icon;
+export const Dimensions: Icon;
 export const Dots: Icon;
 export const Download: Icon;
 export const Edit: Icon;

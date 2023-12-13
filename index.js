@@ -25,6 +25,7 @@ import ContractX from './dist/icons/contract-x';
 import Copy from './dist/icons/copy';
 import Dashboard from './dist/icons/dashboard';
 import Delete from './dist/icons/delete';
+import Dimensions from './dist/icons/dimensions';
 import Dots from './dist/icons/dots';
 import Download from './dist/icons/download';
 import Edit from './dist/icons/edit';
@@ -341,6 +342,7 @@ const LeasupMapIcons = {
   Copy,
   Dashboard,
   Delete,
+  Dimensions,
   Dots,
   Download,
   Edit,
@@ -658,6 +660,7 @@ export {
   Copy,
   Dashboard,
   Delete,
+  Dimensions,
   Dots,
   Download,
   Edit,
