@@ -1,3 +1,4 @@
+import Maximise from './dist/icons/Maximise';
 import Activity from './dist/icons/activity';
 import Archive from './dist/icons/archive';
 import ArrowDownRightCircle from './dist/icons/arrow-down-right-circle';
@@ -315,6 +316,7 @@ import ZMB from './dist/flags/ZMB';
 import ZWE from './dist/flags/ZWE';
 
 const LeasupMapIcons = {
+  Maximise,
   Activity,
   Archive,
   ArrowDownRightCircle,
@@ -633,6 +635,7 @@ const LeasupMapIcons = {
 };
 
 export {
+  Maximise,
   Activity,
   Archive,
   ArrowDownRightCircle,

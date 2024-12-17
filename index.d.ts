@@ -12,6 +12,7 @@ export const LeasupMapIcons: {
   [key: string]: Icon;
 };
 
+export const Maximise: Icon;
 export const Activity: Icon;
 export const Archive: Icon;
 export const ArrowDownRightCircle: Icon;
