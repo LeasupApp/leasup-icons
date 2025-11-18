@@ -61,6 +61,7 @@ import SortBy from './dist/icons/sort-by';
 import Sparkles from './dist/icons/sparkles';
 import Store from './dist/icons/store';
 import TableRows from './dist/icons/table-rows';
+import TrendingUpArrow from './dist/icons/trending-up-arrow';
 import TrendingUp from './dist/icons/trending-up';
 import Upload from './dist/icons/upload';
 import Users from './dist/icons/users';
@@ -379,6 +380,7 @@ const LeasupMapIcons = {
   Sparkles,
   Store,
   TableRows,
+  TrendingUpArrow,
   TrendingUp,
   Upload,
   Users,
@@ -698,6 +700,7 @@ export {
   Sparkles,
   Store,
   TableRows,
+  TrendingUpArrow,
   TrendingUp,
   Upload,
   Users,

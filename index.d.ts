@@ -75,6 +75,7 @@ export const SortBy: Icon;
 export const Sparkles: Icon;
 export const Store: Icon;
 export const TableRows: Icon;
+export const TrendingUpArrow: Icon;
 export const TrendingUp: Icon;
 export const Upload: Icon;
 export const Users: Icon;
