@@ -73,6 +73,7 @@ export const Send: Icon;
 export const Settings: Icon;
 export const SortBy: Icon;
 export const Sparkles: Icon;
+export const Star: Icon;
 export const Store: Icon;
 export const TableRows: Icon;
 export const TrendingUpArrow: Icon;
